@@ -1,0 +1,16 @@
+{
+  "name": "insightjournal_graphql",
+  "version": "0.0.1",
+  "description": "GraphQL for the InsightJournal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phcerdan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1"
+  }
+}
