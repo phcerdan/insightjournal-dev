@@ -41,12 +41,20 @@ var fakeJournals = {
   }
 };
 
+var fakeAuthors = {
+    'Pablo': {
+      id: 0,
+      firstname: 'Pablo',
+      lastname: 'Hernandez',
+    }
+};
+
 // The root provides a resolver function for each API endpoint
 // var root = { publication: () => 'Hello world!' };
 var root = {
-  // author: function ({id}) {
-  //   return fakeDatabase[id];
-  // },
+  author: function ({name}) {
+    return fakeAuthors[name];
+  },
   journal: function ({name}) {
     return fakeJournals[name];
   }

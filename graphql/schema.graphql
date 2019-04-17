@@ -1,0 +1,134 @@
+# From https://github.com/okgrow/graphql-scalars
+# We use URL and DateTime
+# type URL {
+# }
+# type DateTime {
+# }
+interface Person {
+  id: ID
+  firstname: String
+  lastname: String
+  identifier: AuthData
+}
+
+fragment Names on Person {
+  firstname: String
+  lastname: String
+}
+
+type Institution {
+  id: ID
+  name: String
+  address: String
+}
+
+type Author implements Person {
+  id: ID
+  firstname: String
+  lastname: String
+  identifier: AuthData
+  publications: [Publication]
+  institutions: [Institution]
+}
+
+type Reviewer implements Person {
+  id: ID
+  firstname: String
+  lastname: String
+  identifier: AuthData
+  publications: [Publication]
+  institutions: [Institution]
+}
+
+interface AuthData {
+  id: ID
+}
+
+type PublicAuthData implements AuthData {
+  id: ID
+  github: String
+  orcid: String
+}
+
+# This should be private. Is graphql allowed to private apis?
+type PrivateAuthData implements AuthData {
+  id: ID
+  github: String
+  orcid: String
+  email: [String]
+}
+
+type Journal {
+  id: ID
+  name: String
+}
+
+# Set with an array of publications. It deals with history, versions and evolution of a publication
+type PublicationSet {
+  id: ID
+  latest: Publication
+  publications: [Publications]
+}
+
+type ExternalPublicationLink {
+  id: ID
+  name: String
+  url: URL
+}
+
+type Publication {
+  id: ID
+  publication_set: PublicationSet
+  title: String
+  journal: Journal
+  authors: [Author]
+  reviews: [Review]
+  institutions: [Institution]
+  date_submitted: DateTime
+  date_published: DateTime
+  doi: String
+  version: String
+  external_links: [ExternalPublicationLink]
+  abstract: String
+  content: String
+  # Data blobs: fragment PublicationDataBlobs
+  manuscript: DataPath
+  manuscript_supplemental: [DataPath]
+  data_other: [DataPath]
+}
+
+fragment PublicationDataBlobs on Publication {
+  manuscript: DataPath
+  manuscript_supplemental: [DataPath]
+  data_other: [DataPath]
+}
+
+type Url {
+  url: String
+}
+
+type DataPath {
+  path: String
+}
+
+type Review {
+  id: ID
+  publication: Publication
+  authors: [Author]
+  doi: String
+  content: String
+  score: Float
+  manuscript: [DataPath]
+  data_other: [DataPath]
+}
+
+fragment ReviewDataBlobs on Review {
+  manuscript: [DataPath]
+  data_other: [DataPath]
+}
+
+
+type Query {
+  author(id: ID, firstname: String): Author
+  journal(id: ID, name: String): Journal
+}

@@ -1,3 +1,4 @@
+/* NOTE: dbeaver is great to interact with the database (pgadmin4 seems buggy) */
 /* IMPORT dump database (midasjournal):
 createuser --interactive midas
 psql -U midas -a -f ~/Data/MidasJournal/midasjournal_2017-09-08.Friday.sql
@@ -25,10 +26,11 @@ DROP COLUMN IF EXISTS password;
 
 /*---------------------*/
 DROP TABLE subscription; /* empty */
+DROP TABLE thumbnail; /* empty */
 DROP TABLE workflowitem, tasklistitem; /* empty */
 DROP TABLE workspaceitem, epersongroup2workspaceitem;
-DROP VIEW community2item;
-DROP TABLE collection, community, community2collection, community2community, community2item, collection2item, collection2item;
+/* DROP VIEW community2item; */
+DROP TABLE collection, community, community2collection, community2community, communities2item, collection2item;
 DROP TABLE registrationdata;
 DROP TABLE resourcepolicy; /* used, but irrelevant for the future */
 DROP TABLE epersongroup, group2group, group2groupcache, epersongroup2eperson;
@@ -79,4 +81,14 @@ order by submissions DESC
 isj_user: 17277
 eperson: 9689
 login: pablo.hernandez.cerdan@outlook.com
+
+Isotropic wavelets
+isj_publication:
+ id: 986
+ author_id: 17277
+ journal_id: 81
+ item_id: 5336
+ git: git://github.com/phcerdan/ITKIsotropicWavelets
 */
+
+
