@@ -64,7 +64,7 @@ type Journal {
 }
 
 # Set with an array of publications. It deals with history, versions and evolution of a publication
-type PublicationSet {
+type PublicationHistory {
   id: ID
   latest: Publication
   publications: [Publications]
@@ -78,19 +78,22 @@ type ExternalPublicationLink {
 
 type Publication {
   id: ID
-  publication_set: PublicationSet
+  publication_history: PublicationHistory
   title: String
-  journal: Journal
+  journals: [Journal] # Do not limit Publication to only have one journal. This allows to handle pre-publications (Arxiv, etc), or more scenarios
   authors: [Author]
   reviews: [Review]
   institutions: [Institution]
   date_submitted: DateTime
   date_published: DateTime
   doi: String
+  license: String
+  tags: [String]
   version: String
   external_links: [ExternalPublicationLink]
   abstract: String
   content: String
+  submitted_by: Author
   # Data blobs: fragment PublicationDataBlobs
   manuscript: DataPath
   manuscript_supplemental: [DataPath]
@@ -132,3 +135,5 @@ type Query {
   author(id: ID, firstname: String): Author
   journal(id: ID, name: String): Journal
 }
+
+
