@@ -1,0 +1,3 @@
+[submodule "pg_byteamagic"]
+	path = pg_byteamagic
+	url = https://github.com/nmandery/pg_byteamagic

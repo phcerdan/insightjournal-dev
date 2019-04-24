@@ -8,7 +8,7 @@ interface Person {
   id: ID
   firstname: String
   lastname: String
-  identifier: AuthData
+  identifier: AuthorIdentifier
 }
 
 fragment Names on Person {
@@ -26,7 +26,7 @@ type Author implements Person {
   id: ID
   firstname: String
   lastname: String
-  identifier: AuthData
+  identifier: AuthorIdentifier
   publications: [Publication]
   institutions: [Institution]
 }
@@ -35,23 +35,13 @@ type Reviewer implements Person {
   id: ID
   firstname: String
   lastname: String
-  identifier: AuthData
+  identifier: AuthorIdentifier
   publications: [Publication]
   institutions: [Institution]
 }
 
-interface AuthData {
-  id: ID
-}
-
-type PublicAuthData implements AuthData {
-  id: ID
-  github: String
-  orcid: String
-}
-
-# This should be private. Is graphql allowed to private apis?
-type PrivateAuthData implements AuthData {
+# interface AuthorIdentifier {
+type AuthorIdentifier {
   id: ID
   github: String
   orcid: String
@@ -76,6 +66,12 @@ type ExternalPublicationLink {
   url: URL
 }
 
+type DocumentIdentifier {
+  id: ID
+  doi: String
+  pubmed: String
+}
+
 type Publication {
   id: ID
   publication_history: PublicationHistory
@@ -83,10 +79,9 @@ type Publication {
   journals: [Journal] # Do not limit Publication to only have one journal. This allows to handle pre-publications (Arxiv, etc), or more scenarios
   authors: [Author]
   reviews: [Review]
-  institutions: [Institution]
   date_submitted: DateTime
   date_published: DateTime
-  doi: String
+  identifier: DocumentIdentifier
   license: String
   tags: [String]
   version: String
@@ -118,7 +113,7 @@ type Review {
   id: ID
   publication: Publication
   authors: [Author]
-  doi: String
+  identifier: DocumentIdentifier
   content: String
   score: Float
   manuscript: [DataPath]
