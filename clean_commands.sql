@@ -35,6 +35,8 @@ isj_publication:
  author_id: 17277
  journal_id: 81
  item_id: 5336
+ bundle_id: 7686
+ bitstream_id: [20240, 20241]
  git: git://github.com/phcerdan/ITKIsotropicWavelets
 */
 
@@ -62,4 +64,22 @@ https://github.com/nmandery/pg_byteamagic/blob/master/doc/byteamagic.md
 Test:
 psql -U midas -d midasjournal -a -c "CREATE EXTENSION byteamagic"
 psql -U midas -d midasjournal -a -c "select id, byteamagic_mime(logo) from isj_publication where id = 987"
+*/
+
+
+/*
+You can download bitstream:
+From publication to bitstream (one to many)
+publication has 1 itemid
+item2bundle
+bundle2bitstream
+bitstream
+
+Use the "api": check
+MidasJournal-copy/insightjournal/controllers/download_controller.php
+
+Example: 20240 is one of the two bitstreams associated to the isotropic wavelets publication.
+https://www.insight-journal.org/download/downloadbitstream/20240/hola.pdf
+
+With this you should be able to download everything (all the interesting stuff is public anyway)
 */
