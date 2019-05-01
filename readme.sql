@@ -52,10 +52,11 @@ https://stackoverflow.com/questions/42222968/create-nested-json-from-sql-query-p
 [x] Tags, Categories, Keywords, Toolkits
 [x] Journals
 [x] handles. number and complete url with base http://hdl.handle.net/
-- Summary image (or placeholder)
-- Links to PDF, data
-- Accessed at /browse/publication/986. phc:Probably not needed, we keep the publication_id
-- License
+[x] Links to PDF, data. Upload all biststreams to data.kitware/InsightJournal with the structure:
+  - publication_id/revisions_number/ALL_FILES
+[x] Accessed at /browse/publication/986. phc:Probably not needed, we keep the publication_id
+- Summary image (or placeholder). Aka Logos. There are big and small logos, and default images if non-existant
+- License. There is a license.txt in bitstreams
  */
 
 /* The logos are stored in bytea format (SQL), and there is no reference to their filetype.
@@ -82,4 +83,14 @@ Example: 20240 is one of the two bitstreams associated to the isotropic wavelets
 https://www.insight-journal.org/download/downloadbitstream/20240/hola.pdf
 
 With this you should be able to download everything (all the interesting stuff is public anyway)
+
+
+WIP: Use the script create_json_per_publication_sql.py to use all the extract sql
+./create_json_per_publication_from_sql.py test_data.json ./extract_abstracts.sql \
+./extract_bitstreams.sql ./extract_handle.sql ./extract_identifier.sql ./extract_journals.sql \
+./extract_publication_author_names.sql ./extract_publications.sql ./extract_submitted_by_author.sql \
+./extract_tags.sql ./extract_title.sql ./extract_toolkits.sql
+
+Note that some grep should be applied to replace None for [] or "", depending on the key.
+
 */
