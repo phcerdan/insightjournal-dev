@@ -1,0 +1,323 @@
+Finished!
+Stats:
+Total files deleted: 100
+Files deleted:
+[
+'/tmp/ij_base/969/1/2_abcd_IntroductionToITK_duplicatedName_2.pdf'
+'/tmp/ij_base/969/1/3_c_SimpleITK_Languages_duplicatedName_2.pdf'
+'/tmp/ij_base/969/1/3_c_SimpleITK_Languages_duplicatedName_3.pptx'
+'/tmp/ij_base/801/2/input_duplicatedName_2.png'
+'/tmp/ij_base/600/2/AutomaticCoronaryTreeModelingSCRAugust2008_duplicatedName_2.pdf'
+'/tmp/ij_base/598/3/license_duplicatedName_2.txt'
+'/tmp/ij_base/598/2/license_duplicatedName_2.txt'
+'/tmp/ij_base/598/2/license_duplicatedName_3.txt'
+'/tmp/ij_base/598/2/license_duplicatedName_4.txt'
+'/tmp/ij_base/585/5/challenge_duplicatedName_2.pdf'
+'/tmp/ij_base/582/3/definiens-liver-tumor-2008--v2_duplicatedName_2.pdf'
+'/tmp/ij_base/582/2/definiens-liver-tumor-2008_duplicatedName_2.pdf'
+'/tmp/ij_base/582/1/definiens-liver-tumor-2008_duplicatedName_2.pdf'
+'/tmp/ij_base/586/5/dikici2008_final_duplicatedName_2.pdf'
+'/tmp/ij_base/586/4/ArteryTracking_04_duplicatedName_2.doc'
+'/tmp/ij_base/586/4/ArteryTracking_04_duplicatedName_3.doc'
+'/tmp/ij_base/586/3/ArteryTracking_04_duplicatedName_2.doc'
+'/tmp/ij_base/575/4/maracas_duplicatedName_2.pdf'
+'/tmp/ij_base/588/3/tumor writeup full paper-final2_duplicatedName_2.pdf'
+'/tmp/ij_base/558/2/license_duplicatedName_2.txt'
+'/tmp/ij_base/558/2/license_duplicatedName_3.txt'
+'/tmp/ij_base/558/2/license_duplicatedName_4.txt'
+'/tmp/ij_base/558/2/license_duplicatedName_5.txt'
+'/tmp/ij_base/550/3/cbm2008_duplicatedName_2.pdf'
+'/tmp/ij_base/550/3/cbm2008_duplicatedName_3.pdf'
+'/tmp/ij_base/544/1/license_duplicatedName_2.txt'
+'/tmp/ij_base/544/1/license_duplicatedName_3.txt'
+'/tmp/ij_base/544/1/license_duplicatedName_4.txt'
+'/tmp/ij_base/544/1/license_duplicatedName_5.txt'
+'/tmp/ij_base/195/1/ConnectedThresholdSegmentationOfVentriclesInTheBrain_duplicatedName_3.tar.gz'
+'/tmp/ij_base/195/1/ConnectedThresholdSegmentationOfVentriclesInTheBrain_duplicatedName_2.pdf'
+'/tmp/ij_base/194/1/ConnectedThresholdSegmentationOfVentriclesInTheBrain_duplicatedName_3.tar.gz'
+'/tmp/ij_base/194/1/ConnectedThresholdSegmentationOfVentriclesInTheBrain_duplicatedName_2.pdf'
+'/tmp/ij_base/177/2/CMakeLists_duplicatedName_2.txt'
+'/tmp/ij_base/176/2/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/5/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/4/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/8/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/7/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/6/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/3/license_duplicatedName_2.txt'
+'/tmp/ij_base/176/1/license_duplicatedName_2.txt'
+'/tmp/ij_base/204/4/license_duplicatedName_2.txt'
+'/tmp/ij_base/204/3/license_duplicatedName_2.txt'
+'/tmp/ij_base/204/2/license_duplicatedName_2.txt'
+'/tmp/ij_base/204/1/license_duplicatedName_2.txt'
+'/tmp/ij_base/183/8/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/8/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/183/7/ConfidenceConnectedSegmentation_duplicatedName_2.cxx'
+'/tmp/ij_base/183/7/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/7/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/183/6/ConfidenceConnectedSegmentation_duplicatedName_2.cxx'
+'/tmp/ij_base/183/6/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/6/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/183/5/ConfidenceConnectedSegmentation_duplicatedName_2.cxx'
+'/tmp/ij_base/183/5/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/5/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/183/4/ConfidenceConnectedSegmentation_duplicatedName_2.cxx'
+'/tmp/ij_base/183/4/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/4/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/183/3/ConfidenceConnectedSegmentation_duplicatedName_2.cxx'
+'/tmp/ij_base/183/3/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/2/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/183/1/2007-10-17-PhilipRadin-IJPaper_duplicatedName_3.pdf'
+'/tmp/ij_base/171/6/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/5/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/4/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/3/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/1/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/2/license_duplicatedName_2.txt'
+'/tmp/ij_base/171/7/license_duplicatedName_2.txt'
+'/tmp/ij_base/180/3/BRAINSFit_duplicatedName_3.tar.gz'
+'/tmp/ij_base/180/2/BRAINSFit_duplicatedName_2.tar.gz'
+'/tmp/ij_base/178/3/AnalyzeObjectLabelMap_duplicatedName_2.pdf'
+'/tmp/ij_base/178/2/AnalyzeObjectLabelMap_duplicatedName_2.pdf'
+'/tmp/ij_base/148/3/Contribute2ITK_duplicatedName_3.zip'
+'/tmp/ij_base/130/1/IJ_PolarTransform_1_duplicatedName_2.1.zip'
+'/tmp/ij_base/130/1/PolarTransform_duplicatedName_2.pdf'
+'/tmp/ij_base/126/1/OrthogonalBisectImageFilter_duplicatedName_3.zip'
+'/tmp/ij_base/114/2/itkEllipseBoundaryToImageFilter_duplicatedName_2.zip'
+'/tmp/ij_base/114/1/itkEllipseBoundaryToImageFilter_duplicatedName_4.zip'
+'/tmp/ij_base/114/1/itkEllipseBoundaryToImageFilter_duplicatedName_5.zip'
+'/tmp/ij_base/116/12/ItkDefOrgs_duplicatedName_2.pdf'
+'/tmp/ij_base/116/11/ItkDefOrgs_duplicatedName_2.pdf'
+'/tmp/ij_base/110/4/RobotAssistedNeedlePlacementApp_duplicatedName_2.tar.gz'
+'/tmp/ij_base/101/4/license_duplicatedName_4.txt'
+'/tmp/ij_base/101/3/license_duplicatedName_4.txt'
+'/tmp/ij_base/101/2/license_duplicatedName_4.txt'
+'/tmp/ij_base/101/1/license_duplicatedName_4.txt'
+'/tmp/ij_base/109/1/LTRC database_duplicatedName_2.pdf'
+'/tmp/ij_base/135/1/itkSMBR_duplicatedName_3.tar.gz'
+'/tmp/ij_base/135/1/itkSMBR_duplicatedName_2.pdf'
+'/tmp/ij_base/107/1/ESQUISrcAndCompiledUnderWindows_duplicatedName_2.zip'
+'/tmp/ij_base/107/1/20060710RodriguezFlorido-IJPaper_duplicatedName_2.pdf'
+'/tmp/ij_base/93/8/source1_duplicatedName_2.zip'
+'/tmp/ij_base/93/4/source1_duplicatedName_2.zip'
+'/tmp/ij_base/81/3/OptimizedImageIterator_duplicatedName_2.zip'
+'/tmp/ij_base/57/2/Code_duplicatedName_4.tar.gz'
+'/tmp/ij_base/35/1/itkImageCastVectorIndexSelectionFilter_duplicatedName_2.h'
+'/tmp/ij_base/43/3/Sylvain-Jaume-MICCAI2005_duplicatedName_2.tar.gz'
+]
+
+Pairs of equal files with different names: 15.
+Equal files with different names:
+[[('/tmp/ij_base/922/1/sand-hopper.pdf', '/tmp/ij_base/922/1/Git_960422.zip')],
+ [('/tmp/ij_base/664/1/TestingSets.rar', '/tmp/ij_base/664/1/Carotids Segmentation in the context of Patient-Specific Simulation.pdf')],
+ [('/tmp/ij_base/582/3/definiens-liver-tumor-2008.pdf', '/tmp/ij_base/582/3/definiens-liver-tumor-2008--v2.pdf')],
+ [('/tmp/ij_base/563/7/CardiacMotionRecoveryCouplingModelAndData.pdf.pdf', '/tmp/ij_base/563/7/CardiacMotionRecoveryCouplingModelAndData.pdf')],
+ [('/tmp/ij_base/563/6/CardiacMotionRecoveryCouplingModelAndData.pdf.pdf', '/tmp/ij_base/563/6/CardiacMotionRecoveryCouplingModelAndData.pdf')],
+ [('/tmp/ij_base/549/6/UnbiasedNonlinElasticity_ver2.pdf', '/tmp/ij_base/549/6/2008Insight_YLLTV.pdf')],
+ [('/tmp/ij_base/285/11/grey_copy.png', '/tmp/ij_base/285/11/grey.png')],
+ [('/tmp/ij_base/184/2/baseline.png', '/tmp/ij_base/184/2/Segmented_Normal012-T2.mha.png')],
+ [('/tmp/ij_base/184/1/baseline.png', '/tmp/ij_base/184/1/Segmented_Normal012-T2.mha.png')],
+ [('/tmp/ij_base/178/5/AnalyzeObjectLabelMap4.pdf', '/tmp/ij_base/178/5/AnalyzeObjectLabelMap.pdf')],
+ [('/tmp/ij_base/178/4/AnalyzeObjectLabelMap4.pdf', '/tmp/ij_base/178/4/AnalyzeObjectLabelMap.pdf')],
+ [('/tmp/ij_base/144/2/HomogeneousTransform.zip', '/tmp/ij_base/144/2/HomogeneousTransform-2.zip')],
+ [('/tmp/ij_base/114/2/revised_itkEllipseBoundaryToImageFilter.zip', '/tmp/ij_base/114/2/itkEllipseBoundaryToImageFilter.zip')],
+ [('/tmp/ij_base/99/2/Real-Time Smoke and Bleeding.pdf', '/tmp/ij_base/99/2/Insight Journal Paper.pdf')],
+ [('/tmp/ij_base/15/2/itksnap_r2.pdf', '/tmp/ij_base/15/2/itksnap.pdf')]]
+
+
+Manual Solution:
+rm \
+'/tmp/ij_base/922/1/sand-hopper.pdf' \
+'/tmp/ij_base/664/1/Carotids Segmentation in the context of Patient-Specific Simulation.pdf' \
+'/tmp/ij_base/582/3/definiens-liver-tumor-2008.pdf' \
+'/tmp/ij_base/563/7/CardiacMotionRecoveryCouplingModelAndData.pdf.pdf' \
+'/tmp/ij_base/563/6/CardiacMotionRecoveryCouplingModelAndData.pdf.pdf' \
+'/tmp/ij_base/549/6/2008Insight_YLLTV.pdf' \
+'/tmp/ij_base/285/11/grey_copy.png' \
+'/tmp/ij_base/184/2/baseline.png' \
+'/tmp/ij_base/184/1/baseline.png' \
+'/tmp/ij_base/178/5/AnalyzeObjectLabelMap4.pdf' \
+'/tmp/ij_base/178/4/AnalyzeObjectLabelMap4.pdf' \
+'/tmp/ij_base/144/2/HomogeneousTransform-2.zip' \
+'/tmp/ij_base/184/2/Segmented_Normal012-T2.mha.png' \
+'/tmp/ij_base/114/2/revised_itkEllipseBoundaryToImageFilter.zip' \
+'/tmp/ij_base/99/2/Insight Journal Paper.pdf' \
+'/tmp/ij_base/15/2/itksnap_r2.pdf'
+
+After removal, duplicatedName: find . | grep duplicatedNames
+
+./801/2/CountNeighborsImageFilter_duplicatedName_2.pdf
+./585/4/challenge_duplicatedName_3.pdf
+./585/4/challenge_duplicatedName_4.pdf
+./585/4/challenge_duplicatedName_2.pdf
+./585/3/challenge_duplicatedName_3.pdf
+./585/3/challenge_duplicatedName_4.pdf
+./585/3/challenge_duplicatedName_2.pdf
+./585/2/challenge_duplicatedName_3.pdf
+./585/2/challenge_duplicatedName_4.pdf
+./585/2/challenge_duplicatedName_2.pdf
+./585/1/challenge_duplicatedName_2.pdf
+./618/1/SynchroGrab_duplicatedName_2.pdf
+./609/3/description_duplicatedName_2.pdf
+./583/2/Yong_3DInteractiveTracking_IJ_duplicatedName_2.pdf
+./583/1/Yong_3DInteractiveTracking_IJ_duplicatedName_2.pdf
+./606/3/08-wMiccai-challenge_duplicatedName_2.pdf
+./606/2/08-wMiccai-challenge_duplicatedName_2.pdf
+./606/1/08-wMiccai-challenge_duplicatedName_2.pdf
+./575/7/maracas_duplicatedName_2.pdf
+./575/6/maracas_duplicatedName_2.pdf
+./575/5/maracas_duplicatedName_2.pdf
+./575/3/maracas_duplicatedName_2.pdf
+./575/1/maracas_duplicatedName_2.pdf
+./595/2/coronary_artery_tracking_castro_et_al_duplicatedName_2.pdf
+./558/2/Cardiac motion estimation using multi-scale feature points_duplicatedName_2.pdf
+./550/3/cbm2008_duplicatedName_4.pdf
+./590/2/miccai workshop LTS fullpaper zjy_duplicatedName_2.pdf
+./553/2/CBMS_Ahn_Kim_duplicatedName_2.doc
+./549/4/2008Insight_YLLTV_duplicatedName_2.pdf
+./549/3/2008Insight_YLLTV_duplicatedName_2.pdf
+./549/1/2008Insight_YLLTV_duplicatedName_2.pdf
+./298/2/Decimation_duplicatedName_2.zip
+./247/1/InitialUNC24_duplicatedName_2.mha
+./237/2/Source2_duplicatedName_2.tar.gz
+./244/5/PriorityQueueContainer3_duplicatedName_2.zip
+./244/4/PriorityQueueContainer3_duplicatedName_2.zip
+./218/1/AlignmentAssessment_duplicatedName_2.pdf
+./177/1/CMakeLists_duplicatedName_2.txt
+./199/1/license_duplicatedName_2.txt
+./183/8/ConfidenceConnectedSegmentation_duplicatedName_2.cxx
+./183/1/ConfidenceConnectedSegmentation_duplicatedName_2.cxx
+./183/1/2007-10-17-PhilipRadin-IJPaper_duplicatedName_2.pdf
+./165/3/MedialCurve-IJCv21_duplicatedName_2.zip
+./180/8/BRAINSFit_duplicatedName_2.tar.gz
+./180/7/BRAINSFit_duplicatedName_2.tar.gz
+./180/6/BRAINSFit_duplicatedName_2.tar.gz
+./180/5/BRAINSFit_duplicatedName_2.tar.gz
+./180/4/BRAINSFit_duplicatedName_2.tar.gz
+./180/3/BRAINSFit_duplicatedName_2.tar.gz
+./180/1/BRAINSFit_duplicatedName_3.tar.gz
+./180/1/BRAINSFit_duplicatedName_2.tar.gz
+./179/4/IJ_IMacia_Generalized_Computation_Gaussian_Derivatives_4_duplicatedName_2.zip
+./179/4/IJ_IMacia_Generalized_Computation_Gaussian_Derivatives_4_duplicatedName_3.tar.gz
+./178/9/AnalyzeObjectLabelMap_duplicatedName_2.pdf
+./178/8/AnalyzeObjectLabelMap_duplicatedName_2.pdf
+./178/7/AnalyzeObjectLabelMap_duplicatedName_2.pdf
+./178/6/AnalyzeObjectLabelMap_duplicatedName_2.pdf
+./178/1/AnalyzeObjectLabelMap_duplicatedName_2.pdf
+./173/5/GroupwiseRegistration_duplicatedName_2.tar.gz
+./173/4/GroupwiseRegistration_duplicatedName_2.tar.gz
+./173/3/GroupwiseRegistration_duplicatedName_2.tar.gz
+./160/4/Efficient_implementation_of_kernel_based_filtering_duplicatedName_2.pdf
+./160/4/KernelFiltering_duplicatedName_2.tgz
+./160/3/Efficient_implementation_of_kernel_based_filtering_duplicatedName_2.pdf
+./160/3/KernelFiltering_duplicatedName_2.tgz
+./127/1/MultipleUnlabeledImagesToLabeledImageFilter_duplicatedName_2.pdf
+./148/3/Contribute2ITK_duplicatedName_2.zip
+./140/2/license_duplicatedName_2.txt
+./140/1/license_duplicatedName_2.txt
+./151/6/ManagedITK-src-3_duplicatedName_2.6.0.2.zip
+./144/1/HomogeneousTransform_duplicatedName_2.zip
+./112/3/paper-rev3_duplicatedName_2.pdf
+./126/1/OrthogonalBisectImageFilter_duplicatedName_2.zip
+./114/1/itkEllipseBoundaryToImageFilter_duplicatedName_3.zip
+./114/1/itkEllipseBoundaryToImageFilter_duplicatedName_2.pdf
+./118/2/ConvertImage_duplicatedName_2.cxx
+./116/10/ItkDefOrgs_duplicatedName_2.pdf
+./116/9/ItkDefOrgs_duplicatedName_2.pdf
+./116/8/ItkDefOrgs_duplicatedName_2.pdf
+./116/7/ItkDefOrgs_duplicatedName_2.pdf
+./116/6/ItkDefOrgs_duplicatedName_2.pdf
+./116/6/IDO_duplicatedName_2.zip
+./116/5/ItkDefOrgs_duplicatedName_2.pdf
+./116/4/ItkDefOrgs_duplicatedName_4.pdf
+./116/4/ItkDefOrgs_duplicatedName_5.pdf
+./116/4/ItkDefOrgs_duplicatedName_3.pdf
+./116/4/ItkDefOrgs_duplicatedName_2.pdf
+./116/3/ItkDefOrgs_duplicatedName_2.pdf
+./116/2/ItkDefOrgs_duplicatedName_2.pdf
+./116/1/ItkDefOrgs_duplicatedName_2.pdf
+./110/5/license_duplicatedName_2.txt
+./110/4/license_duplicatedName_2.txt
+./110/3/RobotAssistedNeedlePlacementApp_duplicatedName_2.tar.gz
+./110/3/license_duplicatedName_2.txt
+./110/2/RobotAssistedNeedlePlacementApp_duplicatedName_2.tar.gz
+./110/2/license_duplicatedName_2.txt
+./110/1/license_duplicatedName_2.txt
+./101/4/license_duplicatedName_3.txt
+./101/4/license_duplicatedName_2.txt
+./101/3/license_duplicatedName_3.txt
+./101/3/license_duplicatedName_2.txt
+./101/2/license_duplicatedName_3.txt
+./101/2/license_duplicatedName_2.txt
+./101/1/license_duplicatedName_3.txt
+./101/1/license_duplicatedName_2.txt
+./107/8/license_duplicatedName_2.txt
+./107/7/license_duplicatedName_2.txt
+./107/6/license_duplicatedName_2.txt
+./107/5/license_duplicatedName_2.txt
+./107/4/license_duplicatedName_2.txt
+./107/3/license_duplicatedName_2.txt
+./107/2/license_duplicatedName_2.txt
+./107/1/license_duplicatedName_2.txt
+./83/2/license_duplicatedName_3.txt
+./83/2/license_duplicatedName_2.txt
+./83/2/Source_duplicatedName_2.zip
+./83/1/license_duplicatedName_3.txt
+./83/1/license_duplicatedName_2.txt
+./81/5/OptimizedImageIterator_duplicatedName_2.zip
+./81/4/OptimizedImageIterator_duplicatedName_2.zip
+./81/2/OptimizedImageIterator_duplicatedName_2.zip
+./72/3/Source_duplicatedName_2.tgz
+./72/2/Source_duplicatedName_2.tgz
+./72/1/Source_duplicatedName_2.tgz
+./99/1/Insight Journal Paper_duplicatedName_2.pdf
+./88/1/MINC2_ITK_duplicatedName_2.pdf
+./90/2/GeneralizedDistanceTransform_duplicatedName_3.data.tar.gz
+./90/2/license_duplicatedName_2.txt
+./90/2/GeneralizedDistanceTransform_duplicatedName_2.code.tar.gz
+./90/1/license_duplicatedName_2.txt
+./87/2/license_duplicatedName_2.txt
+./87/1/license_duplicatedName_2.txt
+./78/2/IJ2006_Gaussian_Derivative_Image_Function_Rework_duplicatedName_2.pdf
+./78/2/IJ2006_Gaussian_Derivative_Image_Function_Rework_duplicatedName_3.zip
+./57/16/Code_duplicatedName_2.tar.gz
+./57/16/Code_duplicatedName_3.tar.gz
+./57/15/Code_duplicatedName_2.tar.gz
+./57/15/Code_duplicatedName_3.tar.gz
+./57/14/Code_duplicatedName_2.tar.gz
+./57/14/Code_duplicatedName_3.tar.gz
+./57/13/Code_duplicatedName_2.tar.gz
+./57/13/Code_duplicatedName_3.tar.gz
+./57/12/Code_duplicatedName_2.tar.gz
+./57/12/Code_duplicatedName_3.tar.gz
+./57/11/Code_duplicatedName_2.tar.gz
+./57/11/Code_duplicatedName_3.tar.gz
+./57/10/Code_duplicatedName_2.tar.gz
+./57/10/Code_duplicatedName_3.tar.gz
+./57/9/Code_duplicatedName_2.tar.gz
+./57/9/Code_duplicatedName_3.tar.gz
+./57/8/Code_duplicatedName_2.tar.gz
+./57/8/Code_duplicatedName_3.tar.gz
+./57/7/Code_duplicatedName_2.tar.gz
+./57/7/Code_duplicatedName_3.tar.gz
+./57/6/Code_duplicatedName_2.tar.gz
+./57/6/Code_duplicatedName_3.tar.gz
+./57/5/Code_duplicatedName_2.tar.gz
+./57/5/Code_duplicatedName_3.tar.gz
+./57/4/Code_duplicatedName_2.tar.gz
+./57/4/Code_duplicatedName_3.tar.gz
+./57/3/Code_duplicatedName_2.tar.gz
+./57/3/Code_duplicatedName_3.tar.gz
+./57/2/Code_duplicatedName_2.tar.gz
+./57/2/Code_duplicatedName_3.tar.gz
+./57/1/Code_duplicatedName_2.tar.gz
+./57/1/BSpline_duplicatedName_2.pdf
+./57/1/Code_duplicatedName_3.tar.gz
+./57/1/Code_duplicatedName_4.tar.gz
+./68/2/Distributions_duplicatedName_2.zip
+./68/1/Distributions_duplicatedName_2.zip
+./35/1/CMakeLists_duplicatedName_2.txt
+./35/1/melonakos-ISC2005-bayesian_duplicatedName_2.pdf
+./43/1/Sylvain-Jaume-MICCAI2005_duplicatedName_2.tar.gz
+./43/4/Sylvain-Jaume-MICCAI2005_duplicatedName_2.tar.gz
+./43/2/Sylvain-Jaume-MICCAI2005_duplicatedName_2.tar.gz
+./31/1/camino_duplicatedName_2.pdf
