@@ -14,7 +14,7 @@ meta_authors as
 	metadata_field_id,
 	jsonb_agg(
 	  json_build_object(
-		'author_name', meta_authors.text_value,
+		'author_fullname', meta_authors.text_value,
 		'author_place', meta_authors.place,
 		'persona_id', persona.eperson_id,
 		'persona_lastname', persona.lastname,
@@ -23,7 +23,8 @@ meta_authors as
 	  )
 	) authors
   from metadatavalue meta_authors
-  left join author_persona persona on meta_authors.text_value ilike concat(persona.lastname,',%', persona.firstname, '%')
+  /* Use full lastname and first letter of firstname, Tustiston was the reason for this. Nick, Nicholas A., etc*/
+  left join author_persona persona on meta_authors.text_value ilike concat(persona.lastname,',%', left(persona.firstname,1), '%')
   group by item_id, metadata_field_id
 )
 select distinct on (pub.id) /* remove duplicates on pub.id */
@@ -33,5 +34,10 @@ json_build_object(
 	'authors', authors
   )::jsonb
 from isj_publication pub
-left join meta_authors on pub.itemid = meta_authors.item_id and meta_authors.metadata_field_id = 3 /* for all Authors (only names, no ids) */	
-/*   left join author_persona on to_tsvector(meta_authors.text_value) @@ to_tsquery('author_persona.firstname') */
+left join meta_authors on pub.itemid = meta_authors.item_id and meta_authors.metadata_field_id = 3 /* for all Authors (only names, no ids) */
+
+/* after:
+:%s/, "persona_email": null//
+:%s/, "persona_firstname": null//
+:%s/, "persona_lastmail": null//
+*/
