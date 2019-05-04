@@ -25,14 +25,126 @@ DROP COLUMN IF EXISTS can_log_in,
 DROP COLUMN IF EXISTS password;
 
 Cleaning:
+TODO: Clean, Patrick Reynolds, and Liu, Xiaoxiao
+{"authors": [
+{"persona_id": 652, "author_place": 4, "persona_email": "patrick.reynolds@kitware.com", "author_fullname": "Reynolds, Patrick", "persona_lastname": "Reynolds", "persona_firstname": "Patrick"}, 
+{"persona_id": 6056, "author_place": 4, "persona_email": "cpreynolds@gmail.com", "author_fullname": "Reynolds, Patrick", "persona_lastname": "Reynolds", "persona_firstname": "Patrick"}, 
+{"persona_id": 2509, "author_place": 5, "persona_email": "matthew.m.mccormick@gmail.com", "author_fullname": "McCormick, Matthew", "persona_lastname": "Mccormick", "persona_firstname": "Matthew"}, 
+{"persona_id": null, "author_place": 6, "persona_email": null, "author_fullname": "Turner, Wes", "persona_lastname": null, "persona_firstname": null}, 
+{"persona_id": null, "author_place": 7, "persona_email": null, "author_fullname": "Ibáñez, Luis", "persona_lastname": null, "persona_firstname": null}, 
+{"persona_id": 959, "author_place": 1, "persona_email": "sharonxx@cs.unc.edu", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoxiao"}, 
+{"persona_id": 2304, "author_place": 1, "persona_email": "lxmspace@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"}, 
+{"persona_id": 3102, "author_place": 1, "persona_email": "xiaoxiao.liu@kitware.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoxiao"}, 
+{"persona_id": 8894, "author_place": 1, "persona_email": "lxmspace@163.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"}, 
+{"persona_id": 9219, "author_place": 1, "persona_email": "xiaokailiusq@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaokai"}, 
+{"persona_id": null, "author_place": 2, "persona_email": null, "author_fullname": "Helba, Brian", "persona_lastname": null, "persona_firstname": null}, 
+{"persona_id": 132, "author_place": 3, "persona_email": "karthik.krshnan@gmail.com", "author_fullname": "Krishnan, Karthik", "persona_lastname": "Krishnan", "persona_firstname": "Karthik"}, 
+{"persona_id": null, "author_place": 8, "persona_email": null, "author_fullname": "Yankelevitz, David", "persona_lastname": null, "persona_firstname": null}, 
+{"persona_id": 214, "author_place": 9, "persona_email": "rick.avila@kitware.com", "author_fullname": "Avila, Rick", "persona_lastname": "Avila", "persona_firstname": "Rick"}], "publication_id": 869},
+
 
 Change name from François to Francois in publication=985
 pub_id=985, item_id=5363
 metadatavalue_id= 171694
 text_value=Budin, François <-- Change this to Francois
-
+----- SCRIPT ----
+update metadatavalue set text_value='Budin, Francois' where metadata_value_id=171694
+----------------
+Change name of Villéger, Alice in publication=98  (remove tilde)
+Change name of Flouvat, Frederic in publication=98  (remove tilde, for consistencty)
+to match eperson: 450: Villeger, Alice
+isj_user=421
+item_id=508
+metadatavalue_id=35392
+----- SCRIPT ----
+update metadatavalue set text_value='Villeger, Alice' where metadata_value_id=35392;
+update metadatavalue set text_value='Flouvat, Frederic' where metadata_value_id=35393;
+--
+-- Remove tilde in publication: 105 item_id=495
+update metadatavalue set text_value='Chettaoui, Hanene' where metadata_value_id=24849;
+-----
+-- Remove tilde in publication: 176, item_id=1343
+update metadatavalue set text_value='Lehmann, Gaetan' where metadata_value_id=68500;
+--
+-- Remove tilde in publication: 179, item_id=1933
+update metadatavalue set text_value='Macia, Ivan' where metadata_value_id=68283;
+--
+-- Fix names of eperson: 9445 (Senra Filho), da Silva belongs to the name, not a last name
+update eperson set firstname='Antonio Carlos da Silva', lastname='Senra Filho' where eperson_id=9445;
+-- Switch lastname, firstname in pub_id=551, item_id=4454
+update metadatavalue set text_value='Qizhen, He' where metadata_value_id=153390;
+update metadatavalue set text_value='Horace, Ip' where metadata_value_id=153391;
+update metadatavalue set text_value='Xia, James' where metadata_value_id=153392;
+--
+Add - in author first name of publication 21:
+item_id=36
+----- SCRIPT ----
+update metadatavalue set text_value='Kim, Hee-Su' where metadata_value_id=1929
+----------------
+-- Update name of Tustison epersona, from Nick to Nicholas J.
+-- pub_id=57, item_id=225
+update eperson set firstname='Nicholas J.' where eperson_id=8833;
+-- Update name from Jim to James
+update eperson set firstname='James' where eperson_id=232;
+-- Update Tustison name from Nick To Nicholas J.
+-- pub_id=681, item_id=4685
+update metadatavalue set text_value='Tustison, Nicholas J.' where metadata_value_id=160648;
+-- pub_id=841, item_id=5053
+update metadatavalue set text_value='Tustison, Nicholas J.' where metadata_value_id=166004;
+-- pub_id=849, item_id=5063
+update metadatavalue set text_value='Tustison, Nicholas J.' where metadata_value_id=166134;
+-- pub_id=979, item_id=5342
+update metadatavalue set text_value='Tustison, Nicholas J.' where metadata_value_id=171473;
+-- pub_id=982, item_id=5356
+update metadatavalue set text_value='Tustison, Nicholas J.' where metadata_value_id=171535;
+---------------
+Change first name of eperson: 706
+{"persona_id": 706, "author_place": 1, "persona_email": "piekot@rpi.edu", "author_fullname": "Piekos, Thomas", "persona_lastname": "Piekos", "persona_firstname": "Tom"}], "publication_id": 193},
+-- SCRIPT --
+update eperson set firstname='Thomas' where eperson_id=706;
+--
+Fix switched firstname, lastname in all names of publication_id=110
+item_id=574
+from: 'Andinet, Enquobahrie' to 'Enquobahrie, Andinet' publication_id=110
+-- SCRIPT --
+update metadatavalue set text_value='Cheng, Peng' where metadata_value_id=31674;
+update metadatavalue set text_value='Enquobahrie, Andinet' where metadata_value_id=31675;
+update metadatavalue set text_value='Stenzel, Roland' where metadata_value_id=31676;
+update metadatavalue set text_value='Lin, Ralph' where metadata_value_id=31677;
+update metadatavalue set text_value='Zhang, Hui' where metadata_value_id=31678;
+update metadatavalue set text_value='Yaniv, Ziv' where metadata_value_id=31679;
+update metadatavalue set text_value='Kim, Hee-su' where metadata_value_id=31680;
+update metadatavalue set text_value='Cleary, Kevin' where metadata_value_id=31681;
+-------
+Fix switched firstname, lastname in all names of publication_id=81
+item_id=372
+update metadatavalue set text_value='Zhu, Wanlin' where metadata_value_id=21679;
+-----
+Remove lastname in CAPS in publication_id=158
+item_id=1221
+-- SCRIPT --
+update metadatavalue set text_value='Wang, Defeng' where metadata_value_id=71270;
+update metadatavalue set text_value='Shi, Lin' where metadata_value_id=71271;
+update metadatavalue set text_value='Heng, Pheng Ann' where metadata_value_id=71272;
+--
+Strip whitespace of firstname of eperson=1044
+{"persona_id": 1044, "author_place": 3, "persona_email": "mhg@unizar.es", "author_fullname": "Hernandez, Monica", "persona_lastname": "Hernandez", "persona_firstname": "Monica "},
+update eperson set firstname='Monica' where eperson_id=1044;
+--
+Switch firstname, lastname of publication_id=579
+item_id=4501
+-- SCRIPT --
+update metadatavalue set text_value='Taieb, Yoav' where metadata_value_id=155181;
+update metadatavalue set text_value='Eliassaf, Ofer' where metadata_value_id=155182;
+update metadatavalue set text_value='Freiman, Moti' where metadata_value_id=155183;
+update metadatavalue set text_value='Joskowicz, Leo' where metadata_value_id=155184;
+update metadatavalue set text_value='Sosna, Jacob' where metadata_value_id=155185;
+--
 Change lastname of eperson=9689
 lastname = 'Hernandez-Cerdan'
+----- SCRIPT ----
+update eperson set lastname='Hernandez-Cerdan' where eperson_id=9689
+-----------------
 
 Delete duplicate users (with no submissions, keep those with submissions):
 ------------------------
@@ -75,12 +187,8 @@ pub_ids associated to author_id=49, pub_ids: 19, 39
 replace authorid:51 for 1022
 
 ----- SCRIPT for merge ---
-update isj_publication
-set authorid=1022
-where authorid=51;
-update isj_user
-set submissions=6
-where id=1022 and submissions=4;
+update isj_publication set authorid=1022 where authorid=51;
+update isj_user set submissions=6 where id=1022 and submissions=4;
 /* where erperson_id=981 and submissions=4 */
 delete from eperson where eperson_id=49;
 update isj_revision_comment set eperson_id=981 where eperson_id=49;
@@ -132,12 +240,8 @@ Delete 2553 after merge
 {"authors": [{"persona_id": 23, "author_name": "Lloyd, Bryn A.", "author_place": 1, "persona_email": "blloyd@ee.ethz.ch", "persona_lastname": "Lloyd", "persona_firstname": "Bryn"},
  {"persona_id": 2553, "author_name": "Lloyd, Bryn A.", "author_place": 1, "persona_email": "blloyd@vision.ee.ethz.ch", "persona_lastname": "Lloyd", "persona_firstname": "Bryn"},
 ----- SCRIPT for merge ---
-update isj_publication
-set authorid=25
-where authorid=3203;
-update isj_user
-set submissions=4
-where id=25 and submissions=3;
+update isj_publication set authorid=25 where authorid=3203;
+update isj_user set submissions=4 where id=25 and submissions=3;
 /* where erperson_id=981 and submissions=4 */
 delete from resourcepolicy where eperson_id=2553;
 delete from eperson where eperson_id=2553;
@@ -151,8 +255,7 @@ Delete 9312, isj_user=16527
  {"persona_id": 9312, "author_name": "Staring, Marius", "author_place": 1, "persona_email": "marius.staring@gmail.com", "persona_lastname": "Staring", "persona_firstname": "Marius"},
 Update the email before deletion
 ------------
-delete from eperson where eperson_id=9312
-
+delete from eperson where eperson_id=9312;
 update eperson set email='marius.staring@gmail.com' where eperson_id=208
 ------------
 Krishnan, Karthik (x4)
@@ -169,6 +272,9 @@ Delete 9792, isj_user=17481
 update isj_revision_comment set eperson_id=132 where eperson_id=1043;
 update isj_revision_comment set eperson_id=132 where eperson_id=1052;
 update isj_revision_comment set eperson_id=132 where eperson_id=9792;
+update isj_review set user_id=133 where user_id=1142;
+update isj_review set user_id=133 where user_id=1158;
+update isj_review set user_id=133 where user_id=17481;
 delete from resourcepolicy where eperson_id in(1043, 1052, 9792);
 delete from eperson where eperson_id in(1043, 1052, 9792);
 update eperson set email='karthik.krshnan@gmail.com' where eperson_id=132;
@@ -189,15 +295,20 @@ update isj_revision_comment set eperson_id=2746 where eperson_id=17;
 delete from eperson where eperson_id = 17;
 ----------------------
 -------------------------------------
-Okuda, Hirohito (x2)
-eperson_ids: 307, 1094
+Okuda, Hirohito (x2) : Update (x3)
+eperson_ids: 307, 1094, 485
 Delete 307, isj_user=281
 Keep 1094, isj_user=1238, revisions=0, reviews=0 (just because the email)
+Delete 485, isj_user=456, submissions=0, reviews=0 (errata in first name)
  {"persona_id": 307, "author_name": "Okuda, Hirohito", "author_place": 5, "persona_email": "okdhrht@aol.com", "persona_lastname": "Okuda", "persona_firstname": "Hirohito"},
  {"persona_id": 1094, "author_name": "Okuda, Hirohito", "author_place": 5, "persona_email": "hirohito.okuda@ge.com", "persona_lastname": "Okuda", "persona_firstname": "Hirohito"},
+FIRST NAME HAS AN ERROR!
+{"persona_id": 485, "author_place": 5, "persona_email": "hirohito.okuda@yale.edu", "author_fullname": "Okuda, Hirohito", "persona_lastname": "Okuda", "persona_firstname": "Hirohiro"}, 
 ----- SCRIPT ---------
 update isj_revision_comment set eperson_id=1094 where eperson_id=307;
 delete from eperson where eperson_id = 307;
+update isj_revision_comment set eperson_id=1094 where eperson_id=485;
+delete from eperson where eperson_id = 485;
 ----------------------
 ---------------------------------------------
 Daenzer, Stefan (x2)
@@ -316,33 +427,118 @@ delete from eperson where eperson_id = 325;
 delete from eperson where eperson_id = 941;
 /* delete from isj_user where id=299 */
 ----------------------
+-- Tustison, Nicholas (Nick, Nicholas J.)
+erperson_id: 105, 8833
+Both with submissions
+Keep 105, isj_user=106, submissions=21, reviews=4
+Keep 8833, isj_user=15570, submissions=2, reviews=0
+Merge both and keep 8833
+Delete 105
+{"persona_id": 105, "author_place": 1, "persona_email": "ntustison@wustl.edu", "author_fullname": "Tustison, Nicholas J.", "persona_lastname": "Tustison", "persona_firstname": "Nick"},
+{"persona_id": 8833, "author_place": 1, "persona_email": "ntustison@gmail.com", "author_fullname": "Tustison, Nicholas J.", "persona_lastname": "Tustison", "persona_firstname": "Nick"},
+--SCRIPT--
+update isj_revision_comment set eperson_id=8833 where eperson_id=105;
+update isj_publication set authorid=15570 where authorid=106;
+update isj_user set submissions=23, reviews=4 where id=15570 and submissions=2;
+delete from resourcepolicy where eperson_id=105;
+delete from eperson where eperson_id=105;
+-- delete from isj_user where id=106;
+
+-- Bilgin, Cemal Cagatay (x2)
+eperson_ids: 717, 6593
+Delete 717, isj_user=641, submissions=1, reviews=0
+Keep 6593, isj_user=11206 (because mail)
+
+{"persona_id": 717, "author_place": 1, "persona_email": "bilgic@rpi.edu", "author_fullname": "Bilgin, Cemal Cagatay", "persona_lastname": "Bilgin", "persona_firstname": "Cagatay"}, 
+{"persona_id": 6593, "author_place": 1, "persona_email": "bilgincc@gmail.com", "author_fullname": "Bilgin, Cemal Cagatay", "persona_lastname": "Bilgin", "persona_firstname": "C.cagatay"}], "publication_id": 198},
+
+-- SCRIPT --
+update isj_revision_comment set eperson_id=6593 where eperson_id=717;
+update eperson set firstname='Cemal Cagatay' where eperson_id=6593;
+update isj_publication set authorid=11206 where authorid=641;
+delete from eperson where eperson_id=717;
+-- delete from isj_user where erperson_id=717;
+
+-- Blezek, Daniel (x4)
+eperson_ids: 15, 139, 786, 1018
+Keep 1018, isj_user=1096, submissions=2, reviews=0
+Merge 15, isj_user=17, reviews=1
+Merge 786, isj_user=702, reviews=2
+Delete 139, isj_user=140
+
+{"persona_id": 139, "author_place": 1, "persona_email": "blezek@crd.ge.com", "author_fullname": "Blezek, Daniel", "persona_lastname": "Blezek", "persona_firstname": "Daniel"},
+{"persona_id": 15, "author_place": 1, "persona_email": "blezek@research.ge.com", "author_fullname": "Blezek, Daniel", "persona_lastname": "Blezek", "persona_firstname": "Daniel"},
+{"persona_id": 786, "author_place": 1, "persona_email": "blezek.daniel@mayo.edu", "author_fullname": "Blezek, Daniel", "persona_lastname": "Blezek", "persona_firstname": "Daniel"},
+{"persona_id": 1018, "author_place": 1, "persona_email": "daniel.blezek@gmail.com", "author_fullname": "Blezek, Daniel", "persona_lastname": "Blezek", "persona_firstname": "Daniel"}
+"publication_id": 307},
+
+-- SCRIPT --
+update isj_revision_comment set eperson_id=1018 where eperson_id=15;
+update isj_revision_comment set eperson_id=1018 where eperson_id=786;
+update isj_revision_comment set eperson_id=1018 where eperson_id=139;
+update isj_review set user_id=1096 where user_id=17;
+update isj_review set user_id=1096 where user_id=702;
+update isj_review set user_id=1096 where user_id=140;
+delete from eperson where eperson_id=15;
+delete from eperson where eperson_id=786;
+delete from eperson where eperson_id=139;
+--
+
+Plumat, Jerome (x2)
+eperson_ids: 1017, 9578
+Keep 1017, isj_user=1094, sumissions=1, changing email
+Delete 9578, isj_user=17057, submissions=0, but change email from eperson and institution from user
+{"persona_id": 1017, "author_place": 1, "persona_email": "jerome.plumat@uclouvain.be", "author_fullname": "Plumat, Jerome", "persona_lastname": "Plumat", "persona_firstname": "Jerome"}, 
+{"persona_id": 9578, "author_place": 1, "persona_email": "j.plumat@gmail.com", "author_fullname": "Plumat, Jerome", "persona_lastname": "Plumat", "persona_firstname": "Jerome"}, 
+-- SCRIPT -
+update isj_user set institution='University of Auckland' where id=1094;
+delete from eperson where eperson_id=9578;
+update eperson set email='j.plumat@gmail.com' where eperson_id=1017;
+--
+Becciu, Alessandro (x2)
+eperson_ids: 840, 839
+Keep 840, isj_user= submissions=0!! (even though there is one for sure 558)
+Delete 839
+{"persona_id": 840, "author_place": 1, "persona_email": "a.becciu@tue.nl", "author_fullname": "Becciu, Alessandro", "persona_lastname": "Becciu", "persona_firstname": "Alessandro"}, 
+{"persona_id": 839, "author_place": 1, "persona_email": "abecciu@tue.nl", "author_fullname": "Becciu, Alessandro", "persona_lastname": "Becciu", "persona_firstname": "Alessandro"}, pub_id=558
+--SCRIPT--
+delete from eperson where eperson_id=839
+--
+Hammer, Peter(x2)
+Delete 812, isj_user=720 
+Keep 851, isj_user=758 (there is one submission for sure)
+{"persona_id": 812, "author_place": 1, "persona_email": "peter.hammer@tufts.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"}, 
+{"persona_id": 851, "author_place": 1, "persona_email": "peter.hammer@childrens.harvard.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"}, pub_id=546
+--SCRIPT--
+delete from eperson where eperson_id=812
+--
+Orkisz, Maciej (x2)
+Keep 879, isj_user=786, but change email
+Delete 2226, isj_user=2555
+{"persona_id": 879, "author_place": 7, "persona_email": "maciej.orkisz@creatis.insa-lyon.fr", "author_fullname": "Orkisz, Maciej", "persona_lastname": "Orkisz", "persona_firstname": "Maciej"}, 
+{"persona_id": 2226, "author_place": 7, "persona_email": "maciejorkisz@gmail.com", "author_fullname": "Orkisz, Maciej", "persona_lastname": "Orkisz", "persona_firstname": "Maciej"}], "publication_id": 575},
+--SCRIPT--
+delete from eperson where eperson_id=2226;
+update eperson set email='maciejorkisz@gmail.com' where eperson_id=879;
+--
+Liu, Yixun(x2)
+eperson_ids: 474, 6473
+Delete 474, isj_user=445
+Keep 6473, isj_user=10966
+{"persona_id": 474, "author_place": 1, "persona_email": "yxliu@fudan.edu.cn", "author_fullname": "Liu, Yixun", "persona_lastname": "Liu", "persona_firstname": "Yixun"}, 
+{"persona_id": 6473, "author_place": 1, "persona_email": "yxliuwm@gmail.com", "author_fullname": "Liu, Yixun", "persona_lastname": "Liu", "persona_firstname": "Yixun"}, 
+--SCRIPT--
+delete from eperson where eperson_id=474;
+--
 
 ---------------------------------------------
+
 PROBLEMs to solve:
 1: TODO
 {"authors": [{"persona_id": 150, "author_name": "Williams, Kent\r\nJohnson, Hans", "author_place": 1, "persona_email": "norman-k-williams@uiowa.edu", "persona_lastname": "Williams", "persona_firstname": "Kent"}], "publication_id": 62},
 Split Williams, Kent and Hans Johnson should be another author
 
 1: TODO
-{"authors": [{"persona_id": null, "author_name": "Tustison, Nicholas J.", "author_place": 1, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": 236, "author_name": "Gee, James C.", "author_place": 2, "persona_email": "gee@mail.med.upenn.edu", "persona_lastname": "Gee", "persona_firstname": "James"}], "publication_id": 57},
--
-{"authors": [{"persona_id": null, "author_name": "Tustison, Nicholas J.", "author_place": 1, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": null, "author_name": "Siqueira, Marcelo", "author_place": 2, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": 236, "author_name": "Gee, James C.", "author_place": 3, "persona_email": "gee@mail.med.upenn.edu", "persona_lastname": "Gee", "persona_firstname": "James"}], "publication_id": 77},
--
-{"authors": [{"persona_id": null, "author_name": "Tustison, Nicholas", "author_place": 1, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": null, "author_name": "Siqueira, Marcelo", "author_place": 2, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": 236, "author_name": "Gee, James", "author_place": 3, "persona_email": "gee@mail.med.upenn.edu", "persona_lastname": "Gee", "persona_firstname": "James"}], "publication_id": 121},
--
-{"authors": [{"persona_id": null, "author_name": "Tustison, Nicholas", "author_place": 1, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": null, "author_name": "Siqueira, Marcelo", "author_place": 2, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": 236, "author_name": "Gee, James", "author_place": 3, "persona_email": "gee@mail.med.upenn.edu", "persona_lastname": "Gee", "persona_firstname": "James"}], "publication_id": 139},
--
-{"authors": [{"persona_id": null, "author_name": "Tustison, Nicholas", "author_place": 1, "persona_email": null, "persona_lastname": null, "persona_firstname": null},
- {"persona_id": 11, "author_name": "Avants, Brian", "author_place": 2, "persona_email": "avants@seas.upenn.edu", "persona_lastname": "Avants", "persona_firstname": "Brian"},
- {"persona_id": 2243, "author_name": "Avants, Brian", "author_place": 2, "persona_email": "stnava@gmail.com", "persona_lastname": "Avants", "persona_firstname": "Brian"},
- {"persona_id": 236, "author_name": "Gee, James", "author_place": 3, "persona_email": "gee@mail.med.upenn.edu", "persona_lastname": "Gee", "persona_firstname": "James"}], "publication_id": 140},
 Tustison first name is a mess, maybe use only last name and first letter of first name?
 
 2: DONE
@@ -358,6 +554,7 @@ Delete eperson_ids:
 delete from resourcepolicy where eperson_id in(
     2553,
     1043, 1052, 9792,
+    105
 )
 
 delete from eperson where eperson_id in(
@@ -380,7 +577,7 @@ delete from eperson where eperson_id in(
 1052,
 9792,
 17,
-307,
+307, 485,
 2555,
 273,
 11,
@@ -390,6 +587,14 @@ delete from eperson where eperson_id in(
 947,
 94,
 325, 941,
+105,
+717,
+15, 786, 139,
+9578,
+839,
+812,
+2226,
+474
 );
 update eperson set email='marius.staring@gmail.com' where eperson_id=208;
 update eperson set firstname='Leila' where eperson_id=7:
@@ -399,7 +604,8 @@ update isj_user set reviews=5 where id=3583 and reviews=3;
 update isj_revision_comment set eperson_id=2746 where eperson_id=17;
 update eperson set email='stefan.daenzer@gmail.com' where eperson_id=444;
 update eperson set email='styner@cs.unc.edu' where eperson_id=28;
-
+update eperson set email='j.plumat@gmail.com' where eperson_id=1017;
+update eperson set email='maciejorkisz@gmail.com' where eperson_id=879;
 ---------
 Delete isj_users // No need for our query purposes
 but they won't  be valid because they have no associated eperson.
