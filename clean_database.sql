@@ -8,6 +8,12 @@ update metadatavalue set text_value='Chettaoui, Hanene' where metadata_value_id=
 update metadatavalue set text_value='Macia, Ivan' where metadata_value_id=68283;
 -- Remove tilde in publication: 176, item_id=1343
 update metadatavalue set text_value='Lehmann, Gaetan' where metadata_value_id=68500;
+-- Remove tilde in publication: 773, item_id=4888
+update metadatavalue set text_value='Lehmann, Gaetan' where metadata_value_id=163741;
+-- Remove tilde in publication: 852, item_id=5072
+update metadatavalue set text_value='Lehmann, Gaetan' where metadata_value_id=166255;
+-- Remove tilde in publication: 853, item_id=4889
+update metadatavalue set text_value='Lehmann, Gaetan' where metadata_value_id=163752;
 -- Add - in Hee Su--
 update metadatavalue set text_value='Kim, Hee-Su' where metadata_value_id=1929;
 -- Update name of Tustison epersona, from Nick to Nicholas J.
@@ -129,11 +135,62 @@ update isj_review set user_id=1096 where user_id=140;
 delete from eperson where eperson_id=15;
 delete from eperson where eperson_id=786;
 delete from eperson where eperson_id=139;
+-- Reynolds, Patrick--
+delete from resourcepolicy where eperson_id=652;
+delete from eperson where eperson_id=652;
+update isj_revision_comment set eperson_id=6056 where eperson_id=652;
+update isj_review set user_id=10134 where user_id=582;
+-- Liu, Xiaxiao
+-- delete from resourcepolicy where eperson_id=959;
+delete from eperson where eperson_id=959;
+update isj_publication set authorid=3102 where authorid=959;
+update isj_review set user_id=4277 where user_id=864;
+update isj_revision_comment set eperson_id=3102 where eperson_id=959;
+-- Vo, Huy
+delete from eperson where eperson_id=6057;
+update eperson set email='huy.tuan.vo@gmail.com' where eperson_id=6190;
+update isj_publication set authorid=10400 where authorid=10136;
+update isj_review set user_id=10400 where user_id=10136;
+update isj_revision_comment set eperson_id=6190 where eperson_id=6057;
+-- Krissian, Karl
+delete from eperson where eperson_id=46;
+-- Bowers, Michael
+delete from eperson where eperson_id=6785;
+update eperson set email='michaelbowersjhu@gmail.com' where eperson_id=2380;
+update isj_publication set authorid=2859 where authorid=11590;
+update isj_review set user_id=2859 where user_id=11590;
+-- Vera, Sergio
+delete from eperson where eperson_id=2551;
+-- Rey, Alberto
+delete from eperson where eperson_id=2758;
+update eperson set email='bertorey@gmail.com' where eperson_id=5874;
+-- Damon, Stephen
+delete from eperson where eperson_id=9539;
+-- Seo, Dohyunk, duplicate user, duplicated submissions deleted
+delete from resourcepolicy where eperson_id=9261;
+delete from eperson where eperson_id=9261;
+update isj_user set submissions=0 where id=16389;
+update isj_user set submissions=0 where id=16425;
+-- Remove duplicated publications: 943, 944 and keep 958.
+delete from isj_publication where id=943;
+delete from isj_publication where id=944;
+-- Keep 958
+-- Fix Lastname of Jeroen vanbaar, to Van Baar
+update eperson set lastname='Van Baar' where eperson_id=9260
+-- Suarez-Santana, Eduardo duplicated submissions 135, 156 _keep_
+update eperson set lastname='Suarez-Santana' where eperson_id=488;
+delete from isj_publication where id=135;
+-- Delete non-publications--
+-- MICCAI 2005 announcement
+delete from isj_publication where id=8;
+-- Test
+delete from isj_publication where id=922;
 ----------------
 delete from resourcepolicy where eperson_id in(
     2553,
     1043, 1052, 9792,
-    105
+    105,
+    652
 );
 delete from eperson where eperson_id in(
 9855,
@@ -172,7 +229,15 @@ delete from eperson where eperson_id in(
 839,
 812,
 2226,
-474
+474,
+652,
+959,
+6057,
+46,
+6785,
+2551,
+2758,
+9539
 );
 update eperson set email='marius.staring@gmail.com' where eperson_id=208;
 update eperson set firstname='Leila' where eperson_id=7;
@@ -180,6 +245,7 @@ update eperson set email='karthik.krshnan@gmail.com' where eperson_id=132;
 update isj_user set reviews=5 where id=3583 and reviews=3;
 /* bill lorensen has reviews/comments */
 update isj_revision_comment set eperson_id=2746 where eperson_id=17;
+update isj_review set user_id=3583 where user_id=19;
 update eperson set email='stefan.daenzer@gmail.com' where eperson_id=444;
 update eperson set email='styner@cs.unc.edu' where eperson_id=28;
 update eperson set email='j.plumat@gmail.com' where eperson_id=1017;
@@ -230,3 +296,12 @@ Kim, Jung does not exist as isj_user
 
 {"persona_id": 2270, "author_place": 5, "persona_email": "jiamin75@gmail.com", "author_fullname": "Liu, Jiang", "persona_lastname": "Liu", "persona_firstname": "Jiamin"},
 ---
+
+
+
+
+----------- With 4 characters: -------
+Remove:
+{"persona_id": 2304, "author_place": 1, "persona_email": "lxmspace@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},
+{"persona_id": 8894, "author_place": 1, "persona_email": "lxmspace@163.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},
+{"persona_id": 9219, "author_place": 1, "persona_email": "xiaokailiusq@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaokai"},
