@@ -652,90 +652,224 @@ delete from isj_publication where id=8;
 -- Test
 delete from isj_publication where id=922;
 
--- Wang, Linwei (x2) TODO
+-- Wang, Linwei (x2) DONE*
 {"persona_id": 868, "author_place": 2, "persona_email": "maomaowlw@mail.rit.edu", "author_fullname": "Wang, Linwei", "persona_lastname": "Wang", "persona_firstname": "Linwei"},
 {"persona_id": 9407, "author_place": 2, "persona_email": "li_wang@med.unc.edu", "author_fullname": "Wang, Linwei", "persona_lastname": "Wang", "persona_firstname": "Li"},
--- Yank, Haisheng (x2) TODO
+Solution:Not the same author, just a bad search, Replace/Remove After
+{"persona_id": 9407, "author_place": 2, "persona_email": "li_wang@med.unc.edu", "author_fullname": "Wang, Linwei", "persona_lastname": "Wang", "persona_firstname": "Li"},
+-- Yank, Haisheng (x2)
+Keep 800, isj_user=712, submissions=1
+Delete 847, isj_user=754
 {"persona_id": 800, "author_place": 1, "persona_email": "hs.yang@siat.ac.cn", "author_fullname": "Yang, Haisheng", "persona_lastname": "Yang", "persona_firstname": "Haisheng"},
 {"persona_id": 847, "author_place": 1, "persona_email": "yt.liu@siat.ac.cn", "author_fullname": "Yang, Haisheng", "persona_lastname": "Yang", "persona_firstname": "Haisheng"},
--- Hammer, Peter (x2) TODO
+-- SCRIPT --
+delete from eperson where eperson_id=847;
+-- Hammer, Peter (x2)
+Keep 851, isj_user=758, sub=0, rev=0
+Delete 812, isj_user=720, sub=0, rev=0
 {"persona_id": 812, "author_place": 1, "persona_email": "peter.hammer@tufts.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"},
 {"persona_id": 851, "author_place": 1, "persona_email": "peter.hammer@childrens.harvard.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"},
--- Zhou, Jaiyin (x2) TODO
+--SCRIPT-
+delete from eperson where eperson_id=812;
+-- Zhou, Jaiyin (x2)
+Keep 902, isj_user=811, sub=0, rev=0
+Delete 2693, isj_user=3483, sub=0, rev=0
 {"persona_id": 902, "author_place": 1, "persona_email": "jiayin.zhou@gmail.com", "author_fullname": "Zhou, Jiayin", "persona_lastname": "Zhou", "persona_firstname": "Jiayin"},
 {"persona_id": 2693, "author_place": 1, "persona_email": "jzhou@i2r.a-star.edu.sg", "author_fullname": "Zhou, Jiayin", "persona_lastname": "Zhou", "persona_firstname": "Jiayin"},
--- Wang, Chunliang (x3) TODO
+-- SCRIPT --
+delete from eperson where eperson_id=2693;
+-- Wang, Chunliang (x3)
+Keep 8762, isj_user=15428, sub=1, rev=0
+Delete 587
+Delete 907
 {"persona_id": 587, "author_place": 1, "persona_email": "wcl_sd@yahoo.com.cn", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunliang"},
-{"persona_id": 774, "author_place": 1, "persona_email": "wchunfang@gmail.com", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunfang"},
 {"persona_id": 907, "author_place": 1, "persona_email": "chuwa@imv.liu.se", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunliang"},
 {"persona_id": 8762, "author_place": 1, "persona_email": "chunliang.wang@liu.se", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunliang"}], "publication_id": 594},
--- Shimizu, Akinobu (x2) TODO
+{"persona_id": 774, "author_place": 1, "persona_email": "wchunfang@gmail.com", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunfang"},
+-- SCRIPT --
+delete from eperson where eperson_id=587;
+delete from eperson where eperson_id=907;
+-- Shimizu, Akinobu (x2)
+Keep 901, isj_user=978, sub=0, rev=0
+Delete 888, isj_user=796, sub=0, rev=0
 {"persona_id": 901, "author_place": 1, "persona_email": "akinobu.shimizu@gmail.com", "author_fullname": "SHIMIZU, Akinobu", "persona_lastname": "Shimizu", "persona_firstname": "Akinobu"},
 {"persona_id": 888, "author_place": 1, "persona_email": "simiz@cc.tuat.ac.jp", "author_fullname": "SHIMIZU, Akinobu", "persona_lastname": "Shimizu", "persona_firstname": "Akinobu"},
--- Tek, Huyesin (x2) TODO
+-- SCRIPT--
+delete from eperson where eperson_id=888;
+-- Tek, Huyesin (x2)
+Keep 2220, isj_user=2543, sub=1, rev=0
+Delete 910,isj_user=819, sub=0, rev=0
 {"persona_id": 910, "author_place": 1, "persona_email": "huseyin.tek@siemens.com", "author_fullname": "Tek, Huseyin", "persona_lastname": "Tek", "persona_firstname": "Huseyin"},
 {"persona_id": 2220, "author_place": 1, "persona_email": "huseyin.tek@gmail.com", "author_fullname": "Tek, Huseyin", "persona_lastname": "Tek", "persona_firstname": "Huseyin"}], "publication_id": 600},
--- Abolmaesumi, Purang (x2) TODO
+-- SCRIPT--
+delete from eperson where eperson_id=910;
+-- Abolmaesumi, Purang (x2)
+Keep 2818, isj_user=3725, sub=0, rev=0
+Delete 469, isj_user=441, sub=0, rev=0
 {"persona_id": 469, "author_place": 6, "persona_email": "purang@cs.queensu.ca", "author_fullname": "Abolmaesumi, Purang", "persona_lastname": "Abolmaesumi", "persona_firstname": "Purang"},
 {"persona_id": 2818, "author_place": 6, "persona_email": "purang@ece.ubc.ca", "author_fullname": "Abolmaesumi, Purang", "persona_lastname": "Abolmaesumi", "persona_firstname": "Purang"}], "publication_id": 618},
---  Burgert, Oliver (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=469;
+--  Burgert, Oliver (x2)
+Merge
+Keep 2192, isj_user=2487, sub=3, rev=0, editor=2
+Keep 8050, isj_user=14086, sub=1, rev=0, editor=0
+Keep 8050 after merge
+Delete 2192
 {"persona_id": 2192, "author_place": 3, "persona_email": "oliver.burgert@medizin.uni-leipzig.de", "author_fullname": "Burgert, Oliver", "persona_lastname": "Burgert", "persona_firstname": "Oliver"},
 {"persona_id": 8050, "author_place": 3, "persona_email": "oliver.burgert@reutlingen-university.de", "author_fullname": "Burgert, Oliver", "persona_lastname": "Burgert", "persona_firstname": "Oliver"}], "publication_id": 647},
--- Fasquel, Jean-Baptiste (x2) TODO
+-- SCRIPT
+delete from resourcepolicy where eperson_id=2192;
+delete from eperson where eperson_id=2192;
+update isj_user set submissions=4 where id=14086;
+update isj_publication set authorid=14086 where authorid=2487;
+update isj_review set user_id=14086 where user_id=2487;
+-- Fasquel, Jean-Baptiste (x2)
+Keep 2190, isj_user=2483, sub=1, rev=0
+Delete 915, isj_user=824, sub=0, rev=0
 {"persona_id": 915, "author_place": 1, "persona_email": "jean-baptiste.fasquel@ircad.u-strasbg.fr", "author_fullname": "Fasquel, Jean-Baptiste", "persona_lastname": "Fasquel", "persona_firstname": "Jean-baptiste"},
 {"persona_id": 2190, "author_place": 1, "persona_email": "Jean-Baptiste.Fasquel@ircad.u-strasbg.fr", "author_fullname": "Fasquel, Jean-Baptiste", "persona_lastname": "Fasquel", "persona_firstname": "Jean-baptiste"},
--- Xia, Tian (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=915;
+-- Xia, Tian (x2)
+Keep 3138, isj_user=4349, sub=0, rev=0
+Delete 2273, isj_user=2649, sub=0, rev=0
 {"persona_id": 2273, "author_place": 2, "persona_email": "txia1@jhu.edu", "author_fullname": "Xia, Tian", "persona_lastname": "Xia", "persona_firstname": "Tian"},
 {"persona_id": 3138, "author_place": 2, "persona_email": "einsdot@gmail.com", "author_fullname": "Xia, Tian", "persona_lastname": "Xia", "persona_firstname": "Tian"},
--- Radau, Perry (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=2273;
+-- Radau, Perry (x2)
+Keep 2183, isj_user=2469, sub=1, rev=0, editor=2
+Delete 72, isj_user=73, sub=0, rev=0, editor=0
 {"persona_id": 72, "author_place": 1, "persona_email": "perry.radau@utoronto.ca ", "author_fullname": "Radau, Perry", "persona_lastname": "Radau", "persona_firstname": "Perry"},
 {"persona_id": 2183, "author_place": 1, "persona_email": "perry.radau@gmail.com", "author_fullname": "Radau, Perry", "persona_lastname": "Radau", "persona_firstname": "Perry"},
--- Benmansour, Fethallah (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=72;
+-- Benmansour, Fethallah (x2)
+Keep 2850, isj_user=3781, sub=0, rev=1
+Delete 2214, isj_user=2531, sub=1, rev=0
 {"persona_id": 2214, "author_place": 2, "persona_email": "benmansour@ceremade.dauphine.fr", "author_fullname": "BENMANSOUR, Fethallah", "persona_lastname": "Benmansour", "persona_firstname": "Fethallah"},
 {"persona_id": 2850, "author_place": 2, "persona_email": "fethallah@gmail.com", "author_fullname": "BENMANSOUR, Fethallah", "persona_lastname": "Benmansour", "persona_firstname": "Fethallah"},
--- Hibbard, Lyndon S. (x2) TODO
+-- SCRIPT
+delete from resourcepolicy where eperson_id=2214;
+delete from eperson where eperson_id=2214;
+update isj_user set submissions=1 where id=3781;
+update isj_publication set authorid=3781 where authorid=2531;
+update isj_review set user_id=3781 where user_id=2531;
+-- Hibbard, Lyndon S. (x2)
+Keep 4564, isj_user=7192, sub=0, rev=0
+Delete 312, isj_user=286, sub=0, rev=0
 {"persona_id": 312, "author_place": 2, "persona_email": "lyn@cmsrtp.com", "author_fullname": "Hibbard, Lyndon S.", "persona_lastname": "Hibbard", "persona_firstname": "Lyndon"},
 {"persona_id": 4564, "author_place": 2, "persona_email": "lyn.hibbard@elekta.com", "author_fullname": "Hibbard, Lyndon S.", "persona_lastname": "Hibbard", "persona_firstname": "Lyn"},
--- Dowling, Jason (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=312;
+update eperson set firstname='Lyndon' where eperson_id=4564;
+update isj_publication set authorid=7192 where authorid=286;
+update isj_review set user_id=7192 where user_id=286;
+-- Dowling, Jason (x2)
+Keep 2286, isj_user=2675, sub=2 ( Change mail)
+Delete 8866, isj_user=15636
 {"persona_id": 2286, "author_place": 2, "persona_email": "jason.dowling@csiro.au", "author_fullname": "Dowling, Jason", "persona_lastname": "Dowling", "persona_firstname": "Jason"},
 {"persona_id": 8866, "author_place": 2, "persona_email": "dowlingjad@gmail.com", "author_fullname": "Dowling, Jason", "persona_lastname": "Dowling", "persona_firstname": "Jason"},
---  Stolka, Philipp (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=8866;
+update eperson set email='dowlingjad@gmail.com' where eperson_id=2286;
+--  Stolka, Philipp (x2)
+Keep 2557, isj_user=3211, sub=1, rev=0
+Delete 2478, isj_user=3053, sub=0, rev=0
 {"persona_id": 2478, "author_place": 1, "persona_email": "Pjs@jhu.edu", "author_fullname": "Stolka, Philipp", "persona_lastname": "Stolka", "persona_firstname": "Philipp"},
 {"persona_id": 2557, "author_place": 1, "persona_email": "pjs@jhu.edu", "author_fullname": "Stolka, Philipp", "persona_lastname": "Stolka", "persona_firstname": "Philipp"},
--- Gao, Yixin (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=2478;
+-- Gao, Yixin (x2) DONE* Not the same person
 {"persona_id": 468, "author_place": 1, "persona_email": "yi.gao@gatech.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yi"},
 {"persona_id": 2611, "author_place": 1, "persona_email": "ygao20@jhu.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yixin"},
--- Constantin, Alexandra (x2) TODO
+Replace/Remove
+{"persona_id": 468, "author_place": 1, "persona_email": "yi.gao@gatech.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yi"},
+{"persona_id": 2611, "author_place": 1, "persona_email": "ygao20@jhu.edu", "author_fullname": "Gao, Yi", "persona_lastname": "Gao", "persona_firstname": "Yixin"},
+-- Constantin, Alexandra (x2)
+Keep 2714, isj_user=3523, sub=1, rev=0
+Delete 2696, isj_user=3489, sub=0, rev=0
 {"persona_id": 2714, "author_place": 1, "persona_email": "alexacon@eecs.berkeley.edu", "author_fullname": "Constantin, Alexandra", "persona_lastname": "Constantin", "persona_firstname": "Alexandra"},
 {"persona_id": 2696, "author_place": 1, "persona_email": "alexandra@berkeley.edu", "author_fullname": "Constantin, Alexandra", "persona_lastname": "Constantin", "persona_firstname": "Alexandra"},
--- Durkin, John (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=2696;
+-- Durkin, John (x2)
+Keep 2445, isj_user=2987, sub=1, rev=0
+Delete 2156, isj_user=2415, sub=0, rev=0
 {"persona_id": 2156, "author_place": 1, "persona_email": "jrd5084@psu.edu", "author_fullname": "Durkin, John", "persona_lastname": "Durkin", "persona_firstname": "John"},
 {"persona_id": 2445, "author_place": 1, "persona_email": "john.r.durkin@gmail.com", "author_fullname": "Durkin, John", "persona_lastname": "Durkin", "persona_firstname": "John"},
--- Hatt, Charles (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=2156;
+-- Hatt, Charles (x2)
+Keep 5871, isj_user=9764, sub=2, rev=0 (Change Mail)
+Delete 9488, isj_user=16879, sub=0, rev=0
 {"persona_id": 5871, "author_place": 1, "persona_email": "hatt@wisc.edu", "author_fullname": "Hatt, Charles", "persona_lastname": "Hatt", "persona_firstname": "Charles"},
 {"persona_id": 9488, "author_place": 1, "persona_email": "charlesrayhatt@gmail.com", "author_fullname": "Hatt, Charles", "persona_lastname": "Hatt", "persona_firstname": "Charles"}], "publication_id": 846},
--- Gong, Ren Hui (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=9488;
+update eperson set email='charlesrayhatt@gmail.com' where eperson_id=5871;
+-- Gong, Ren Hui (x2)
+Keep 6703, isj_user=11426, sub=1, rev=0
+Delete 515, isj_user=482, sub=0, rev=0
 {"persona_id": 515, "author_place": 2, "persona_email": "rhgong@cs.queensu.ca", "author_fullname": "Gong, Ren Hui", "persona_lastname": "Gong", "persona_firstname": "Ren hui"},
 {"persona_id": 6703, "author_place": 2, "persona_email": "rhgong@gmail.com", "author_fullname": "Gong, Ren Hui", "persona_lastname": "Gong", "persona_firstname": "Ren Hui"},
--- Irshad, Humayun (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=515;
+-- update isj_publication set authorid=11426 where authorid=482;
+-- update isj_review set user_id=11426 where user_id=482;
+-- Irshad, Humayun (x2)
+Keep 9856, isj_user=17607, sub=0, rev=0
+Delete 6974, isj_user=11968, sub=0, rev=0
 {"persona_id": 6974, "author_place": 1, "persona_email": "humayun.irshad@ipal.cnrs.fr", "author_fullname": "Irshad, Humayun", "persona_lastname": "Irshad", "persona_firstname": "Humayun"},
 {"persona_id": 9856, "author_place": 1, "persona_email": "humayun.irshad@gmail.com", "author_fullname": "Irshad, Humayun", "persona_lastname": "Irshad", "persona_firstname": "Humayun"},
--- Fuerst, Bernhard (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=6974;
+-- Fuerst, Bernhard (x2)
+Keep 7864, isj_user=13714, sub=1, rev=0 (Change Mail)
+Delete 7877, isj_user=13740, sub=0, rev=0
 {"persona_id": 7864, "author_place": 2, "persona_email": "be.fuerst@tum.de", "author_fullname": "Fuerst, Bernhard", "persona_lastname": "Fuerst", "persona_firstname": "Bernhard"},
 {"persona_id": 7877, "author_place": 2, "persona_email": "be.fuerst@gmail.com", "author_fullname": "Fuerst, Bernhard", "persona_lastname": "Fuerst", "persona_firstname": "Bernhard"},
--- Wang, Kevin (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=7877;
+update eperson set email='be.fuerst@gmail.com' where eperson_id=7864;
+-- Wang, Kevin (x2) (TODO) Are they the same person?? No submitter, but one appear as author
+-- erperson_id=106 or erperson_id=2735
 {"persona_id": 106, "author_place": 2, "persona_email": "kwang.ca@gmail.com", "author_fullname": "Wang, Kevin", "persona_lastname": "Wang", "persona_firstname": "Kevin"},
 {"persona_id": 2735, "author_place": 2, "persona_email": "blueappleguy@gmail.com", "author_fullname": "Wang, Kevin", "persona_lastname": "Wang", "persona_firstname": "Kevin"},
--- Van Reeth, Eric (x3) TODO
+-- Van Reeth, Eric (x3)
+Keep 9470, isj_user=16843, sub=1, rev=0 (Change Mail)
+Delete 9141, isj_user=16185, sub=0, rev=0
+Delete 8812, isj_user=15528, sub=0, rev=0
 {"persona_id": 8812, "author_place": 2, "persona_email": "eric.vanreeth@ntu.edu.sg", "author_fullname": "Van Reeth, Eric", "persona_lastname": "Van reeth", "persona_firstname": "Eric"},
 {"persona_id": 9141, "author_place": 2, "persona_email": "eric.vanreeth@gmail.com", "author_fullname": "Van Reeth, Eric", "persona_lastname": "Van reeth", "persona_firstname": "Eric"},
 {"persona_id": 9470, "author_place": 2, "persona_email": "eric.van-reeth@creatis.insa-lyon.fr", "author_fullname": "Van Reeth, Eric", "persona_lastname": "Van reeth", "persona_firstname": "Eric"},
--- Aghdasi, Nava (x2) TODO
+-- SCRIPT
+delete from eperson where eperson_id=9141;
+delete from eperson where eperson_id=8812;
+update eperson set email='eric.vanreeth@gmail.com' where eperson_id=9470;
+-- Aghdasi, Nava (x2)
+Keep 9737, isj_user=17373 sub=1, rev=0
+Delete 9736, isj_user=17371, sub=0, rev=0
 {"persona_id": 9736, "author_place": 1, "persona_email": "naval@uw.edu", "author_fullname": "Aghdasi, Nava", "persona_lastname": "Aghdasi", "persona_firstname": "Nava"},
 {"persona_id": 9737, "author_place": 1, "persona_email": "navaa@uw.edu", "author_fullname": "Aghdasi, Nava", "persona_lastname": "Aghdasi", "persona_firstname": "Nava "},
--- Jaberzadeh, Amir (x2) TODO
-{"persona_id": 9750, "author_place": 2, "persona_email": "amir.jaberzadeh@childrens.haravard.edu", "author_fullname": "Jaberzadeh, Amir", "persona_lastname": "Jaberzadeh", "persona_firstname": "Amir"}, 
-{"persona_id": 9818, "author_place": 2, "persona_email": "amir.jaberzadeh@childrens.harvard.edu", "author_fullname": "Jaberzadeh, Amir", "persona_lastname": "Jaberzadeh", "persona_firstname": "Amir"}, 
+-- SCRIPT
+delete from eperson where eperson_id=9736;
+-- Jaberzadeh, Amir (x2)
+Keep 9818, isj_user=17533, sub=1, rev=0
+Delete 9750, isj_user=17399, sub=0, rev=0 (errata in mail)
+{"persona_id": 9750, "author_place": 2, "persona_email": "amir.jaberzadeh@childrens.haravard.edu", "author_fullname": "Jaberzadeh, Amir", "persona_lastname": "Jaberzadeh", "persona_firstname": "Amir"},
+{"persona_id": 9818, "author_place": 2, "persona_email": "amir.jaberzadeh@childrens.harvard.edu", "author_fullname": "Jaberzadeh, Amir", "persona_lastname": "Jaberzadeh", "persona_firstname": "Amir"},
+-- SCRIPT
+delete from eperson where eperson_id=9750;
+-- Dowson, Nicholas (x2)
+Keep 9215, isj_user=1633, sub=1, rev=0, (change mail)
+Delete 9362, isj_user=16627, sub=0, rev=0
+{"persona_id": 9215, "author_place": 1, "persona_email": "nicholas.dowson@csiro.au", "author_fullname": "Dowson, Nicholas", "persona_lastname": "Dowson", "persona_firstname": "Nicholas"},
+{"persona_id": 9362, "author_place": 1, "persona_email": "nick.dowson@gmail.com", "author_fullname": "Dowson, Nicholas", "persona_lastname": "Dowson", "persona_firstname": "Nicholas"},
+-- SCRIPT
+delete from eperson where eperson_id=9362;
+update eperson set email='nick.dowson@gmail.com' where eperson_id=9215;
 
 PROBLEMs to solve:
 1: TODO

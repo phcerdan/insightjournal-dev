@@ -40,6 +40,8 @@ update metadatavalue set text_value='Zhang, Hui' where metadata_value_id=31678;
 update metadatavalue set text_value='Yaniv, Ziv' where metadata_value_id=31679;
 update metadatavalue set text_value='Kim, Hee-su' where metadata_value_id=31680;
 update metadatavalue set text_value='Cleary, Kevin' where metadata_value_id=31681;
+-- Wrong firstname of author in publication:9, item_id=15,  (eperson=14)
+update metadatavalue set text_value='Li, George' where metadata_value_id=12073;
 -- Fix switched names in pub_id=81 (and correct case)
 update metadatavalue set text_value='Zhu, Wanlin' where metadata_value_id=21679;
 -- Fix switched names in pub_id=579
@@ -185,12 +187,81 @@ delete from isj_publication where id=135;
 delete from isj_publication where id=8;
 -- Test
 delete from isj_publication where id=922;
+-- Yank, Haisheng
+delete from eperson where eperson_id=847;
+-- Hammer, Peter
+delete from eperson where eperson_id=812;
+-- Zhou, Jaiyin
+delete from eperson where eperson_id=2693;
+-- Wang, Chunliang (+ require replace Wang, Chunfang)
+delete from eperson where eperson_id=587;
+delete from eperson where eperson_id=907;
+-- Shimizu, Akinobu
+delete from eperson where eperson_id=888;
+-- Tek, Huyesin
+delete from eperson where eperson_id=910;
+-- Abolmaesumi, Purang
+delete from eperson where eperson_id=469;
+--  Burgert, Oliver
+delete from resourcepolicy where eperson_id=2192;
+delete from eperson where eperson_id=2192;
+update isj_user set submissions=4 where id=14086;
+update isj_publication set authorid=14086 where authorid=2487;
+update isj_review set user_id=14086 where user_id=2487;
+-- Fasquel, Jean-Baptiste
+delete from eperson where eperson_id=915;
+-- Xia, Tian
+delete from eperson where eperson_id=2273;
+-- Radau, Perry
+delete from eperson where eperson_id=72;
+-- Benmansour, Fethallah
+delete from resourcepolicy where eperson_id=2214;
+delete from eperson where eperson_id=2214;
+update isj_user set submissions=1 where id=3781;
+update isj_publication set authorid=3781 where authorid=2531;
+update isj_review set user_id=3781 where user_id=2531;
+-- Hibbard, Lyndon S.
+delete from eperson where eperson_id=312;
+update eperson set firstname='Lyndon' where eperson_id=4564;
+-- Dowling, Jason
+delete from eperson where eperson_id=8866;
+update eperson set email='dowlingjad@gmail.com' where eperson_id=2286;
+--  Stolka, Philipp
+delete from eperson where eperson_id=2478;
+-- Gao, Yixin -- Not duplicate, but similar name, replace after
+-- Constantin, Alexandra
+delete from eperson where eperson_id=2696;
+-- Durkin, John
+delete from eperson where eperson_id=2156;
+-- Hatt, Charles
+delete from eperson where eperson_id=9488;
+update eperson set email='charlesrayhatt@gmail.com' where eperson_id=5871;
+-- Gong, Ren Hui
+delete from eperson where eperson_id=515;
+-- Irshad, Humayun
+delete from eperson where eperson_id=6974;
+-- Fuerst, Bernhard
+delete from eperson where eperson_id=7877;
+update eperson set email='be.fuerst@gmail.com' where eperson_id=7864;
+-- Wang, Kevin (two persons same name?)
+-- Van Reeth, Eric
+delete from eperson where eperson_id=9141;
+delete from eperson where eperson_id=8812;
+update eperson set email='eric.vanreeth@gmail.com' where eperson_id=9470;
+-- Aghdasi, Nava
+delete from eperson where eperson_id=9736;
+-- Jaberzadeh, Amir
+delete from eperson where eperson_id=9750;
+-- Dowson, Nicholas
+delete from eperson where eperson_id=9362;
+update eperson set email='nick.dowson@gmail.com' where eperson_id=9215;
 ----------------
 delete from resourcepolicy where eperson_id in(
     2553,
     1043, 1052, 9792,
     105,
-    652
+    652,
+    2192
 );
 delete from eperson where eperson_id in(
 9855,
@@ -237,7 +308,33 @@ delete from eperson where eperson_id in(
 6785,
 2551,
 2758,
-9539
+9539,
+847,
+812,
+2693,
+587,
+907,
+888,
+910,
+469,
+2192,
+915,
+2273,
+72,
+2214,
+312,
+8866,
+2478,
+2696,
+2156,
+9488,
+515,
+6974,
+7877,
+9141,
+8812,
+9736,
+9750
 );
 update eperson set email='marius.staring@gmail.com' where eperson_id=208;
 update eperson set firstname='Leila' where eperson_id=7;
@@ -305,3 +402,32 @@ Remove:
 {"persona_id": 2304, "author_place": 1, "persona_email": "lxmspace@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},
 {"persona_id": 8894, "author_place": 1, "persona_email": "lxmspace@163.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},
 {"persona_id": 9219, "author_place": 1, "persona_email": "xiaokailiusq@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaokai"},
+Remove:
+{"persona_id": 9407, "author_place": 2, "persona_email": "li_wang@med.unc.edu", "author_fullname": "Wang, Linwei", "persona_lastname": "Wang", "persona_firstname": "Li"},
+Remove:
+{"persona_id": 774, "author_place": 1, "persona_email": "wchunfang@gmail.com", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunfang"},
+Remove:
+{"persona_id": 468, "author_place": 1, "persona_email": "yi.gao@gatech.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yi"},
+-- THis one is an extrapolation, maybe is not needed:
+{"persona_id": 2611, "author_place": 1, "persona_email": "ygao20@jhu.edu", "author_fullname": "Gao, Yi", "persona_lastname": "Gao", "persona_firstname": "Yixin"},
+
+
+In vim:
+firstdo:
+%s/{"persona_id/\r{"persona_id/g
+
+g/{"persona_id": 774, "author_place": .*, "persona_email": "wchunfang@gmail.com", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunfang"},/d
+
+g/{"persona_id": 2304, "author_place": .*, "persona_email": "lxmspace@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},/d
+g/{"persona_id": 8894, "author_place": .*, "persona_email": "lxmspace@163.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},/d
+g/{"persona_id": 9219, "author_place": .*, "persona_email": "xiaokailiusq@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaokai"},/d
+
+
+g/{"persona_id": 468, "author_place": .*, "persona_email": "yi.gao@gatech.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yi"},/d
+
+
+g/{"persona_id": 785, "author_place": .*, "persona_email": "jati.lue@gmail.com", "author_fullname": "Lu, Ying[L|l]i", "persona_lastname": "Lu", "persona_firstname": "Yi"},/d
+
+%s/, "persona_email": null//g
+%s/, "persona_lastname": null//g
+%s/, "persona_firstname": null//g
