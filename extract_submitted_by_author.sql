@@ -17,6 +17,7 @@ author_user as (
         'author_id',  s.eperson_id,
         'author_firstname', s.firstname,
         'author_lastname', s.lastname,
+        'author_fullname', concat(s.lastname,', ', s.firstname),
         'author_email', s.email,
         'author_institution', author_user.institution
     ) submitted_by_author

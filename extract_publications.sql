@@ -1,8 +1,8 @@
 select
 json_build_object(
-	'publication_id', pub.id,  /* ID */
-	'title', meta_title.text_value,
-	'abstract', meta_abstract.text_value,
+    'publication_id', pub.id,  /* ID */
+    'title', meta_title.text_value,
+    'abstract', meta_abstract.text_value,
     'date_submitted', meta_date_submitted.text_value
   )::jsonb
 from isj_publication pub

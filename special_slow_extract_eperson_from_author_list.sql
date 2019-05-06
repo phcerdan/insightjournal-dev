@@ -23,8 +23,8 @@ meta_authors as
 	  )
 	) authors
   from metadatavalue meta_authors
-  /* Use full lastname and first letter of firstname, Tustiston was the reason for this. Nick, Nicholas A., etc*/
-  left join author_persona persona on meta_authors.text_value ilike concat(persona.lastname,',%', left(persona.firstname,1), '%')
+  /* Use full lastname and first letter of firstname, Tustison was the reason for this. Nick, Nicholas A., etc*/
+  left join author_persona persona on meta_authors.text_value ilike concat(persona.lastname,', ', left(persona.firstname,4), '%')
   group by item_id, metadata_field_id
 )
 select distinct on (pub.id) /* remove duplicates on pub.id */
@@ -35,9 +35,22 @@ json_build_object(
   )::jsonb
 from isj_publication pub
 left join meta_authors on pub.itemid = meta_authors.item_id and meta_authors.metadata_field_id = 3 /* for all Authors (only names, no ids) */
-
 /* after:
-:%s/, "persona_email": null//
-:%s/, "persona_firstname": null//
-:%s/, "persona_lastmail": null//
+%s/{"persona_id/\r{"persona_id/g
+
+g/{"persona_id": 774, "author_place": .*, "persona_email": "wchunfang@gmail.com", "author_fullname": "Wang, Chunliang", "persona_lastname": "Wang", "persona_firstname": "Chunfang"},/d
+
+g/{"persona_id": 2304, "author_place": .*, "persona_email": "lxmspace@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},/d
+g/{"persona_id": 8894, "author_place": .*, "persona_email": "lxmspace@163.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaoming"},/d
+g/{"persona_id": 9219, "author_place": .*, "persona_email": "xiaokailiusq@gmail.com", "author_fullname": "Liu, Xiaoxiao", "persona_lastname": "Liu", "persona_firstname": "Xiaokai"},/d
+
+
+g/{"persona_id": 468, "author_place": .*, "persona_email": "yi.gao@gatech.edu", "author_fullname": "Gao, Yixin", "persona_lastname": "Gao", "persona_firstname": "Yi"},/d
+
+
+g/{"persona_id": 785, "author_place": .*, "persona_email": "jati.lue@gmail.com", "author_fullname": "Lu, Ying[L|l]i", "persona_lastname": "Lu", "persona_firstname": "Yi"},/d
+
+%s/, "persona_email": null//g
+%s/, "persona_lastname": null//g
+%s/, "persona_firstname": null//g
 */

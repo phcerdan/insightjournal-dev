@@ -1,3 +1,4 @@
+/* OUTDATED use special_slow_extract_eperson_from_author_list.sql instead */
 select distinct on (pub.id) /* remove duplicates on pub.id */
 json_build_object(
 	'publication_id', pub.id,  /* ID */

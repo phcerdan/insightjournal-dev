@@ -19,9 +19,7 @@ select json_build_object(
 )::jsonb
 from isj_publication pub
 left join it2bitstream on pub.itemid = item_id
-
 /*
-
 select
   pub.id as pub_id,
   pub.itemid,

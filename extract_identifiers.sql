@@ -2,7 +2,7 @@
 select distinct on (pub.id) /* remove duplicates on pub.id */
 json_build_object(
 	'publication_id', pub.id,  /* ID */
-	'identifier', json_build_object(
+	'identifiers', json_build_object(
             'doi', meta_doi.text_value,
             'pubmed', meta_pubmed.text_value
     )::jsonb

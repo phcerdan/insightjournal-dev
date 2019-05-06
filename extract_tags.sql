@@ -17,3 +17,4 @@ left join
    metadatavalue meta_tags
   group by item_id, metadata_field_id
   ) meta_tags on pub.itemid = meta_tags.item_id and meta_tags.metadata_field_id = 57 /* for Tags */
+order by pub.id asc

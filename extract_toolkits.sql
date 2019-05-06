@@ -1,3 +1,4 @@
+/* OUTDATED, use extract_journals.sql instead */
 /* Good example at:
 https://stackoverflow.com/questions/42222968/create-nested-json-from-sql-query-postgres-9-4
 */
