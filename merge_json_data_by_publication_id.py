@@ -6,6 +6,12 @@ import itertools # for izip_longest
 
 
 if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        print("Example:\n"
+              "./merge_json_data_by_publication_id.py /tmp/database_output.json \\ \n"
+              "~/InsightJournal/data/publication_all.json \\ \n"
+              "~/InsightJournal/data/publication_tags.json")
+        raise Exception("Wrong arguments")
     output_file = sys.argv[1]
     data_files = sys.argv[2:]
     a_file_doest_not_exist = False
