@@ -14,8 +14,10 @@ def read_blob_publication_logo(path_to_dir):
         # Requires CREATE EXTENSION byteamagic
         # From: https://github.com/nmandery/pg_byteamagic/blob/master/doc/byteamagic.md
         cur.execute(""" select pub.id,
-                        pub.logo, byteamagic_mime(pub.logo),
-                        pub.biglogo, byteamagic_mime(pub.biglogo)
+                        pub.logo,
+                        byteamagic_mime(pub.logo),
+                        pub.biglogo,
+                        byteamagic_mime(pub.biglogo)
                         from isj_publication pub
                         """)
                         # WHERE pub.id = %s """, (part_id,))
@@ -37,14 +39,14 @@ def read_blob_publication_logo(path_to_dir):
                 print(" logo")
                 extension = logo_mime_type.split('/')[1]
                 print("  extension: {}".format(extension))
-                out_path = os.path.join(pub_folder, 'publication_logo.' + extension)
+                out_path = os.path.join(pub_folder, 'thumbnail.' + extension)
                 print("  output file: {}".format(str(out_path)))
                 open(str(out_path), 'wb').write(logo_data)
             if biglogo_data and biglogo_mime_type:
                 print(" biglogo")
                 extension = biglogo_mime_type.split('/')[1]
                 print("  extension: {}".format(extension))
-                out_path = os.path.join(pub_folder, 'publication_biglogo.' + extension)
+                out_path = os.path.join(pub_folder, 'cover.' + extension)
                 print("  output file: {}".format(str(out_path)))
                 open(str(out_path), 'wb').write(biglogo_data)
         # close the communication with the PostgresQL database
