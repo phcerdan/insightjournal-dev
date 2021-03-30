@@ -13,8 +13,8 @@ if __name__ == '__main__':
     output_folder = sys.argv[1]
     data_file = sys.argv[2]
     if not os.path.exists(data_file):
-        print("File does not exist {}".format(metadata_file))
-        raise Exception("File does not exist")
+        print("File does not exist {}".format(data_file))
+        raise Exception("Input data file does not exist")
     with open(data_file, "r") as f:
         data = json.load(f)
         print(data)

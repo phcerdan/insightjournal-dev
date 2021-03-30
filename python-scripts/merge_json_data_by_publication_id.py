@@ -17,7 +17,7 @@ if __name__ == '__main__':
     a_file_doest_not_exist = False
     for data_file in data_files:
         if not os.path.exists(data_file):
-            print("File does not exist {}".format(metadata_file))
+            print("File does not exist {}".format(data_file))
             a_file_doest_not_exist = True
     if a_file_doest_not_exist:
         raise Exception("Some files do not exist")
