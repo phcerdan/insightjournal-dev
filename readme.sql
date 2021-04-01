@@ -132,7 +132,7 @@ update metadatavalue set text_value='Sosna, Jacob' where metadata_value_id=15518
 Change lastname of eperson=9689
 lastname = 'Hernandez-Cerdan'
 ----- SCRIPT ----
-update eperson set lastname='Hernandez-Cerdan' where eperson_id=9689
+update eperson set lastname='Hernandez-Cerdan' where eperson_id=9689;
 -----------------
 
 Delete duplicate users (with no submissions, keep those with submissions):
@@ -155,8 +155,7 @@ Keep: 3, isj_user=4, submissions=4, reviews=9
 Delete: 525, isj_user=925
 Delete: 3318, isj_user=4707
 ----- SCRIPT ----
-update eperson set firstname='Dashboard', lastname='Dashboard'
-where eperson_id=2
+update eperson set firstname='Dashboard', lastname='Dashboard' where eperson_id=2;
 -----------------
 ---
 Boettger, Thomas (3x)
@@ -392,10 +391,10 @@ Keep 313, isj_user=287, submissions=0, reviews=0 (Keep because modern)
  {"persona_id": 94, "author_name": "Zhang, Hui", "author_place": 2, "persona_email": "huiz@gradient.cis.upenn.edu", "persona_lastname": "Zhang", "persona_firstname": "Hui"},
  {"persona_id": 313, "author_name": "Zhang, Hui", "author_place": 2, "persona_email": "zhang@isis.imac.georgetown.edu", "persona_lastname": "Zhang", "persona_firstname": "Hui"},
 ----- SCRIPT ---------
--- update isj_user set reviews=1 where id=287 and reviews=0;
--- update isj_user set submissions=5 where id=287 and submissions=1;
--- update isj_revision_comment set eperson_id=313 where eperson_id=94;
--- update isj_review set user_id=287 where user_id=95;
+update isj_user set reviews=1 where id=287 and reviews=0;
+update isj_user set submissions=5 where id=287 and submissions=1;
+update isj_revision_comment set eperson_id=313 where eperson_id=94;
+update isj_review set user_id=287 where user_id=95;
 delete from eperson where eperson_id = 94;
 /* delete from isj_user where id=95 */
 ----------------------
@@ -409,11 +408,11 @@ Delete 941, isj_user=848, submissions=0, reviews=0
  {"persona_id": 779, "author_name": "Kahn, Eliezer", "author_place": 1, "persona_email": "eliezer.kahn@jhuapl.edu", "persona_lastname": "Kahn", "persona_firstname": "Eli"},
  {"persona_id": 941, "author_name": "Kahn, Eliezer", "author_place": 1, "persona_email": "eliezer.kahn@jhuapl.com", "persona_lastname": "Kahn", "persona_firstname": "Eliezer"},
 ----- SCRIPT ---------
--- update isj_revision_comment set eperson_id=779 where eperson_id=325;
--- update isj_review set user_id=697 where user_id=299;
+update isj_revision_comment set eperson_id=779 where eperson_id=325;
+update isj_review set user_id=697 where user_id=299;
 delete from eperson where eperson_id = 325;
--- update isj_revision_comment set eperson_id=779 where eperson_id=941;
--- update isj_review set user_id=697 where user_id=848;
+update isj_revision_comment set eperson_id=779 where eperson_id=941;
+update isj_review set user_id=697 where user_id=848;
 delete from eperson where eperson_id = 941;
 /* delete from isj_user where id=299 */
 ----------------------
@@ -492,7 +491,7 @@ Delete 839
 {"persona_id": 840, "author_place": 1, "persona_email": "a.becciu@tue.nl", "author_fullname": "Becciu, Alessandro", "persona_lastname": "Becciu", "persona_firstname": "Alessandro"},
 {"persona_id": 839, "author_place": 1, "persona_email": "abecciu@tue.nl", "author_fullname": "Becciu, Alessandro", "persona_lastname": "Becciu", "persona_firstname": "Alessandro"}, pub_id=558
 --SCRIPT--
-delete from eperson where eperson_id=839
+delete from eperson where eperson_id=839;
 --
 Hammer, Peter(x2)
 Delete 812, isj_user=720
@@ -500,7 +499,7 @@ Keep 851, isj_user=758 (there is one submission for sure)
 {"persona_id": 812, "author_place": 1, "persona_email": "peter.hammer@tufts.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"},
 {"persona_id": 851, "author_place": 1, "persona_email": "peter.hammer@childrens.harvard.edu", "author_fullname": "Hammer, Peter", "persona_lastname": "Hammer", "persona_firstname": "Peter"}, pub_id=546
 --SCRIPT--
-delete from eperson where eperson_id=812
+delete from eperson where eperson_id=812;
 --
 Orkisz, Maciej (x2)
 Keep 879, isj_user=786, but change email

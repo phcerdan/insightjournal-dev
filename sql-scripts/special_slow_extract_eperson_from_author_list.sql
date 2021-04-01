@@ -53,4 +53,5 @@ g/{"persona_id": 785, "author_place": .*, "persona_email": "jati.lue@gmail.com",
 %s/, "persona_email": null//g
 %s/, "persona_lastname": null//g
 %s/, "persona_firstname": null//g
+%s/, $/,
 */
