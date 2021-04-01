@@ -633,5 +633,10 @@
 {"publication_id" : 984, "categories" : ["Deformable registration", "Filtering", "Registration", "Transforms"]},
 {"publication_id" : 985, "categories" : ["Code speed optimization", "Image", "Images", "Iterators", "Neighborhood filters", "Parallelization, SMP"]},
 {"publication_id" : 986, "categories" : ["Image", "Information Theory", "Iterators"]},
-{"publication_id" : 987, "categories" : ["CMake", "Code speed optimization", "Parallelization, SMP", "Tensor image reconstruction"]}
+{"publication_id" : 987, "categories" : ["CMake", "Code speed optimization", "Parallelization, SMP", "Tensor image reconstruction"]},
+{"publication_id" : 988, "categories" : ["CMake", "Code speed optimization", "Image", "Images", "Iterators", "Optimization"]},
+{"publication_id" : 989, "categories" : ["Filtering", "Parallelization, SMP", "Segmentation"]},
+{"publication_id" : 990, "categories" : ["Optimization", "Registration optimizers"]},
+{"publication_id" : 991, "categories" : ["Mixture of densities", "Parameter Techniques"]},
+{"publication_id" : 992, "categories" : ["Geometric transforms", "Resampling"]}
 ]
