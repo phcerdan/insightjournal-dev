@@ -170,7 +170,7 @@
      "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
      "date": "2015-07-20T15:10:33",
      "persona_email": "ntustison@gmail.com",
-     "persona_firstname": "Nick",
+     "persona_firstname": "Nicholas J.",
      "persona_id": 8833,
      "persona_lastname": "Tustison"
     },
@@ -178,7 +178,7 @@
      "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
      "date": "2015-07-20T15:10:35",
      "persona_email": "ntustison@gmail.com",
-     "persona_firstname": "Nick",
+     "persona_firstname": "Nicholas J.",
      "persona_id": 8833,
      "persona_lastname": "Tustison"
     },
@@ -459,10 +459,21 @@
   "comments": [],
   "publication_id": 118
  },
- {
-  "comments": [],
-  "publication_id": 120
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "Digital Topology would be a great addition to the Insight Toolkit.\r\n\r\nThe author published an illustrative article with an extended introduction to Digital Topology here: https://icube-publis.unistra.fr/docs/4993/lamy_cmbp_2007.pdf",
+     "date": "2019-01-25T11:38:06",
+     "persona_email": "pablo.hernandez.cerdan@outlook.com",
+     "persona_firstname": "Pablo",
+     "persona_id": 9689,
+     "persona_lastname": "Hernandez-Cerdan"
+    }
+   ],
+   "publication_id": 120
+  }
+ ],
  {
   "comments": [],
   "publication_id": 121
@@ -707,6 +718,14 @@
   {
    "comments": [
     {
+     "content": "Hello Mr. Serdar Balci my name is Christian and I am so interested in your implementation I read about B-spline deformation but I try to use in 2D-3D registration process using a ray casting. So I would like to extend your work and I would like to talk about this more with you if it is possible.\r\n\r\nRegardss Mr. Serdar Balci.",
+     "date": "2019-01-02T13:51:32",
+     "persona_email": "csucav@unsa.edu.pe",
+     "persona_firstname": "Christian",
+     "persona_id": 11615,
+     "persona_lastname": "Suca velando"
+    },
+    {
      "content": "hi,I\\'ve tried to complile and run this program with vs2008 and ITK  \uff0cbut i encountered some problems:\r\n  1) when i tried to match the affine data created by CreateImagesetAffine,i\\'ve got an exception as follows:\r\nFile\uff1a..\\\\..\\\\..\\\\ITK\\\\Code\\\\Common\\\\ItkMultithreader.cxx\r\nLine:475\r\nitk::ERROR: MultiThreader<00f62ae0>:Exception occurred during SingleMethodExcute.\r\nitk::ERROR:   UnivariateEntropyMultiImageMetric.txx :238\r\nitk::ERROR:  UnivariateEntropyMultiImageMetric<00f62910>: too many samples mapped outside the moving buffer.\r\n\r\n2)while after i run the ComputeoutPuts.exe\uff0cdebug error occured:  \r\n this application has requested the runtime to terminate it in an unusual way .please contact the support team for more informaiton.\r\n\r\nbesides,after i choose to terminate this ,i find if i chose to use B-spline to do registration,only affine file and outputimage can be found,the output files related with the b-spline-grid can not be found.I need your help  urgently...expecting your answer and help....thank you for all your help... ",
      "date": "2013-07-09T21:15:30",
      "persona_email": "cdwangjiang@126.com",
@@ -919,10 +938,21 @@
   "comments": [],
   "publication_id": 231
  },
- {
-  "comments": [],
-  "publication_id": 237
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
+     "date": "2019-11-27T09:55:27",
+     "persona_email": "jasmineibrahim2@gmail.com",
+     "persona_firstname": "Mornica",
+     "persona_id": 11865,
+     "persona_lastname": "Brown"
+    }
+   ],
+   "publication_id": 237
+  }
+ ],
  {
   "comments": [],
   "publication_id": 240
@@ -1057,20 +1087,20 @@
   {
    "comments": [
     {
-     "content": "The code was developed & compiled on  ITK 3.10.1 (patch 1) version that time and it hasn't been updated later for the later versions.\r\n\r\nYou may try compiling on the same ITK version:\r\nhttp://sourceforge.net/projects/itk/files/itk/3.10/\r\n\r\nGood Luck!\r\n",
-     "date": "2015-06-13T08:53:27",
-     "persona_email": "subrahmanyam.gorthi@gmail.com",
-     "persona_firstname": "Subrahmanyam",
-     "persona_id": 769,
-     "persona_lastname": "Gorthi"
-    },
-    {
      "content": "Hello. I compiled your code with ITK 4.7.2 and I am getting the following error when running mask2contour using your example:\r\n \r\nExceptionObject caught!\r\n\r\nitk::ExceptionObject (0x2354300)\r\nLocation: \"void itk::ExtractImageFilterTInputImage TOutputImage::GenerateOutputInformation() [with TInputImage = itk::Imageunsigned char 3u TOutputImage = itk::Imageunsigned char 2u]\"\r\nFile: /homes/5/amamonov/src/InsightToolkit-4.7.2/Modules/Core/Common/include/itkExtractImageFilter.hxx\r\nLine: 244\r\nDescription: itk::ERROR: ExtractImageFilter(0x2353d10): It is required that the strategy for collapsing the direction matrix be explicitly specified. Set with either myfilter-SetDirectionCollapseToIdentity() or myfilter-SetDirectionCollapseToSubmatrix() PN3itk9ImageBaseILj3EEE\r\n\r\nPlease advise.",
      "date": "2015-06-12T18:20:33",
      "persona_email": "amamonov@mgh.harvard.edu",
      "persona_firstname": "Artem",
      "persona_id": 9546,
      "persona_lastname": "Mamonov"
+    },
+    {
+     "content": "The code was developed & compiled on  ITK 3.10.1 (patch 1) version that time and it hasn't been updated later for the later versions.\r\n\r\nYou may try compiling on the same ITK version:\r\nhttp://sourceforge.net/projects/itk/files/itk/3.10/\r\n\r\nGood Luck!\r\n",
+     "date": "2015-06-13T08:53:27",
+     "persona_email": "subrahmanyam.gorthi@gmail.com",
+     "persona_firstname": "Subrahmanyam",
+     "persona_id": 769,
+     "persona_lastname": "Gorthi"
     }
    ],
    "publication_id": 316
@@ -1092,20 +1122,20 @@
   {
    "comments": [
     {
-     "content": "Hi,\r\nI can\\'t reproduce the registration result using ITK4.1 or 4.2. I don\\'t understand very well how are computed the coefficient and  why the metric is go up instead go down. The result of the registration is really bad, the algorithm  destroy the accumulated image in each iteration.\r\n",
-     "date": "2012-07-18T12:02:33",
-     "persona_email": "curiale@gmail.com",
-     "persona_firstname": "Ariel Hern\u00e1n",
-     "persona_id": 6521,
-     "persona_lastname": "Curiale"
+     "content": "Hi,\r\nI don\\'t have the parameters (long time ago I did not have a look on this code!).\r\nAccording to me the error is mostly due the fact that the size along z axis is not sufficient. The filters have sizes 9 (along all directions). Thus, you may have a sufficiently big volume to let the convolution take sense. The strict minimum is of course 9 but due to padding in the convolution you may ask for bigger sizes.\r\n\r\nAlso note that the 3D convolution is very slow in ITK!\r\n\r\nBest",
+     "date": "2012-02-21T10:25:12",
+     "persona_email": "j.plumat@gmail.com",
+     "persona_firstname": "Jerome",
+     "persona_id": 1017,
+     "persona_lastname": "Plumat"
     },
     {
-     "content": "Hy Jerome,\r\nI finally find were was the problem. The ApplyUpdate was not doing using ITK 4.1 and ITK 4.2. Another thing was that I found a bug (I suppose)  in the class NeighborhoodInnerProduct. \r\n\r\nTo compile and execute your code using ITK 4.1.0 or 4.2.0 I have needed to do this:\r\n\r\n1) I duplicate the class NeighborhoodInnerProduct and use the new class instead the ITK version.\r\n\r\n2) I changed the following lines into the methods operator():\r\n\r\ntypedef typename NumericTraits< InputPixelRealType >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::ValueType   OutputPixelValueType;\r\n\r\nfor this\r\n\r\ntypedef typename NumericTraits< TOperator >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::RealType OutputPixelValueType;\r\n\r\n\r\n\r\n3) I changed the class declaration of the method ApplyUpdate into MorphonRegistrationFilter for:\r\nApplyUpdate(const TimeStepType& dt) ",
-     "date": "2012-07-20T09:19:30",
-     "persona_email": "curiale@gmail.com",
-     "persona_firstname": "Ariel Hern\u00e1n",
-     "persona_id": 6521,
-     "persona_lastname": "Curiale"
+     "content": "Hello,\r\nThanks for using this code.\r\nFirst of all, I have not been work on this code nor with ITK since a while and my answers may be no so precise.\r\n\r\nFirst, the command I gave as example should work on the hand image. If not I suggest to have a look on the convolution filters and on the image reader.\r\n\r\nThe deformation field is updated and weighted thanks to the certainty matrix. The certainty matrix has no \\\"real interest\\\" by itself (according to the best of my knowledges). It is the respond, at a certain sampling, of the convolution of the image by the directional filters. The certainties are a linear transformation of the convoluted image.\r\n\r\nThe certainty matrix is the result of Pr. Andersson and Knutsson works from Linkoping University. I recommend the following papers\r\n- Non-rigid registration using morphons (at http://130.236.96.13/mi_old/Publications/pdfs/pettersson06.pdf#page=59 page 25 to 36)\r\n- Normalised convolution and morphons for non-rigid registration (at http://130.236.96.13/mi_old/Publications/pdfs/pkb06c.pdf )\r\n- Morphons: Paint on Priors and Elastic Canvas (http://130.236.96.13/mi_old/Publications/pdfs/ka05c.pdf)\r\nWell, also all the work of Knutsson. It mostly weights the deformation fields depending of the information on the image (a line or an edge has a higher certainty than a smooth area for example).\r\n\r\nI hope this helps.\r\n",
+     "date": "2012-07-19T05:47:18",
+     "persona_email": "j.plumat@gmail.com",
+     "persona_firstname": "Jerome",
+     "persona_id": 1017,
+     "persona_lastname": "Plumat"
     },
     {
      "content": "Could you please post the parameters you used for the 3D registration? I tried \\\"10 1.5 10 1.5 10 4.5 10 4.5 10 4.5 10 2 10 2 10 2 10 2 10 2 10 2 10 3.5 10 2.5\\\" you mentioned in the 2D registration case but failed. It keeps throw exception out. \r\n\r\nHere is the exception information:\r\nDescription: itk::ERROR: RecursiveGaussianImageFilter(0000000002AA69D0): The number of pixels along direction 2 is less than 4. This filter requires a minimum of four pixels along the dimension to be processed.",
@@ -1116,28 +1146,28 @@
      "persona_lastname": "Cheng"
     },
     {
+     "content": "Hy Jerome,\r\nI finally find were was the problem. The ApplyUpdate was not doing using ITK 4.1 and ITK 4.2. Another thing was that I found a bug (I suppose)  in the class NeighborhoodInnerProduct. \r\n\r\nTo compile and execute your code using ITK 4.1.0 or 4.2.0 I have needed to do this:\r\n\r\n1) I duplicate the class NeighborhoodInnerProduct and use the new class instead the ITK version.\r\n\r\n2) I changed the following lines into the methods operator():\r\n\r\ntypedef typename NumericTraits< InputPixelRealType >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::ValueType   OutputPixelValueType;\r\n\r\nfor this\r\n\r\ntypedef typename NumericTraits< TOperator >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::RealType OutputPixelValueType;\r\n\r\n\r\n\r\n3) I changed the class declaration of the method ApplyUpdate into MorphonRegistrationFilter for:\r\nApplyUpdate(const TimeStepType& dt) ",
+     "date": "2012-07-20T09:19:30",
+     "persona_email": "curiale@gmail.com",
+     "persona_firstname": "Ariel Hern\u00e1n",
+     "persona_id": 6521,
+     "persona_lastname": "Curiale"
+    },
+    {
+     "content": "Hi,\r\nI can\\'t reproduce the registration result using ITK4.1 or 4.2. I don\\'t understand very well how are computed the coefficient and  why the metric is go up instead go down. The result of the registration is really bad, the algorithm  destroy the accumulated image in each iteration.\r\n",
+     "date": "2012-07-18T12:02:33",
+     "persona_email": "curiale@gmail.com",
+     "persona_firstname": "Ariel Hern\u00e1n",
+     "persona_id": 6521,
+     "persona_lastname": "Curiale"
+    },
+    {
      "content": "I changed the level numbers to 10 and it works without throwing any exception. I guess the number of slices in z-axis is too small, so after resampling 13 times, the number goes down to smaller than 4 and cause the exception.\r\n\r\nHere is the parameter I used for testing:\r\n10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5",
      "date": "2012-02-20T00:34:50",
      "persona_email": "huangcheng1987928@gmail.com",
      "persona_firstname": "Huang",
      "persona_id": 6032,
      "persona_lastname": "Cheng"
-    },
-    {
-     "content": "Hi,\r\nI don\\'t have the parameters (long time ago I did not have a look on this code!).\r\nAccording to me the error is mostly due the fact that the size along z axis is not sufficient. The filters have sizes 9 (along all directions). Thus, you may have a sufficiently big volume to let the convolution take sense. The strict minimum is of course 9 but due to padding in the convolution you may ask for bigger sizes.\r\n\r\nAlso note that the 3D convolution is very slow in ITK!\r\n\r\nBest",
-     "date": "2012-02-21T10:25:12",
-     "persona_email": "jerome.plumat@uclouvain.be",
-     "persona_firstname": "Jerome",
-     "persona_id": 1017,
-     "persona_lastname": "Plumat"
-    },
-    {
-     "content": "Hello,\r\nThanks for using this code.\r\nFirst of all, I have not been work on this code nor with ITK since a while and my answers may be no so precise.\r\n\r\nFirst, the command I gave as example should work on the hand image. If not I suggest to have a look on the convolution filters and on the image reader.\r\n\r\nThe deformation field is updated and weighted thanks to the certainty matrix. The certainty matrix has no \\\"real interest\\\" by itself (according to the best of my knowledges). It is the respond, at a certain sampling, of the convolution of the image by the directional filters. The certainties are a linear transformation of the convoluted image.\r\n\r\nThe certainty matrix is the result of Pr. Andersson and Knutsson works from Linkoping University. I recommend the following papers\r\n- Non-rigid registration using morphons (at http://130.236.96.13/mi_old/Publications/pdfs/pettersson06.pdf#page=59 page 25 to 36)\r\n- Normalised convolution and morphons for non-rigid registration (at http://130.236.96.13/mi_old/Publications/pdfs/pkb06c.pdf )\r\n- Morphons: Paint on Priors and Elastic Canvas (http://130.236.96.13/mi_old/Publications/pdfs/ka05c.pdf)\r\nWell, also all the work of Knutsson. It mostly weights the deformation fields depending of the information on the image (a line or an edge has a higher certainty than a smooth area for example).\r\n\r\nI hope this helps.\r\n",
-     "date": "2012-07-19T05:47:18",
-     "persona_email": "jerome.plumat@uclouvain.be",
-     "persona_firstname": "Jerome",
-     "persona_id": 1017,
-     "persona_lastname": "Plumat"
     }
    ],
    "publication_id": 320
@@ -1520,6 +1550,14 @@
      "persona_firstname": "Amir",
      "persona_id": 6301,
      "persona_lastname": "Khojaste"
+    },
+    {
+     "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
+     "date": "2019-11-27T09:56:57",
+     "persona_email": "jasmineibrahim2@gmail.com",
+     "persona_firstname": "Mornica",
+     "persona_id": 11865,
+     "persona_lastname": "Brown"
     }
    ],
    "publication_id": 640
@@ -1623,10 +1661,21 @@
   "comments": [],
   "publication_id": 657
  },
- {
-  "comments": [],
-  "publication_id": 658
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "can you provide matlab code for it?",
+     "date": "2018-06-06T01:48:05",
+     "persona_email": "umarmehdi.shah@ucp.edu.pk",
+     "persona_firstname": "Umar ",
+     "persona_id": 11447,
+     "persona_lastname": "Shah"
+    }
+   ],
+   "publication_id": 658
+  }
+ ],
  {
   "comments": [],
   "publication_id": 659
@@ -1755,6 +1804,14 @@
   {
    "comments": [
     {
+     "content": "i have been looking for this problem for quite a time can you help me solve it? may i have matlab code?",
+     "date": "2018-06-06T01:46:43",
+     "persona_email": "umarmehdi.shah@ucp.edu.pk",
+     "persona_firstname": "Umar ",
+     "persona_id": 11447,
+     "persona_lastname": "Shah"
+    },
+    {
      "content": "Can you kindly provide the source matlab code",
      "date": "2014-01-28T14:40:36",
      "persona_email": "ayshaintouch@gmail.com",
@@ -1770,20 +1827,20 @@
   {
    "comments": [
     {
-     "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
-     "date": "2012-11-22T05:33:17",
-     "persona_email": "dzenanz@gmail.com",
-     "persona_firstname": "D\u017eenan",
-     "persona_id": 2260,
-     "persona_lastname": "Zuki\u0107"
-    },
-    {
      "content": "For 3d (and 4d) datasets, a small domain sigma may be appropriate in the x and y direction but the distance between slices in the z direction is typically much larger than the pixel spacing in x and y. This leads to a significant increase in memory usage because the small sigma leads to many bins between slices.\r\n\r\nI haven\\'t looked at the code in some time, but I am aware that this is a problem and I have been meaning to look at it again.",
      "date": "2013-05-08T12:31:19",
      "persona_email": "jordanwoehr@gmail.com",
      "persona_firstname": "Jordan",
      "persona_id": 2279,
      "persona_lastname": "Woehr"
+    },
+    {
+     "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
+     "date": "2012-11-22T05:33:17",
+     "persona_email": "dzenanz@gmail.com",
+     "persona_firstname": "D\u017eenan",
+     "persona_id": 2260,
+     "persona_lastname": "Zuki\u0107"
     }
    ],
    "publication_id": 692
@@ -1948,10 +2005,21 @@
    "publication_id": 718
   }
  ],
- {
-  "comments": [],
-  "publication_id": 719
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "After generating a project using CMAke 3.11.4 on Windows 10. I cannot build the ALL_BUILD solution because the error.h file is missing. Where can I find it? and How can I resolve this problem?\r\n\r\nThank you.\r\nMinhPhuoc Hong",
+     "date": "2018-09-09T20:22:22",
+     "persona_email": "minpu.code@gmail.com",
+     "persona_firstname": "Minhphuoc",
+     "persona_id": 11534,
+     "persona_lastname": "Hong"
+    }
+   ],
+   "publication_id": 719
+  }
+ ],
  {
   "comments": [],
   "publication_id": 720
@@ -2149,7 +2217,7 @@
    "comments": [
     {
      "content": "NIce article, but has anyone got this to work?",
-     "date": "2011-08-29T15:24:32",
+     "date": "2011-08-29T15:24:15",
      "persona_email": "rick_farr@me.com",
      "persona_firstname": "Ricky",
      "persona_id": 4047,
@@ -2157,7 +2225,7 @@
     },
     {
      "content": "NIce article, but has anyone got this to work?",
-     "date": "2011-08-29T15:24:15",
+     "date": "2011-08-29T15:24:32",
      "persona_email": "rick_farr@me.com",
      "persona_firstname": "Ricky",
      "persona_id": 4047,
@@ -2354,24 +2422,8 @@
   {
    "comments": [
     {
-     "content": "Hi Ariel,\r\n\r\nThanks for your comments. Note that we keep a latest version at\r\nhttps://github.com/ITKTools/ITKTools/tree/master/src/common\r\n\r\nWe have a function PrintAllArguments() there.\r\n\r\nWe did not notice printing problems or issues with negative numbers. Can you give some details?\r\n\r\nRegards, Marius",
-     "date": "2013-01-23T23:53:35",
-     "persona_email": "m.staring@lumc.nl",
-     "persona_firstname": "Marius",
-     "persona_id": 208,
-     "persona_lastname": "Staring"
-    },
-    {
-     "content": "Just comitted \r\nhttps://github.com/ITKTools/ITKTools/commit/2279517fbbd4096a7d6628aa6b0c92224d36fe18\r\nThanks!\r\nMarius",
-     "date": "2013-03-06T22:17:32",
-     "persona_email": "m.staring@lumc.nl",
-     "persona_firstname": "Marius",
-     "persona_id": 208,
-     "persona_lastname": "Staring"
-    },
-    {
-     "content": "Hi Marius, I fixed a bug in my code. I didn\\'t know that you have another version. My version dosen\\'t have that method. Also, your method dosen\\'t print the parameters.\r\nTake a look of the output of my code and yours:\r\n-------- My code ------\r\nCommand Line Arguments:\r\n--GWidthBM: 3\r\n--alpha: 250\r\n--blockSizeBM: 10\r\n--downSampleBM: 6\r\n--elementPerLine: 3\r\n--epsilon: 1e-5\r\n--errorOnlyMyo\r\n--espGrid: 5\r\n--fieldSampleRate: 5 5 5\r\n--fixedManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--forceCollapse: 1 1 0\r\n--inputVolume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--labelMask: 3\r\n--lambda: 0.2\r\n--lambdaBM: 0.5\r\n--mask3D\r\n--maxIt: 25\r\n--maxItBM: 5\r\n--maxItDemons: 10 10 10\r\n--maxRmsE: 0.7 0.4 0.2 0.01\r\n--metricType: SSD\r\n--movingManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_5_Axial_PhantomCompLog.nrrd\r\n--multiResolutionItScale: 2\r\n--multiResolutionScale: 10\r\n--newDirection: -1 0 0 0 1 0 0 0 1\r\n--newDirection2: -12.1 0 0 0 1 0 0 0 -122.0\r\n--numberChecker: 8\r\n--numberOfLevels: 4\r\n--numberTrheads: 1\r\n--offSpeckle\r\n--outputCk: outputCk.txt\r\n--radiusDilateMask: 10\r\n--relaxFact: 0.8\r\n--searchSizeBM: 3\r\n--sigmaBM: 3\r\n--sigmaDef: 2\r\n--sigmaUp: 8\r\n--sliceCollapse: 104\r\n--stepAffinelength: 0.01 10\r\n--steplength: 0.01 40\r\n--tmovedImage: 5\r\n--transformType: VBST\r\n--trueFieldName: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/SSD_TrueField_Axial.nrrd\r\n--verbosity: 1\r\n--visualize\r\n--visualizeMask\r\n--volume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/DatosNrrd/IM_0001A.nrrd\r\n----------------------\r\n\r\n\r\n\r\n\r\n\r\n-------- Your code ------\r\n\r\n--GWidthBM\r\n--alpha\r\n--blockSizeBM\r\n--downSampleBM\r\n--elementPerLine\r\n--epsilon\r\n--errorOnlyMyo\r\n--espGrid\r\n--fieldSampleRate\r\n--fixedManualSeg\r\n--forceCollapse\r\n--inputVolume\r\n--labelMask\r\n--lambda\r\n--lambdaBM\r\n--mask3D\r\n--maxIt\r\n--maxItBM\r\n--maxItDemons\r\n--maxRmsE\r\n--metricType\r\n--movingManualSeg\r\n--multiResolutionItScale\r\n--multiResolutionScale\r\n--newDirection\r\n--newDirection2\r\n--numberChecker\r\n--numberOfLevels\r\n--numberTrheads\r\n--offSpeckle\r\n--outputCk\r\n--radiusDilateMask\r\n--relaxFact\r\n--searchSizeBM\r\n--sigmaBM\r\n--sigmaDef\r\n--sigmaUp\r\n--sliceCollapse\r\n--stepAffinelength\r\n--steplength\r\n--tmovedImage\r\n--transformType\r\n--trueFieldName\r\n--verbosity\r\n--visualize\r\n--visualizeMask\r\n--volume",
-     "date": "2013-03-06T06:41:03",
+     "content": "Hi, I\\'ve  fixed a bug to allow negative numbers and print properly. If you want I could share the code with you.",
+     "date": "2013-01-22T23:33:34",
      "persona_email": "curiale@gmail.com",
      "persona_firstname": "Ariel Hern\u00e1n",
      "persona_id": 6521,
@@ -2386,12 +2438,28 @@
      "persona_lastname": "Curiale"
     },
     {
-     "content": "Hi, I\\'ve  fixed a bug to allow negative numbers and print properly. If you want I could share the code with you.",
-     "date": "2013-01-22T23:33:34",
+     "content": "Hi Marius, I fixed a bug in my code. I didn\\'t know that you have another version. My version dosen\\'t have that method. Also, your method dosen\\'t print the parameters.\r\nTake a look of the output of my code and yours:\r\n-------- My code ------\r\nCommand Line Arguments:\r\n--GWidthBM: 3\r\n--alpha: 250\r\n--blockSizeBM: 10\r\n--downSampleBM: 6\r\n--elementPerLine: 3\r\n--epsilon: 1e-5\r\n--errorOnlyMyo\r\n--espGrid: 5\r\n--fieldSampleRate: 5 5 5\r\n--fixedManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--forceCollapse: 1 1 0\r\n--inputVolume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--labelMask: 3\r\n--lambda: 0.2\r\n--lambdaBM: 0.5\r\n--mask3D\r\n--maxIt: 25\r\n--maxItBM: 5\r\n--maxItDemons: 10 10 10\r\n--maxRmsE: 0.7 0.4 0.2 0.01\r\n--metricType: SSD\r\n--movingManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_5_Axial_PhantomCompLog.nrrd\r\n--multiResolutionItScale: 2\r\n--multiResolutionScale: 10\r\n--newDirection: -1 0 0 0 1 0 0 0 1\r\n--newDirection2: -12.1 0 0 0 1 0 0 0 -122.0\r\n--numberChecker: 8\r\n--numberOfLevels: 4\r\n--numberTrheads: 1\r\n--offSpeckle\r\n--outputCk: outputCk.txt\r\n--radiusDilateMask: 10\r\n--relaxFact: 0.8\r\n--searchSizeBM: 3\r\n--sigmaBM: 3\r\n--sigmaDef: 2\r\n--sigmaUp: 8\r\n--sliceCollapse: 104\r\n--stepAffinelength: 0.01 10\r\n--steplength: 0.01 40\r\n--tmovedImage: 5\r\n--transformType: VBST\r\n--trueFieldName: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/SSD_TrueField_Axial.nrrd\r\n--verbosity: 1\r\n--visualize\r\n--visualizeMask\r\n--volume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/DatosNrrd/IM_0001A.nrrd\r\n----------------------\r\n\r\n\r\n\r\n\r\n\r\n-------- Your code ------\r\n\r\n--GWidthBM\r\n--alpha\r\n--blockSizeBM\r\n--downSampleBM\r\n--elementPerLine\r\n--epsilon\r\n--errorOnlyMyo\r\n--espGrid\r\n--fieldSampleRate\r\n--fixedManualSeg\r\n--forceCollapse\r\n--inputVolume\r\n--labelMask\r\n--lambda\r\n--lambdaBM\r\n--mask3D\r\n--maxIt\r\n--maxItBM\r\n--maxItDemons\r\n--maxRmsE\r\n--metricType\r\n--movingManualSeg\r\n--multiResolutionItScale\r\n--multiResolutionScale\r\n--newDirection\r\n--newDirection2\r\n--numberChecker\r\n--numberOfLevels\r\n--numberTrheads\r\n--offSpeckle\r\n--outputCk\r\n--radiusDilateMask\r\n--relaxFact\r\n--searchSizeBM\r\n--sigmaBM\r\n--sigmaDef\r\n--sigmaUp\r\n--sliceCollapse\r\n--stepAffinelength\r\n--steplength\r\n--tmovedImage\r\n--transformType\r\n--trueFieldName\r\n--verbosity\r\n--visualize\r\n--visualizeMask\r\n--volume",
+     "date": "2013-03-06T06:41:03",
      "persona_email": "curiale@gmail.com",
      "persona_firstname": "Ariel Hern\u00e1n",
      "persona_id": 6521,
      "persona_lastname": "Curiale"
+    },
+    {
+     "content": "Hi Ariel,\r\n\r\nThanks for your comments. Note that we keep a latest version at\r\nhttps://github.com/ITKTools/ITKTools/tree/master/src/common\r\n\r\nWe have a function PrintAllArguments() there.\r\n\r\nWe did not notice printing problems or issues with negative numbers. Can you give some details?\r\n\r\nRegards, Marius",
+     "date": "2013-01-23T23:53:35",
+     "persona_email": "marius.staring@gmail.com",
+     "persona_firstname": "Marius",
+     "persona_id": 208,
+     "persona_lastname": "Staring"
+    },
+    {
+     "content": "Just comitted \r\nhttps://github.com/ITKTools/ITKTools/commit/2279517fbbd4096a7d6628aa6b0c92224d36fe18\r\nThanks!\r\nMarius",
+     "date": "2013-03-06T22:17:32",
+     "persona_email": "marius.staring@gmail.com",
+     "persona_firstname": "Marius",
+     "persona_id": 208,
+     "persona_lastname": "Staring"
     }
    ],
    "publication_id": 793
@@ -2496,10 +2564,21 @@
   "comments": [],
   "publication_id": 819
  },
- {
-  "comments": [],
-  "publication_id": 820
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "How can I use Hough Transform Plane Detector in C#?",
+     "date": "2019-10-11T10:09:04",
+     "persona_email": "reddevilck50@gmail.com",
+     "persona_firstname": "Tran",
+     "persona_id": 11851,
+     "persona_lastname": "Huy"
+    }
+   ],
+   "publication_id": 820
+  }
+ ],
  {
   "comments": [],
   "publication_id": 821
@@ -2627,12 +2706,12 @@
   {
    "comments": [
     {
-     "content": "The project works successfully in ITK versions 3.20 and 4.0. It has passed all tests on these versions.",
-     "date": "2012-03-26T07:35:32",
-     "persona_email": "alberto.rey@udc.es",
-     "persona_firstname": "Alberto",
-     "persona_id": 5874,
-     "persona_lastname": "Rey"
+     "content": "Compiling the project with ITK 4.5.2 I have got these errors. Can Any One help me please?\r\n\r\nError\t1\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t2\terror C2975: 'VImageDimension' : invalid template argument for 'itk::VectorImage' expected compile-time constant expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t4\terror C2923: 'itk::ImageToImageFilter' : 'itk::VectorImageTProbabilityPrecision0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t5\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t6\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t7\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t8\terror C2975: 'VImageDimension' : invalid template argument for 'itk::Image' expected compile-time constant expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t10\terror C2923: 'itk::ImageToImageFilter' : 'itk::ImageTLabel0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t11\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t12\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t13\terror C2039: 'GetImageDimension' : is not a member of 'itk'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t14\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t15\terror C2275: 'TInputImage' : illegal use of this type as an expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t16\terror C2955: 'itk::VectorImage' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t17\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t18\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t19\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t20\terror C2039: 'GetImageDimension' : is not a member of 'itk'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t21\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t22\terror C2275: 'TInputVectorImage' : illegal use of this type as an expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t23\terror C2955: 'itk::Image' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t24\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t25\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t26\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t27\terror C2663: 'itk::ImageSourceTOutputImage::GetOutput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t131\tMSKFCMClassification3D\r\n\r\nError\t28\terror C2663: 'itk::ImageToImageFilterTInputImageTOutputImage::SetInput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t131\tMSKFCMClassification3D\r\n\r\nError\t29\terror C2663: 'itk::ImageSourceTOutputImage::GetOutput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t135\tMSKFCMClassification3D\r\n",
+     "date": "2015-08-28T05:12:55",
+     "persona_email": "yosra.bensalem@gmail.com",
+     "persona_firstname": "Ben salem",
+     "persona_id": 9624,
+     "persona_lastname": "Yosra"
     },
     {
      "content": "Error\t27\terror C2039: 'GetOutput' : is not a member of 'itk::FuzzyClassifierImageFilteritk::VectorImagedouble3unsigned char'\tC:\\Fuzzy CMeans\\src\\MSKFCMClassification3D.cxx\t134\t1\tMSKFCMClassification3D\r\nError\t26\terror C2039: 'GetOutput' : is not a member of 'itk::MSKFCMClassifierInitializationImageFilterITypedoubledouble'\tC:\\Fuzzy CMeans\\src\\MSKFCMClassification3D.cxx\t130\t1\tMSKFCMClassification3D\r\nError\t17\terror C2039: 'ImageDimension' : is not a member of 'itk'\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t22\terror C2039: 'ImageDimension' : is not a member of 'itk'\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t83\t1\tMSKFCMClassification3D\r\nError\t25\terror C2039: 'SetInput' : is not a member of 'itk::FuzzyClassifierImageFilteritk::VectorImagedouble3unsigned char'\tC:\\Fuzzy CMeans\\src\\MSKFCMClassification3D.cxx\t130\t1\tMSKFCMClassification3D\r\nError\t20\terror C2039: 'SetNumberOfThreads' : is not a member of 'itk::MSKFCMClassifierInitializationImageFilterITypedoubledouble'\tC:\\Fuzzy CMeans\\src\\MSKFCMClassification3D.cxx\t81\t1\tMSKFCMClassification3D\r\nError\t5\terror C2065: 'ImageDimension' : undeclared identifier\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t11\terror C2065: 'ImageDimension' : undeclared identifier\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t83\t1\tMSKFCMClassification3D\r\nError\t10\terror C2143: syntax error : missing '' before ''\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t16\terror C2143: syntax error : missing '' before ''\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t18\terror C2275: 'TInputImage' : illegal use of this type as an expression\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t23\terror C2275: 'TInputVectorImage' : illegal use of this type as an expression\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t21\terror C2664: 'itk::SimpleFilterWatcher::SimpleFilterWatcher(void)' : cannot convert argument 1 from 'itk::SmartPointeritk::MSKFCMClassifierInitializationImageFilterITypedoubledouble' to 'itk::ProcessObject *'\tC:\\Fuzzy CMeans\\src\\MSKFCMClassification3D.cxx\t96\t1\tMSKFCMClassification3D\r\nError\t14\terror C2923: 'itk::ImageToImageFilter' : 'itk::ImageTLabel0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t8\terror C2923: 'itk::ImageToImageFilter' : 'itk::VectorImageTProbabilityPrecision0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t9\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t15\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t19\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\nError\t24\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t12\terror C2975: 'VImageDimension' : invalid template argument for 'itk::Image' expected compile-time constant expression\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierImageFilter.h\t84\t1\tMSKFCMClassification3D\r\nError\t6\terror C2975: 'VImageDimension' : invalid template argument for 'itk::VectorImage' expected compile-time constant expression\tc:\\fuzzy cmeans\\src\\itkFuzzyClassifierInitializationImageFilter.h\t109\t1\tMSKFCMClassification3D\r\n\t52\tIntelliSense: 'operator=' must be a member function\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t195\t8\tMSKFCMClassification3D\r\n\t70\tIntelliSense: a type qualifier is not allowed on a nonmember function\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t94\t59\tMSKFCMClassification3D\r\n\t73\tIntelliSense: a type qualifier is not allowed on a nonmember function\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t98\t62\tMSKFCMClassification3D\r\n\t78\tIntelliSense: a type qualifier is not allowed on a nonmember function\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t102\t67\tMSKFCMClassification3D\r\n\t83\tIntelliSense: a type qualifier is not allowed on a nonmember function\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t115\t56\tMSKFCMClassification3D\r\n\t69\tIntelliSense: cannot overload functions distinguished by return type alone\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t94\t18\tMSKFCMClassification3D\r\n\t104\tIntelliSense: expected a ';'\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t144\t65\tMSKFCMClassification3D\r\n\t117\tIntelliSense: expected a ';'\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t199\t47\tMSKFCMClassification3D\r\n\t32\tIntelliSense: expected a ''\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t109\t31\tMSKFCMClassification3D\r\n\t48\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t168\t1\tMSKFCMClassification3D\r\n\t51\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t189\t1\tMSKFCMClassification3D\r\n\t54\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t197\t1\tMSKFCMClassification3D\r\n\t55\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t199\t1\tMSKFCMClassification3D\r\n\t56\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.txx\t49\t3\tMSKFCMClassification3D\r\n\t57\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.txx\t57\t3\tMSKFCMClassification3D\r\n\t58\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.txx\t58\t1\tMSKFCMClassification3D\r\n\t59\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierInitializationImageFilter.txx\t99\t3\tMSKFCMClassification3D\r\n\t60\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierInitializationImageFilter.txx\t126\t3\tMSKFCMClassification3D\r\n\t61\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierInitializationImageFilter.txx\t306\t3\tMSKFCMClassification3D\r\n\t62\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierInitializationImageFilter.txx\t307\t1\tMSKFCMClassification3D\r\n\t80\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t105\t1\tMSKFCMClassification3D\r\n\t84\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t117\t1\tMSKFCMClassification3D\r\n\t85\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t119\t1\tMSKFCMClassification3D\r\n\t124\tIntelliSense: expected a declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t217\t1\tMSKFCMClassification3D\r\n\t64\tIntelliSense: expected an identifier\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t80\t46\tMSKFCMClassification3D\r\n\t115\tIntelliSense: expected an identifier\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t198\t47\tMSKFCMClassification3D\r\n\t31\tIntelliSense: explicit type is missing ('int' assumed)\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t109\t25\tMSKFCMClassification3D\r\n\t71\tIntelliSense: function \"error\" may not be initialized\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t94\t65\tMSKFCMClassification3D\r\n\t74\tIntelliSense: function \"Evaluate(const MeasurementVectorType &x1 const MeasurementVectorType &x2)\" may not be initialized\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t98\t68\tMSKFCMClassification3D\r\n\t79\tIntelliSense: function \"Evaluate(const MeasurementVectorType &x1 const MeasurementVectorType &x2)\" may not be initialized\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t102\t73\tMSKFCMClassification3D\r\n\t127\tIntelliSense: identifier \"Indent\" is undefined\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t227\t36\tMSKFCMClassification3D\r\n\t29\tIntelliSense: identifier \"Self\" is undefined\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t108\t25\tMSKFCMClassification3D\r\n\t53\tIntelliSense: identifier \"Self\" is undefined\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t195\t24\tMSKFCMClassification3D\r\n\t123\tIntelliSense: identifier \"structuringEl\" is undefined\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t215\t35\tMSKFCMClassification3D\r\n\t122\tIntelliSense: identifier \"StructuringElementType\" is undefined\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t214\t31\tMSKFCMClassification3D\r\n\t76\tIntelliSense: identifier \"ValueType\" is undefined\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t102\t33\tMSKFCMClassification3D\r\n\t77\tIntelliSense: identifier \"ValueType\" is undefined\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t102\t53\tMSKFCMClassification3D\r\n\t37\tIntelliSense: ImageRegionConstIterator is not a template\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t122\t11\tMSKFCMClassification3D\r\n\t41\tIntelliSense: ImageRegionIterator is not a template\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t134\t11\tMSKFCMClassification3D\r\n\t121\tIntelliSense: incomplete type is not allowed\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t214\t8\tMSKFCMClassification3D\r\n\t82\tIntelliSense: invalid destructor declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t111\t11\tMSKFCMClassification3D\r\n\t126\tIntelliSense: invalid destructor declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t223\t11\tMSKFCMClassification3D\r\n\t44\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t151\t3\tMSKFCMClassification3D\r\n\t45\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t154\t3\tMSKFCMClassification3D\r\n\t49\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t183\t3\tMSKFCMClassification3D\r\n\t50\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t186\t3\tMSKFCMClassification3D\r\n\t67\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t91\t3\tMSKFCMClassification3D\r\n\t68\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t94\t3\tMSKFCMClassification3D\r\n\t72\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t97\t3\tMSKFCMClassification3D\r\n\t75\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t102\t3\tMSKFCMClassification3D\r\n\t81\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t111\t3\tMSKFCMClassification3D\r\n\t108\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t163\t3\tMSKFCMClassification3D\r\n\t109\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t166\t3\tMSKFCMClassification3D\r\n\t110\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t180\t3\tMSKFCMClassification3D\r\n\t111\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t185\t3\tMSKFCMClassification3D\r\n\t112\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t190\t3\tMSKFCMClassification3D\r\n\t113\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t195\t3\tMSKFCMClassification3D\r\n\t119\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t205\t3\tMSKFCMClassification3D\r\n\t120\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t210\t3\tMSKFCMClassification3D\r\n\t125\tIntelliSense: invalid specifier outside a class declaration\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t223\t3\tMSKFCMClassification3D\r\n\t33\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t116\t20\tMSKFCMClassification3D\r\n\t34\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t117\t20\tMSKFCMClassification3D\r\n\t35\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t118\t20\tMSKFCMClassification3D\r\n\t36\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t119\t20\tMSKFCMClassification3D\r\n\t38\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t129\t20\tMSKFCMClassification3D\r\n\t39\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t130\t20\tMSKFCMClassification3D\r\n\t40\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t131\t20\tMSKFCMClassification3D\r\n\t42\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t145\t16\tMSKFCMClassification3D\r\n\t43\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t147\t11\tMSKFCMClassification3D\r\n\t46\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t159\t3\tMSKFCMClassification3D\r\n\t47\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t161\t3\tMSKFCMClassification3D\r\n\t63\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t79\t25\tMSKFCMClassification3D\r\n\t65\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t84\t20\tMSKFCMClassification3D\r\n\t66\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkKernelInducedDistanceMetric.h\t88\t20\tMSKFCMClassification3D\r\n\t86\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t109\t20\tMSKFCMClassification3D\r\n\t87\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t110\t20\tMSKFCMClassification3D\r\n\t88\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t111\t20\tMSKFCMClassification3D\r\n\t91\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t119\t20\tMSKFCMClassification3D\r\n\t92\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t120\t20\tMSKFCMClassification3D\r\n\t93\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t121\t20\tMSKFCMClassification3D\r\n\t94\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t123\t20\tMSKFCMClassification3D\r\n\t95\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t128\t20\tMSKFCMClassification3D\r\n\t96\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t129\t20\tMSKFCMClassification3D\r\n\t97\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t130\t20\tMSKFCMClassification3D\r\n\t98\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t132\t20\tMSKFCMClassification3D\r\n\t99\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t133\t20\tMSKFCMClassification3D\r\n\t100\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t137\t20\tMSKFCMClassification3D\r\n\t103\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t144\t11\tMSKFCMClassification3D\r\n\t105\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t146\t20\tMSKFCMClassification3D\r\n\t106\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t151\t5\tMSKFCMClassification3D\r\n\t116\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t199\t3\tMSKFCMClassification3D\r\n\t118\tIntelliSense: name followed by '::' must be a class or namespace name\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t201\t20\tMSKFCMClassification3D\r\n\t107\tIntelliSense: namespace \"itk\" has no member \"Barrier\"\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t159\t16\tMSKFCMClassification3D\r\n\t114\tIntelliSense: namespace \"itk\" has no member \"FlatStructuringElement\"\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t198\t25\tMSKFCMClassification3D\r\n\t89\tIntelliSense: NumericTraits is not a template\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t114\t11\tMSKFCMClassification3D\r\n\t90\tIntelliSense: NumericTraits is not a template\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t115\t11\tMSKFCMClassification3D\r\n\t101\tIntelliSense: NumericTraits is not a template\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t138\t11\tMSKFCMClassification3D\r\n\t102\tIntelliSense: overloaded function \"ConstShapedNeighborhoodIterator\" is not a template\tc:\\Fuzzy CMeans\\src\\itkMSKFCMClassifierInitializationImageFilter.h\t140\t11\tMSKFCMClassification3D\r\n\t28\tIntelliSense: SmartPointer is not a template\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t108\t11\tMSKFCMClassification3D\r\n\t30\tIntelliSense: SmartPointer is not a template\tc:\\Fuzzy CMeans\\src\\itkFuzzyClassifierImageFilter.h\t109\t11\tMSKFCMClassification3D\r\n",
@@ -2641,6 +2720,22 @@
      "persona_firstname": "Abdelkhalek",
      "persona_id": 9131,
      "persona_lastname": "Bakkari"
+    },
+    {
+     "content": "The project works successfully in ITK versions 3.20 and 4.0. It has passed all tests on these versions.",
+     "date": "2012-03-26T07:35:32",
+     "persona_email": "bertorey@gmail.com",
+     "persona_firstname": "Alberto",
+     "persona_id": 5874,
+     "persona_lastname": "Rey"
+    },
+    {
+     "content": "As Alberto Rey said the The project works successfully in ITK versions 3.20 and 4.0 but to compile these versions you need to use gcc4.6 and g++4.6 to avoid the errors reported by Ben salem Yosra and Abdelkhalek Bakkari. I do this and the project works successfully.",
+     "date": "2016-06-23T10:34:40",
+     "persona_email": "contact@augustoicaro.com",
+     "persona_firstname": "Augusto",
+     "persona_id": 9807,
+     "persona_lastname": "\u00cdcaro"
     },
     {
      "content": "No reply for this errors. Please I need some help to run it.",
@@ -2657,22 +2752,6 @@
      "persona_firstname": "Jinke",
      "persona_id": 6108,
      "persona_lastname": "Wang"
-    },
-    {
-     "content": "Compiling the project with ITK 4.5.2 I have got these errors. Can Any One help me please?\r\n\r\nError\t1\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t2\terror C2975: 'VImageDimension' : invalid template argument for 'itk::VectorImage' expected compile-time constant expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t4\terror C2923: 'itk::ImageToImageFilter' : 'itk::VectorImageTProbabilityPrecision0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t5\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t6\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t7\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t8\terror C2975: 'VImageDimension' : invalid template argument for 'itk::Image' expected compile-time constant expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t10\terror C2923: 'itk::ImageToImageFilter' : 'itk::ImageTLabel0::ImageDimension' is not a valid template type argument for parameter 'TOutputImage'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t11\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t12\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t13\terror C2039: 'GetImageDimension' : is not a member of 'itk'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t14\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t15\terror C2275: 'TInputImage' : illegal use of this type as an expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t16\terror C2955: 'itk::VectorImage' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t17\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t18\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t19\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierInitializationImageFilter.h\t106\tMSKFCMClassification3D\r\n\r\nError\t20\terror C2039: 'GetImageDimension' : is not a member of 'itk'\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t21\terror C2065: 'GetImageDimension' : undeclared identifier\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t22\terror C2275: 'TInputVectorImage' : illegal use of this type as an expression\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t23\terror C2955: 'itk::Image' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t24\terror C2974: 'itk::ImageToImageFilter' : invalid template argument for 'TOutputImage' type expected\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t25\terror C2955: 'itk::ImageToImageFilter' : use of class template requires template argument list\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t26\terror C2143: syntax error : missing '' before ''\tc:\\work\\segmentation\\itk fuzzy segmentation\\mskfcm3d\\itkFuzzyClassifierImageFilter.h\t83\tMSKFCMClassification3D\r\n\r\nError\t27\terror C2663: 'itk::ImageSourceTOutputImage::GetOutput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t131\tMSKFCMClassification3D\r\n\r\nError\t28\terror C2663: 'itk::ImageToImageFilterTInputImageTOutputImage::SetInput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t131\tMSKFCMClassification3D\r\n\r\nError\t29\terror C2663: 'itk::ImageSourceTOutputImage::GetOutput' : 3 overloads have no legal conversion for 'this' pointer\tc:\\work\\segmentation\\itk fuzzy segmentation\\MSKFCM3D\\MSKFCMClassification3D.cxx\t135\tMSKFCMClassification3D\r\n",
-     "date": "2015-08-28T05:12:55",
-     "persona_email": "yosra.bensalem@gmail.com",
-     "persona_firstname": "Ben salem",
-     "persona_id": 9624,
-     "persona_lastname": "Yosra"
-    },
-    {
-     "content": "As Alberto Rey said the The project works successfully in ITK versions 3.20 and 4.0 but to compile these versions you need to use gcc4.6 and g++4.6 to avoid the errors reported by Ben salem Yosra and Abdelkhalek Bakkari. I do this and the project works successfully.",
-     "date": "2016-06-23T10:34:40",
-     "persona_email": "contact@augustoicaro.com",
-     "persona_firstname": "Augusto",
-     "persona_id": 9807,
-     "persona_lastname": "\u00cdcaro"
     }
    ],
    "publication_id": 845
@@ -2707,9 +2786,9 @@
     {
      "content": "Hi Mathieu,\r\n\r\nThanks for the review and you\\'re absolutely right---we do need to incorporate the handling of image series instead of just image pairs.  We plan to do that but haven\\'t yet as we have other priorities with respect to the contract that is funding this work.  Even our pairwise velocity field work continues to be refined (e.g.  http://review.source.kitware.com/#/c/7080/).  Perhaps we can communicate with you in the future regarding this request.\r\n\r\nThanks again,\r\nNick",
      "date": "2012-08-29T10:25:58",
-     "persona_email": "ntustison@wustl.edu",
-     "persona_firstname": "Nick",
-     "persona_id": 105,
+     "persona_email": "ntustison@gmail.com",
+     "persona_firstname": "Nicholas J.",
+     "persona_id": 8833,
      "persona_lastname": "Tustison"
     },
     {
@@ -2736,16 +2815,16 @@
   {
    "comments": [
     {
-     "content": "on perf3D.cxx that is...\r\n\r\nthe line where the error comes is:\r\nconst MeshType::CellType::PointIdentifierContainerType & pids = it.Value()->GetPointIdsContainer();",
-     "date": "2012-03-18T16:40:02",
+     "content": "I got the following error, when i tried to compile:\r\nwhat am i doing wrong?\r\n\r\ncheck.cxx(210) : error C2039: \\'PointIdentifierContainerType\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(210) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int\r\n1>..\\\\check.cxx(210) : error C2143: syntax error : missing \\';\\' before \\'&\\'\r\n1>..\\\\check.cxx(210) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(210) : error C2039: \\'GetPointIdsContainer\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(211) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(211) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(212) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(212) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(213) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(213) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n",
+     "date": "2012-03-18T16:36:32",
      "persona_email": "annihilaatio@yahoo.com",
      "persona_firstname": "Toni",
      "persona_id": 6087,
      "persona_lastname": "Sdga"
     },
     {
-     "content": "I got the following error, when i tried to compile:\r\nwhat am i doing wrong?\r\n\r\ncheck.cxx(210) : error C2039: \\'PointIdentifierContainerType\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(210) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int\r\n1>..\\\\check.cxx(210) : error C2143: syntax error : missing \\';\\' before \\'&\\'\r\n1>..\\\\check.cxx(210) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(210) : error C2039: \\'GetPointIdsContainer\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(211) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(211) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(212) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(212) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(213) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(213) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n",
-     "date": "2012-03-18T16:36:32",
+     "content": "on perf3D.cxx that is...\r\n\r\nthe line where the error comes is:\r\nconst MeshType::CellType::PointIdentifierContainerType & pids = it.Value()->GetPointIdsContainer();",
+     "date": "2012-03-18T16:40:02",
      "persona_email": "annihilaatio@yahoo.com",
      "persona_firstname": "Toni",
      "persona_id": 6087,
@@ -2782,12 +2861,12 @@
   {
    "comments": [
     {
-     "content": "is this compatible with the gpu volume rendering in Slicer4?",
-     "date": "2013-02-15T05:14:48",
-     "persona_email": "kikinis@bwh.harvard.edu",
-     "persona_firstname": "Ron",
-     "persona_id": 238,
-     "persona_lastname": "Kikinis"
+     "content": "You would need to wrap it to java, I am not sure how to do it for new classes, a quick hack could be to add the class in the VTK source code and CMakeLists.txt, and try to wrap it with the rest of the VTK code.",
+     "date": "2012-04-17T11:20:27",
+     "persona_email": "krissian@dis.ulpgc.es",
+     "persona_firstname": "Karl",
+     "persona_id": 2227,
+     "persona_lastname": "Krissian"
     },
     {
      "content": "will this be available for java?",
@@ -2798,12 +2877,12 @@
      "persona_lastname": "Laditan"
     },
     {
-     "content": "You would need to wrap it to java, I am not sure how to do it for new classes, a quick hack could be to add the class in the VTK source code and CMakeLists.txt, and try to wrap it with the rest of the VTK code.",
-     "date": "2012-04-17T11:20:27",
-     "persona_email": "krissian@dis.ulpgc.es",
-     "persona_firstname": "Karl",
-     "persona_id": 2227,
-     "persona_lastname": "Krissian"
+     "content": "is this compatible with the gpu volume rendering in Slicer4?",
+     "date": "2013-02-15T05:14:48",
+     "persona_email": "kikinis@bwh.harvard.edu",
+     "persona_firstname": "Ron",
+     "persona_id": 238,
+     "persona_lastname": "Kikinis"
     }
    ],
    "publication_id": 856
@@ -2872,16 +2951,16 @@
   {
    "comments": [
     {
-     "content": "Please note that more information about Statismo can be found on the <a href=\\\"http://statismo.github.com\\\">project page</a> and the <a href=\\\"https://github.com/statismo/statismo/wiki\\\">project wiki</a>",
-     "date": "2012-08-03T05:29:33",
+     "content": "There is now a <a href=\\\"https://groups.google.com/forum/#!forum/statismo-users\\\"> mailing list </a> for Statismo.",
+     "date": "2012-12-10T11:37:48",
      "persona_email": "marcel.luethi@unibas.ch",
      "persona_firstname": "Marcel ",
      "persona_id": 2738,
      "persona_lastname": "Luethi"
     },
     {
-     "content": "There is now a <a href=\\\"https://groups.google.com/forum/#!forum/statismo-users\\\"> mailing list </a> for Statismo.",
-     "date": "2012-12-10T11:37:48",
+     "content": "Please note that more information about Statismo can be found on the <a href=\\\"http://statismo.github.com\\\">project page</a> and the <a href=\\\"https://github.com/statismo/statismo/wiki\\\">project wiki</a>",
+     "date": "2012-08-03T05:29:33",
      "persona_email": "marcel.luethi@unibas.ch",
      "persona_firstname": "Marcel ",
      "persona_id": 2738,
@@ -2922,20 +3001,20 @@
   {
    "comments": [
     {
-     "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
-     "date": "2013-02-07T05:48:23",
-     "persona_email": "yxliuwm@gmail.com",
-     "persona_firstname": "Yixun",
-     "persona_id": 6473,
-     "persona_lastname": "Liu"
-    },
-    {
      "content": "nice work. Does the example code run on GPU as well ? \r\nWhat version of ITK is this posted source code supposed to work with ? \r\n\r\nThe method\r\n\r\nPhysicsBasedNonRigidRegistrationMethod::CreateDeformedImage\r\n\r\nis not available in ITK 4.3.0 and throwing compiling errors\r\n\r\n?\r\n\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx: In function \u2018int main(int, char**)\u2019:\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:149: error: \u2018class itk::fem::PhysicsBasedNonRigidRegistrationMethod<itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Mesh<float, 3u, itk::DefaultStaticMeshTraits<float, 3u, 3u, float, float, float> >, itk::Image<itk::Vector<float, 3u>, 3u> >\u2019 has no member named \u2018CreateDeformedImage\u2019\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:153: error: using \u2018typename\u2019 outside of template\r\n",
      "date": "2013-02-07T05:44:52",
      "persona_email": "fuentesdt@gmail.com",
      "persona_firstname": "David",
      "persona_id": 7272,
      "persona_lastname": "Fuentes"
+    },
+    {
+     "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
+     "date": "2013-02-07T05:48:23",
+     "persona_email": "yxliuwm@gmail.com",
+     "persona_firstname": "Yixun",
+     "persona_id": 6473,
+     "persona_lastname": "Liu"
     },
     {
      "content": "thanks. I found the Fotis comment on the link that you sent.\r\n\r\nIs there a GPU version of the block matching algorithm available that is mentioned in the abstract ? ",
@@ -2965,20 +3044,12 @@
   {
    "comments": [
     {
-     "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
-     "date": "2013-08-26T10:07:59",
-     "persona_email": "iherrera@ceit.es",
-     "persona_firstname": "Imanol",
-     "persona_id": 6166,
-     "persona_lastname": "Herrera"
-    },
-    {
-     "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
-     "date": "2013-08-26T11:08:21",
-     "persona_email": "iherrera@ceit.es",
-     "persona_firstname": "Imanol",
-     "persona_id": 6166,
-     "persona_lastname": "Herrera"
+     "content": "Somebody know how i can resolve it please ?",
+     "date": "2013-08-26T10:01:00",
+     "persona_email": "kpoand@yahoo.fr",
+     "persona_firstname": "Andr\u00e9",
+     "persona_id": 8477,
+     "persona_lastname": "Kpozehoue"
     },
     {
      "content": "thank to your answer,\r\neffectively, i commented these lines but, but he give after this error : \r\nC:\\\\Codes\\\\SourceCode3_Source\\\\vtkGPUVolumeRayCastMapper2\\\\vtkDemo.cpp:197: erreur : undefined reference to `_imp___ZN26vtkGPUVolumeRayCastMapper23NewEv\\'\r\n\r\nBefore, i changed changed also some lines as : \r\n - scanf_s(\\\"%d\\\",&isoval) : line 279 (in vtkDemo.cpp file), i replace by scanf\r\ni do the same thing with printf_s also",
@@ -2997,12 +3068,20 @@
      "persona_lastname": "Kpozehoue"
     },
     {
-     "content": "Somebody know how i can resolve it please ?",
-     "date": "2013-08-26T10:01:00",
-     "persona_email": "kpoand@yahoo.fr",
-     "persona_firstname": "Andr\u00e9",
-     "persona_id": 8477,
-     "persona_lastname": "Kpozehoue"
+     "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
+     "date": "2013-08-26T10:07:59",
+     "persona_email": "iherrera@ceit.es",
+     "persona_firstname": "Imanol",
+     "persona_id": 6166,
+     "persona_lastname": "Herrera"
+    },
+    {
+     "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
+     "date": "2013-08-26T11:08:21",
+     "persona_email": "iherrera@ceit.es",
+     "persona_firstname": "Imanol",
+     "persona_id": 6166,
+     "persona_lastname": "Herrera"
     }
    ],
    "publication_id": 880
@@ -3032,8 +3111,8 @@
      "persona_lastname": "Shamonin"
     },
     {
-     "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Tue 12 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
-     "date": "2016-04-13T05:34:51",
+     "content": "1. The source code has been merged with latest elastix 4.8 see http://elastix.isi.uu.nl/news.php\r\n2. The source code has been tested with latest ITK (v4.9rc03) see fixlog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
+     "date": "2016-01-18T09:20:06",
      "persona_email": "D.P.Shamonin@lumc.nl",
      "persona_firstname": "Denis",
      "persona_id": 7069,
@@ -3048,8 +3127,8 @@
      "persona_lastname": "Shamonin"
     },
     {
-     "content": "1. The source code has been merged with latest elastix 4.8 see http://elastix.isi.uu.nl/news.php\r\n2. The source code has been tested with latest ITK (v4.9rc03) see fixlog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
-     "date": "2016-01-18T09:20:06",
+     "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Wed 20 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+     "date": "2016-04-20T03:37:06",
      "persona_email": "D.P.Shamonin@lumc.nl",
      "persona_firstname": "Denis",
      "persona_id": 7069,
@@ -3064,8 +3143,16 @@
      "persona_lastname": "Shamonin"
     },
     {
-     "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Wed 20 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
-     "date": "2016-04-20T03:37:06",
+     "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Tue 12 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+     "date": "2016-04-13T05:34:51",
+     "persona_email": "D.P.Shamonin@lumc.nl",
+     "persona_firstname": "Denis",
+     "persona_id": 7069,
+     "persona_lastname": "Shamonin"
+    },
+    {
+     "content": "1. The source code has been merged with latest elastix see https://github.com/SuperElastix/elastix\r\n2. The source code has been tested with latest ITK \r\n   ITK 4.12.2 (25 Oct 2017)\r\n   CUDA/v8.0 (NVidia driver 378.49)\r\n   Intel OpenCL SDK (version 7.0.0.2519) on CPU\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU/CPU performance experiments could be found in directory test_logs see source code.",
+     "date": "2017-10-25T09:43:37",
      "persona_email": "D.P.Shamonin@lumc.nl",
      "persona_firstname": "Denis",
      "persona_id": 7069,
@@ -3102,16 +3189,16 @@
   {
    "comments": [
     {
-     "content": "Hi\r\nThis stuff worked in the original \\\"parabolicMorphology\\\" package but I probably haven\\'t tested it here. I\\'ll check it out",
-     "date": "2014-05-05T17:30:48",
+     "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
+     "date": "2014-03-18T17:43:08",
      "persona_email": "richard.beare@ieee.org",
      "persona_firstname": "Richard",
      "persona_id": 197,
      "persona_lastname": "Beare"
     },
     {
-     "content": "There seems to be an issue with this filter and running it multiple times in say a loop. For example take this code (useless but shows the problem):\r\n\r\nfor(int i=0; i10; i++)\r\n{\r\n  sourceImage-DisconnectPipeline(); \r\n  dilateFilter-SetInput(sourceImage);\r\n  sourceImage = dilateFilter-GetOutput();\r\n  dilateFilter-Update();\r\n}\r\n\r\nAfter a while the dilate image will start not expanding in one dimension. It\\'s like the filter does not update the region / image bounds used for calculation in such  a scenario?\r\n\r\nNote the same logic was tested with the non-threaded itk::BinaryDilateImageFilter and works as expected.\r\n\r\nJ.",
-     "date": "2014-03-18T17:53:07",
+     "content": "Found it!\r\n\r\nIt was the function signature of\r\n\r\nitkLabelSetMorphBaseImageFilter::SplitRequestedRegion(..)\r\n\r\nITK3 expects it with int\r\nbut ITK4 !as you correctly implemented! expects unsigned int\r\n\r\nI\\'ll do some testing and commit the modifications to your github.\r\n\r\nJ. ",
+     "date": "2014-03-20T02:09:09",
      "persona_email": "jeromeavondo@msn.com",
      "persona_firstname": "Jerome",
      "persona_id": 9005,
@@ -3126,8 +3213,16 @@
      "persona_lastname": "Avondo"
     },
     {
-     "content": "Found it!\r\n\r\nIt was the function signature of\r\n\r\nitkLabelSetMorphBaseImageFilter::SplitRequestedRegion(..)\r\n\r\nITK3 expects it with int\r\nbut ITK4 !as you correctly implemented! expects unsigned int\r\n\r\nI\\'ll do some testing and commit the modifications to your github.\r\n\r\nJ. ",
-     "date": "2014-03-20T02:09:09",
+     "content": "There seems to be an issue with this filter and running it multiple times in say a loop. For example take this code (useless but shows the problem):\r\n\r\nfor(int i=0; i10; i++)\r\n{\r\n  sourceImage-DisconnectPipeline(); \r\n  dilateFilter-SetInput(sourceImage);\r\n  sourceImage = dilateFilter-GetOutput();\r\n  dilateFilter-Update();\r\n}\r\n\r\nAfter a while the dilate image will start not expanding in one dimension. It\\'s like the filter does not update the region / image bounds used for calculation in such  a scenario?\r\n\r\nNote the same logic was tested with the non-threaded itk::BinaryDilateImageFilter and works as expected.\r\n\r\nJ.",
+     "date": "2014-03-18T17:53:07",
+     "persona_email": "jeromeavondo@msn.com",
+     "persona_firstname": "Jerome",
+     "persona_id": 9005,
+     "persona_lastname": "Avondo"
+    },
+    {
+     "content": "Hi\r\n\r\nI am having issues with ellipsoid structuring elements.\r\n\r\nI did a simple test where I create a 128x128x128 image set the voxel at (64 64 64) to 255 and perform a dilate with a 10x1x10 structuring element. But I still end up with a spherical result. In fact the result obtained is identical to using a 10x10x10 structuring element.\r\n\r\nIs there any special setup required to support ellipsoid structuring elements?\r\n\r\nAlso upon further inspection of the code it seems the computation of LabelSetDilateImageFilter::m_Scale is never used.\r\n\r\nThanks\r\nJ.\r\n\r\nPS: This behavior is present in both ITK3 and ITK4.",
+     "date": "2014-05-05T11:40:01",
      "persona_email": "jeromeavondo@msn.com",
      "persona_firstname": "Jerome",
      "persona_id": 9005,
@@ -3142,22 +3237,6 @@
      "persona_lastname": "Avondo"
     },
     {
-     "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
-     "date": "2014-03-18T17:43:08",
-     "persona_email": "richard.beare@ieee.org",
-     "persona_firstname": "Richard",
-     "persona_id": 197,
-     "persona_lastname": "Beare"
-    },
-    {
-     "content": "Another thought - just confirm that you are using ITK 4 - there are differences in threading interfaces and the labelDilate code is set up for ITK 4",
-     "date": "2014-03-19T16:50:05",
-     "persona_email": "richard.beare@ieee.org",
-     "persona_firstname": "Richard",
-     "persona_id": 197,
-     "persona_lastname": "Beare"
-    },
-    {
      "content": "Correct!\r\n\r\nThis is with ITK3. \r\nAnd setting the SetGlobalMaximumNumberOfThreads(1) does solve the issue.\r\n\r\nIs there a reason for lack of ITK3 thread support? I am happy to contribute if you have any good pointers to get me started.\r\n\r\nJ.",
      "date": "2014-03-19T17:12:56",
      "persona_email": "jeromeavondo@msn.com",
@@ -3166,8 +3245,16 @@
      "persona_lastname": "Avondo"
     },
     {
-     "content": "Hi\r\nI\\'ve added an example to the github version - it is called labelDilateLoopTest. It seems to behave sensibly for me. The tests in the cmake file will run it for you.\r\n\r\nA couple of points\r\n1) You don\\'t have a DisconnectPipeline call in the example loop. I think this is essential for reliable use of itk filters in loops. The BinaryDilateFilter may be a mini pipeline filter and thus do the same thing internally.\r\n\r\n2) The label filters (and the parabolic filters from which they were derived) shouldn\\'t need to be run iteratively. If you want a large dilation then simply supply a large radius. This approach is much faster and will give the correct result. The problem with the iterative approach is you tend to end up with dilations that are compositions of little rectangles and are thus like a big rectangle. If you really want a dilation by a circle (which is usually the case) then use a large radius. The tests I\\'ve added show the difference between the two cases - check out looplabdilate2d.png and looplabdilate2d50.png.\r\n\r\nIf you still see problems with this test example then it may be a platform difference - I\\'ve only tested this code on linux and mac.",
-     "date": "2014-03-18T20:21:44",
+     "content": "Ok getting somewhere:\r\n\r\nI found the difference between ITK3 vs ITK4.\r\n\r\nQuick recap:\r\n\r\nI have that same ITK pipeline compiling in ITK3 & ITK4.\r\nI set the threads to be fixed for both SetGlobalMaximumNumberOfThreads(2).\r\nThis makes it easier to debug and ITK4 seems to have some different logic for thread allocation. So forcing to 2 makes it comparable.\r\nI\\'m focusing only on itkLabelSetDilateImageFilter for now.\r\n\r\nITK4 works as it should. ITK3 I get that clipping artifact shown in the renders in my previous post.\r\n\r\nAfter quite some hunting the difference is the size of the incoming outputRegionForThread in itkLabelSetDilateImageFilter::ThreadedGenerateData. If I verbose the \r\n\r\ns = outputRegionForThread.GetSize()[this-m_CurrentDimension];\r\n\r\nFor ITK4 the image is always split in s=128  (over 6 calls).\r\nFor ITK3 the image is split in s=128 (over 4 calls) and s=64 (last 2 calls)\r\n\r\nSeems like ITK3 is skipping some parts of the image.\r\nI haven\\'t looked upstream yet to where this could be coming from.\r\n\r\nAnyway hints/tips always welcome but I think I\\'m getting closer.\r\n\r\nJ.",
+     "date": "2014-03-20T01:54:53",
+     "persona_email": "jeromeavondo@msn.com",
+     "persona_firstname": "Jerome",
+     "persona_id": 9005,
+     "persona_lastname": "Avondo"
+    },
+    {
+     "content": "Hi\r\nThis stuff worked in the original \\\"parabolicMorphology\\\" package but I probably haven\\'t tested it here. I\\'ll check it out",
+     "date": "2014-05-05T17:30:48",
      "persona_email": "richard.beare@ieee.org",
      "persona_firstname": "Richard",
      "persona_id": 197,
@@ -3176,14 +3263,6 @@
     {
      "content": "Hi\r\nI\\'ve included support for axis oriented elliptical structuring elements. The mechanism is basically the same as used to support spherical structuring elements in images with non-isotropic voxels. Some new tests and examples included. See how you go.",
      "date": "2014-05-13T19:35:51",
-     "persona_email": "richard.beare@ieee.org",
-     "persona_firstname": "Richard",
-     "persona_id": 197,
-     "persona_lastname": "Beare"
-    },
-    {
-     "content": "Hi\r\nI\\'ve had a play with your example. The difference isn\\'t caused by the loop - that bit appears to be working fine. It is just that the binary ball structuring element is different to the structuring element that gets used in the label dilate code. The binary ball is a bresenham circle. The label dilate code uses distance transforms internally. For a specified radius the bresenham circle is a bit bigger - a voxel that has any part less than the radius will get included in the bresenham circle. The version based on distance transforms is looking at the voxel centre - voxel centre needs to be closer than the specified radius. You can see the difference in your example if you set the iterations to 1. Neither of them do a great job of representing small spheres - thats not something that can be avoided - and the label dilate version is a little smaller. The difference grows with loop iterations.\r\n\r\nHowever there isn\\'t any need to use iterative approaches to construct a large sphere with the label code. Just use a large radius and you\\'ll get a good circle/sphere very quickly. The bianry dilate probably won\\'t be as fast. If you aren\\'t really interested in preserving labels  then check out the parabolicMorphology package also on github. Note that it assumes images with 0/1 values.",
-     "date": "2014-03-19T00:00:32",
      "persona_email": "richard.beare@ieee.org",
      "persona_firstname": "Richard",
      "persona_id": 197,
@@ -3222,20 +3301,28 @@
      "persona_lastname": "Beare"
     },
     {
-     "content": "Ok getting somewhere:\r\n\r\nI found the difference between ITK3 vs ITK4.\r\n\r\nQuick recap:\r\n\r\nI have that same ITK pipeline compiling in ITK3 & ITK4.\r\nI set the threads to be fixed for both SetGlobalMaximumNumberOfThreads(2).\r\nThis makes it easier to debug and ITK4 seems to have some different logic for thread allocation. So forcing to 2 makes it comparable.\r\nI\\'m focusing only on itkLabelSetDilateImageFilter for now.\r\n\r\nITK4 works as it should. ITK3 I get that clipping artifact shown in the renders in my previous post.\r\n\r\nAfter quite some hunting the difference is the size of the incoming outputRegionForThread in itkLabelSetDilateImageFilter::ThreadedGenerateData. If I verbose the \r\n\r\ns = outputRegionForThread.GetSize()[this-m_CurrentDimension];\r\n\r\nFor ITK4 the image is always split in s=128  (over 6 calls).\r\nFor ITK3 the image is split in s=128 (over 4 calls) and s=64 (last 2 calls)\r\n\r\nSeems like ITK3 is skipping some parts of the image.\r\nI haven\\'t looked upstream yet to where this could be coming from.\r\n\r\nAnyway hints/tips always welcome but I think I\\'m getting closer.\r\n\r\nJ.",
-     "date": "2014-03-20T01:54:53",
-     "persona_email": "jeromeavondo@msn.com",
-     "persona_firstname": "Jerome",
-     "persona_id": 9005,
-     "persona_lastname": "Avondo"
+     "content": "Another thought - just confirm that you are using ITK 4 - there are differences in threading interfaces and the labelDilate code is set up for ITK 4",
+     "date": "2014-03-19T16:50:05",
+     "persona_email": "richard.beare@ieee.org",
+     "persona_firstname": "Richard",
+     "persona_id": 197,
+     "persona_lastname": "Beare"
     },
     {
-     "content": "Hi\r\n\r\nI am having issues with ellipsoid structuring elements.\r\n\r\nI did a simple test where I create a 128x128x128 image set the voxel at (64 64 64) to 255 and perform a dilate with a 10x1x10 structuring element. But I still end up with a spherical result. In fact the result obtained is identical to using a 10x10x10 structuring element.\r\n\r\nIs there any special setup required to support ellipsoid structuring elements?\r\n\r\nAlso upon further inspection of the code it seems the computation of LabelSetDilateImageFilter::m_Scale is never used.\r\n\r\nThanks\r\nJ.\r\n\r\nPS: This behavior is present in both ITK3 and ITK4.",
-     "date": "2014-05-05T11:40:01",
-     "persona_email": "jeromeavondo@msn.com",
-     "persona_firstname": "Jerome",
-     "persona_id": 9005,
-     "persona_lastname": "Avondo"
+     "content": "Hi\r\nI\\'ve added an example to the github version - it is called labelDilateLoopTest. It seems to behave sensibly for me. The tests in the cmake file will run it for you.\r\n\r\nA couple of points\r\n1) You don\\'t have a DisconnectPipeline call in the example loop. I think this is essential for reliable use of itk filters in loops. The BinaryDilateFilter may be a mini pipeline filter and thus do the same thing internally.\r\n\r\n2) The label filters (and the parabolic filters from which they were derived) shouldn\\'t need to be run iteratively. If you want a large dilation then simply supply a large radius. This approach is much faster and will give the correct result. The problem with the iterative approach is you tend to end up with dilations that are compositions of little rectangles and are thus like a big rectangle. If you really want a dilation by a circle (which is usually the case) then use a large radius. The tests I\\'ve added show the difference between the two cases - check out looplabdilate2d.png and looplabdilate2d50.png.\r\n\r\nIf you still see problems with this test example then it may be a platform difference - I\\'ve only tested this code on linux and mac.",
+     "date": "2014-03-18T20:21:44",
+     "persona_email": "richard.beare@ieee.org",
+     "persona_firstname": "Richard",
+     "persona_id": 197,
+     "persona_lastname": "Beare"
+    },
+    {
+     "content": "Hi\r\nI\\'ve had a play with your example. The difference isn\\'t caused by the loop - that bit appears to be working fine. It is just that the binary ball structuring element is different to the structuring element that gets used in the label dilate code. The binary ball is a bresenham circle. The label dilate code uses distance transforms internally. For a specified radius the bresenham circle is a bit bigger - a voxel that has any part less than the radius will get included in the bresenham circle. The version based on distance transforms is looking at the voxel centre - voxel centre needs to be closer than the specified radius. You can see the difference in your example if you set the iterations to 1. Neither of them do a great job of representing small spheres - thats not something that can be avoided - and the label dilate version is a little smaller. The difference grows with loop iterations.\r\n\r\nHowever there isn\\'t any need to use iterative approaches to construct a large sphere with the label code. Just use a large radius and you\\'ll get a good circle/sphere very quickly. The bianry dilate probably won\\'t be as fast. If you aren\\'t really interested in preserving labels  then check out the parabolicMorphology package also on github. Note that it assumes images with 0/1 values.",
+     "date": "2014-03-19T00:00:32",
+     "persona_email": "richard.beare@ieee.org",
+     "persona_firstname": "Richard",
+     "persona_id": 197,
+     "persona_lastname": "Beare"
     }
    ],
    "publication_id": 886
@@ -3253,20 +3340,20 @@
   {
    "comments": [
     {
-     "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
-     "date": "2016-05-24T11:36:26",
-     "persona_email": "andinet.enqu@kitware.com",
-     "persona_firstname": "Andinet",
-     "persona_id": 68,
-     "persona_lastname": "Enquobahrie"
-    },
-    {
      "content": "References please",
      "date": "2013-07-06T17:18:12",
      "persona_email": "mhd.mayya@gmail.com",
      "persona_firstname": "Mohammad",
      "persona_id": 6260,
      "persona_lastname": "Mayya"
+    },
+    {
+     "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
+     "date": "2016-05-24T11:36:26",
+     "persona_email": "andinet.enqu@kitware.com",
+     "persona_firstname": "Andinet",
+     "persona_id": 68,
+     "persona_lastname": "Enquobahrie"
     }
    ],
    "publication_id": 890
@@ -3443,7 +3530,7 @@
     {
      "content": "Please download the most recent version if the itkka library: version 1.01 was uploaded on 30-Sep 2014.",
      "date": "2014-09-29T17:50:03",
-     "persona_email": "nicholas.dowson@csiro.au",
+     "persona_email": "nick.dowson@gmail.com",
      "persona_firstname": "Nicholas",
      "persona_id": 9215,
      "persona_lastname": "Dowson"
@@ -3451,7 +3538,7 @@
     {
      "content": "Version 1.3 of the itkka library now available via git: \r\nhttps://bitbucket.csiro.au/projects/MILX/repos/itkka-pub\r\n\r\n",
      "date": "2017-01-07T05:22:45",
-     "persona_email": "nicholas.dowson@csiro.au",
+     "persona_email": "nick.dowson@gmail.com",
      "persona_firstname": "Nicholas",
      "persona_id": 9215,
      "persona_lastname": "Dowson"
@@ -3459,7 +3546,7 @@
     {
      "content": "Please download latest version (1.2) as it includes a substantial number of improvements.",
      "date": "2014-12-24T00:49:18",
-     "persona_email": "nicholas.dowson@csiro.au",
+     "persona_email": "nick.dowson@gmail.com",
      "persona_firstname": "Nicholas",
      "persona_id": 9215,
      "persona_lastname": "Dowson"
@@ -3532,10 +3619,77 @@
   "comments": [],
   "publication_id": 940
  },
- {
-  "comments": [],
-  "publication_id": 941
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "Replica Rolex klokker, replicacartierwatch.cn",
+     "date": "2020-11-13T01:35:32",
+     "persona_email": "fc573d75c@yeah.net",
+     "persona_firstname": "Nsmanrich",
+     "persona_id": 8685,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
+     "date": "2021-02-27T13:11:06",
+     "persona_email": "open821546@tom.com",
+     "persona_firstname": "Otertonbibi",
+     "persona_id": 7516,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+     "date": "2021-02-27T13:11:04",
+     "persona_email": "open821546@tom.com",
+     "persona_firstname": "Otertonbibi",
+     "persona_id": 7516,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+     "date": "2021-02-27T13:12:05",
+     "persona_email": "open821546@tom.com",
+     "persona_firstname": "Otertonbibi",
+     "persona_id": 7516,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
+     "date": "2021-02-27T13:12:07",
+     "persona_email": "open821546@tom.com",
+     "persona_firstname": "Otertonbibi",
+     "persona_id": 7516,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": " Replica Rolex klokker, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+     "date": "2020-11-13T01:35:23",
+     "persona_email": "fc573d75c@yeah.net",
+     "persona_firstname": "Nsmanrich",
+     "persona_id": 8685,
+     "persona_lastname": "Vigorda"
+    },
+    {
+     "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.top/includes/classes/category_tree.php on line 69 ",
+     "date": "2020-04-20T13:14:10",
+     "persona_email": "truskowskiwld@hotmail.com",
+     "persona_firstname": "Epinedewi",
+     "persona_id": 8683,
+     "persona_lastname": "Ken"
+    },
+    {
+     "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top",
+     "date": "2020-04-20T13:14:12",
+     "persona_email": "truskowskiwld@hotmail.com",
+     "persona_firstname": "Epinedewi",
+     "persona_id": 8683,
+     "persona_lastname": "Ken"
+    }
+   ],
+   "publication_id": 941
+  }
+ ],
  {
   "comments": [],
   "publication_id": 942
@@ -3564,10 +3718,21 @@
   "comments": [],
   "publication_id": 950
  },
- {
-  "comments": [],
-  "publication_id": 951
- },
+ [
+  {
+   "comments": [
+    {
+     "content": "The current source can be found at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser.git\r\nhttp://github.com/romangrothausmann/FacetAnalyser.git\r\n\r\nDocker images with the CLI and ParaView with the Plugin at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser/container_registry\r\n\r\nmaster branch for a local X without Nvidia graphics or vgl branch for Nvidia graphics (even without VGL):\r\ngit clone -b master http://gitlab.com/romangrothausmann/FacetAnalyser.git\r\ncd FacetAnalyser/demo/\r\ndocker pull registry.gitlab.com/romangrothausmann/facetanalyser/master\r\n\r\nCLI:\r\ndocker run -ti -v $(pwd):/tmp/fa --workdir=/tmp/fa/ \\\r\n registry.gitlab.com/romangrothausmann/facetanalyser/master \\\r\n FacetAnalyserCLI \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss.vtp \\\r\n  51 15 0.2 0.001 2 \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss_FA.vtp\r\n\r\nPV:\r\n../run.sh -dr --state=8faced-rhombic-dodecahedron_twinned_simp+def.pvsm\r\n",
+     "date": "2018-09-10T06:11:13",
+     "persona_email": "Grothausmann.Roman@mh-hannover.de",
+     "persona_firstname": "Roman",
+     "persona_id": 6854,
+     "persona_lastname": "Grothausmann"
+    }
+   ],
+   "publication_id": 951
+  }
+ ],
  {
   "comments": [],
   "publication_id": 952
@@ -3576,40 +3741,16 @@
   {
    "comments": [
     {
-     "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
-     "date": "2015-11-23T16:55:14",
-     "persona_email": "matthew.m.mccormick@gmail.com",
-     "persona_firstname": "Matthew",
-     "persona_id": 2509,
-     "persona_lastname": "Mccormick"
-    },
-    {
-     "content": "I use a mac with ITK 4.6.1\r\ng++ -v yields \r\nApple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)\r\nTarget: x86_64-apple-darwin14.3.0",
-     "date": "2015-05-22T18:06:57",
+     "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
+     "date": "2015-08-06T16:21:09",
      "persona_email": "jm.mirebeau@gmail.com",
      "persona_firstname": "Jean-marie",
      "persona_id": 9351,
      "persona_lastname": "Mirebeau"
     },
     {
-     "content": "I could not compile the module too. I copied the unzipped module folder into the Modules/External directory of ITK 4.8 and turn on the module in ccmake. I got the following error: \r\n============== begin log =================\r\n 41%] Building CXX object Modules/External/AnisotropicDiffusionLBR/src/CMakeFiles/ITKAnisotropicDiffusionLBR.dir/CoherenceEnhancingDiffusion.cxx.o                                           \r\nIn file included from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.h:89                                             \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/AnisotropicDiffusionLBRImageFilter.h:13                                     \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionFilter.h:12                                      \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionCommandLine.h:14                                 \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/CoherenceEnhancingDiffusion.cxx:3:                                                   \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:29: error: 'Self' has not been declared                             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx: In member function 'void itk::StructureTensorImageFilterTImage TTensorImage::IntermediateFilterDummy true::operator()(int*)':                                                                                                                              \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'ImageType' was not declared in this scope               \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'CovariantImageType' was not declared in this scope      \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: 'GradientFilterType' is not a class or namespace         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected '(' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected ';' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: 'gradientFilter' was not declared in this scope          \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: request for member 'GetInput' in 'self-' which is of non-class type 'int'                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:33: error: request for member 'm_NoiseScale' in 'self-' which is of non-class type 'int'                                                                                                                                                                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'CovariantImageType' cannot appear in a constant-expression                                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'TensorImageType' was not declared in this scope         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: 'OuterFunctor' was not declared in this scope            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 3 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: 'OuterFilterType' is not a class or namespace            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected '(' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected ';' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:38: error: 'outerFilter' was not declared in this scope             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:41: error: request for member 'intermediateResult' in 'self-' which is of non-class type 'int'     \r\n============ end of log ====================\r\nI used gcc 4.4.7 on centos. ITK build OK before I added this module. \r\n\r\nAny insights? The module looks very promising.                                                                                                                                               \r\n",
-     "date": "2015-08-05T14:57:54",
-     "persona_email": "weiliu620@gmail.com",
-     "persona_firstname": "Wei",
-     "persona_id": 9613,
-     "persona_lastname": "Liu"
-    },
-    {
-     "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
-     "date": "2015-11-23T16:55:29",
-     "persona_email": "matthew.m.mccormick@gmail.com",
-     "persona_firstname": "Matthew",
-     "persona_id": 2509,
-     "persona_lastname": "Mccormick"
-    },
-    {
-     "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
-     "date": "2015-08-06T16:21:09",
+     "content": "I use a mac with ITK 4.6.1\r\ng++ -v yields \r\nApple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)\r\nTarget: x86_64-apple-darwin14.3.0",
+     "date": "2015-05-22T18:06:57",
      "persona_email": "jm.mirebeau@gmail.com",
      "persona_firstname": "Jean-marie",
      "persona_id": 9351,
@@ -3622,6 +3763,30 @@
      "persona_firstname": "Jean-marie",
      "persona_id": 9351,
      "persona_lastname": "Mirebeau"
+    },
+    {
+     "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
+     "date": "2015-11-23T16:55:29",
+     "persona_email": "matthew.m.mccormick@gmail.com",
+     "persona_firstname": "Matthew",
+     "persona_id": 2509,
+     "persona_lastname": "Mccormick"
+    },
+    {
+     "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
+     "date": "2015-11-23T16:55:14",
+     "persona_email": "matthew.m.mccormick@gmail.com",
+     "persona_firstname": "Matthew",
+     "persona_id": 2509,
+     "persona_lastname": "Mccormick"
+    },
+    {
+     "content": "I could not compile the module too. I copied the unzipped module folder into the Modules/External directory of ITK 4.8 and turn on the module in ccmake. I got the following error: \r\n============== begin log =================\r\n 41%] Building CXX object Modules/External/AnisotropicDiffusionLBR/src/CMakeFiles/ITKAnisotropicDiffusionLBR.dir/CoherenceEnhancingDiffusion.cxx.o                                           \r\nIn file included from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.h:89                                             \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/AnisotropicDiffusionLBRImageFilter.h:13                                     \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionFilter.h:12                                      \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionCommandLine.h:14                                 \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/CoherenceEnhancingDiffusion.cxx:3:                                                   \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:29: error: 'Self' has not been declared                             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx: In member function 'void itk::StructureTensorImageFilterTImage TTensorImage::IntermediateFilterDummy true::operator()(int*)':                                                                                                                              \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'ImageType' was not declared in this scope               \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'CovariantImageType' was not declared in this scope      \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: 'GradientFilterType' is not a class or namespace         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected '(' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected ';' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: 'gradientFilter' was not declared in this scope          \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: request for member 'GetInput' in 'self-' which is of non-class type 'int'                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:33: error: request for member 'm_NoiseScale' in 'self-' which is of non-class type 'int'                                                                                                                                                                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'CovariantImageType' cannot appear in a constant-expression                                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'TensorImageType' was not declared in this scope         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: 'OuterFunctor' was not declared in this scope            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 3 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: 'OuterFilterType' is not a class or namespace            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected '(' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected ';' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:38: error: 'outerFilter' was not declared in this scope             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:41: error: request for member 'intermediateResult' in 'self-' which is of non-class type 'int'     \r\n============ end of log ====================\r\nI used gcc 4.4.7 on centos. ITK build OK before I added this module. \r\n\r\nAny insights? The module looks very promising.                                                                                                                                               \r\n",
+     "date": "2015-08-05T14:57:54",
+     "persona_email": "weiliu620@gmail.com",
+     "persona_firstname": "Wei",
+     "persona_id": 9613,
+     "persona_lastname": "Liu"
     },
     {
      "content": "I could not compile the module. Which version of g++ is needed for compilation?\r\n",
@@ -3775,10 +3940,10 @@
     {
      "content": "Additional minor recommendations:\r\n-Publish the source code in a version control system where people can suggest you modifications and bug fixes (such as Github.com)\r\n-Publish the source code of the PDF (LaTeX?) to allow improvement of its content.",
      "date": "2016-11-10T11:32:15",
-     "persona_email": "francois.budin@kitware.com",
-     "persona_firstname": "Francois",
+     "persona_email": null,
+     "persona_firstname": null,
      "persona_id": 9855,
-     "persona_lastname": "Budin"
+     "persona_lastname": null
     }
    ],
    "publication_id": 980
@@ -3792,24 +3957,24 @@
   {
    "comments": [
     {
-     "content": "Here's a direct link to the github repo:\r\n\r\nhttps://github.com/ntustison/NonLocalPatchBasedInsightJournal",
-     "date": "2017-03-16T17:45:40",
-     "persona_email": "ntustison@gmail.com",
-     "persona_firstname": "Nick",
-     "persona_id": 8833,
-     "persona_lastname": "Tustison"
-    },
-    {
-     "content": "I think \"download all\" link is corrupted. Could u verify? Thanks in advance.",
-     "date": "2017-03-16T17:34:14",
+     "content": "Actually the .zip file is corrupted",
+     "date": "2017-03-16T17:36:20",
      "persona_email": "pedro_hbd@hotmail.com",
      "persona_firstname": "Pedro Henrique",
      "persona_id": 9813,
      "persona_lastname": "Bandeira Diniz"
     },
     {
-     "content": "Actually the .zip file is corrupted",
-     "date": "2017-03-16T17:36:20",
+     "content": "Here's a direct link to the github repo:\r\n\r\nhttps://github.com/ntustison/NonLocalPatchBasedInsightJournal",
+     "date": "2017-03-16T17:45:40",
+     "persona_email": "ntustison@gmail.com",
+     "persona_firstname": "Nicholas J.",
+     "persona_id": 8833,
+     "persona_lastname": "Tustison"
+    },
+    {
+     "content": "I think \"download all\" link is corrupted. Could u verify? Thanks in advance.",
+     "date": "2017-03-16T17:34:14",
      "persona_email": "pedro_hbd@hotmail.com",
      "persona_firstname": "Pedro Henrique",
      "persona_id": 9813,
@@ -3848,7 +4013,7 @@
      "persona_email": "pablo.hernandez.cerdan@outlook.com",
      "persona_firstname": "Pablo",
      "persona_id": 9689,
-     "persona_lastname": "Hernandez cerdan"
+     "persona_lastname": "Hernandez-Cerdan"
     },
     {
      "content": "Hello Juju\r\nI think those errors in the macros can be solved if you update ITK. Not sure what is the minimum version but some people reported similar errors that were solved for 4.10 maybe? (http://public.kitware.com/pipermail/community/2016-June/011491.html). This module is tested using the latest ITK (from master) and it has no errors in any platform there. Hope it helps.",
@@ -3856,7 +4021,7 @@
      "persona_email": "pablo.hernandez.cerdan@outlook.com",
      "persona_firstname": "Pablo",
      "persona_id": 9689,
-     "persona_lastname": "Hernandez cerdan"
+     "persona_lastname": "Hernandez-Cerdan"
     }
    ],
    "publication_id": 986
@@ -3875,6 +4040,59 @@
     }
    ],
    "publication_id": 987
+  }
+ ],
+ [
+  {
+   "comments": [
+    {
+     "content": "Nice fast implementation. However be careful contrary to what's indicated in the Github description this filter compute Tb.Sp and Tb.Th through the MIL method and not directly on a 3D measure.",
+     "date": "2018-04-11T12:00:12",
+     "persona_email": "thomas.janvier@univ-orleans.fr",
+     "persona_firstname": "Thomas",
+     "persona_id": 11318,
+     "persona_lastname": "Janvier"
+    }
+   ],
+   "publication_id": 988
+  }
+ ],
+ {
+  "comments": [],
+  "publication_id": 989
+ },
+ [
+  {
+   "comments": [
+    {
+     "content": "To the Admin: Please remove all these scams comments.\r\n\r\nI tested the code above. The code compiled in ITK 5 after fixing 3 bugs see bellow. I could not read the sample images. It seems from their sizes they are broken. The code works with other images but the optimiser does not converge. I will do more testing using different transforms and metrics. \r\n\r\nThere are bugs in the testing file:\r\n\r\n \r\n    std::string imgFPath  =\"../data/FixedImage.mhd\";\r\n    std::string imgMPath  =\"../data/MovingImage.mhd\";\r\n    double b1Par = 0.9 ;\r\n    double b2Par = 0.99 ;\r\n    double stepSize = 0.1 ;\r\n    double numItr = 100 ;\r\n\r\n    if (argc  7)\t{\r\n\t\tstd::cerr  \"You must supply a fixed image and a moving image for registration\"  std::endl;\r\n        std::cout\"using default parameters .....\" std::endl;\r\n        //return EXIT_FAILURE;\r\n    }else{\r\n       std::cout\"using user argumnets.....\" std::endl;\r\n       imgFPath = argv[1] ;\r\n       imgMPath = argv[2] ;\r\n       b1Par    = atof(argv[3]) ;\r\n       b2Par    = atof(argv[4]) ;\r\n       stepSize = atof(argv[5]) ;\r\n       numItr   = atof(argv[6]) ;\r\n    }\r\n    ImageType::Pointer fixedImage ;//= NULL;\r\n// Read the fixed image file\r\n\tReaderType::Pointer fixedImageReader = ReaderType::New();\r\n\r\n    fixedImageReader-SetFileName(imgFPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tfixedImageReader-UpdateLargestPossibleRegion();\r\n\t\tfixedImage = fixedImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgFPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n    ImageType::Pointer movingImage ;//= NULL;\r\n\r\n\t// Read the fixed image file\r\n\tReaderType::Pointer movingImageReader = ReaderType::New();\r\n\r\n    movingImageReader-SetFileName(imgMPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tmovingImageReader-UpdateLargestPossibleRegion();\r\n\t\tmovingImage = movingImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgMPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n\r\n",
+     "date": "2020-03-23T05:23:38",
+     "persona_email": "idhamari@uni-koblenz.de",
+     "persona_firstname": "Ibraheem",
+     "persona_id": 12108,
+     "persona_lastname": "Al-dhamari"
+    }
+   ],
+   "publication_id": 990
+  }
+ ],
+ {
+  "comments": [],
+  "publication_id": 991
+ },
+ [
+  {
+   "comments": [
+    {
+     "content": "This is an interesting contribution and correctly implemented but apart from the log-scale can already be realize by providing ITKPolarTransform to the itkResampleImageFilter.\r\nWhere is the test image from?",
+     "date": "2020-02-21T05:57:14",
+     "persona_email": "Grothausmann.Roman@mh-hannover.de",
+     "persona_firstname": "Roman",
+     "persona_id": 6854,
+     "persona_lastname": "Grothausmann"
+    }
+   ],
+   "publication_id": 992
   }
  ]
 ]
