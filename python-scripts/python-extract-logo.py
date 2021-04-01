@@ -13,13 +13,15 @@ def read_blob_publication_logo(path_to_dir):
         # execute the SELECT statement
         # Requires CREATE EXTENSION byteamagic
         # From: https://github.com/nmandery/pg_byteamagic/blob/master/doc/byteamagic.md
-        cur.execute(""" select pub.id,
-                        pub.logo,
-                        byteamagic_mime(pub.logo),
-                        pub.biglogo,
-                        byteamagic_mime(pub.biglogo)
-                        from isj_publication pub
-                        """)
+        cur.execute("""
+select pub.id,
+pub.logo,
+byteamagic_mime(pub.logo),
+pub.biglogo,
+byteamagic_mime(pub.biglogo)
+from isj_publication pub
+/* where pub.id >= 988 and pub.id <=992 */
+            """)
                         # WHERE pub.id = %s """, (part_id,))
 
         rows = cur.fetchall()
