@@ -25,6 +25,6 @@ if __name__ == '__main__':
                 os.mkdir(pub_dir_path)
             metadata_file_path = os.path.join(pub_dir_path, 'metadata.json')
             with open(metadata_file_path, "w") as o:
-                json.dump(pub, o, indent=4, sort_keys=True)
+                json.dump(pub, o, indent=1, sort_keys=True)
 
 
