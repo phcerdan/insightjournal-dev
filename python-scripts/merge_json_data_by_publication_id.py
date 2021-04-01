@@ -24,6 +24,7 @@ if __name__ == '__main__':
 
     final_json_list_of_dict = []
     for data_file in data_files:
+        print("data_file {}".format(data_file))
         new_json_list_of_dict = []
         with open(data_file, "r") as f:
             new_json_list_of_dict = json.load(f)
@@ -39,8 +40,12 @@ if __name__ == '__main__':
             final_json_list_of_dict[index] = final_pub_dict
 
     print("Dumping to {}".format(output_file))
+    final_json_list_of_dict_with_publication = []
+    for pub in final_json_list_of_dict:
+        pub = {'publication': pub}
+        final_json_list_of_dict_with_publication.append(pub)
     with open(output_file, "w") as o:
-        json.dump(final_json_list_of_dict, o, sort_keys=True)
+        json.dump(final_json_list_of_dict_with_publication, o, indent=1, sort_keys=True)
     # print(final_json_list_of_dict)
 
 
@@ -51,5 +56,6 @@ if __name__ == '__main__':
 #      ~/Dropbox/dev/InsightJournal/data/publication_identifiers.json \
 #      ~/Dropbox/dev/InsightJournal/data/publication_journals.json \
 #      ~/Dropbox/dev/InsightJournal/data/publication_submitted_by_author.json
+#      ~/Dropbox/dev/InsightJournal/data/publication_tags.json \
 #      ~/Dropbox/dev/InsightJournal/data/publication_tags.json \
 
