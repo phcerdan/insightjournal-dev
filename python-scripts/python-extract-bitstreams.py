@@ -63,6 +63,7 @@ pub.revision,
 bs.description
 from isj_publication pub
 left join item2bundle it2bu on pub.itemid = it2bu.item_id
+/* left join item2bundle it2bu on pub.itemid = it2bu.item_id and (pub.id = 992 or pub .id = 991 or pub.id = 990 or pub.id = 989 or pub.id = 988) */
 left join bundle2bitstream bu2bit on it2bu.bundle_id = bu2bit.bundle_id
 left join bitstream bs on bs.bitstream_id = bu2bit.bitstream_id
 join registry on bs.bitstream_format_id = registry.bitstream_format_id
