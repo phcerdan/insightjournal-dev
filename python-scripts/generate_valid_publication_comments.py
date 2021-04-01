@@ -45,9 +45,10 @@ def get_all_pubs():
 select
 json_build_object(
     'publication_id', pub.id,  /* ID */
-    'comments', '[]'
+    'comments', '{}'::text[] 
   )
 from isj_publication pub
+group by pub.id
 order by pub.id asc
 """
         cur.execute(content)
