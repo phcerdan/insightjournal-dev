@@ -63,5 +63,6 @@ if __name__ == '__main__':
 ./cleaned_json_data/publication_submitted_by_author.json \
 ./cleaned_json_data/publication_tags.json \
 ./cleaned_json_data/publication_categories.json \
-./cleaned_json_data/publication_comments.json
+./cleaned_json_data/publication_comments.json \
+./cleaned_json_data/publication_reviews.json
 """
