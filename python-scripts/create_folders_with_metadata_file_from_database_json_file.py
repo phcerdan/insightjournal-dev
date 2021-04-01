@@ -19,9 +19,11 @@ if __name__ == '__main__':
         data = json.load(f)
         print(data)
         for pub in data:
-            pub_dir_path = os.path.join(output_folder, str(pub['publication_id']))
+            # The publication content is wrapped in a publication key
+            pub_id = pub['publication']['publication_id']
+            pub_dir_path = os.path.join(output_folder, str(pub_id))
             if not os.path.exists:
-                print("Creating folder for publication {}".format(pub['publication_id']))
+                print("Creating folder for publication {}".format(pub_id))
                 os.mkdir(pub_dir_path)
             metadata_file_path = os.path.join(pub_dir_path, 'metadata.json')
             with open(metadata_file_path, "w") as o:
