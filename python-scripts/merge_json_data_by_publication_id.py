@@ -33,6 +33,11 @@ if __name__ == '__main__':
                 continue
 
         for index, (new_pub_dict, final_pub_dict) in enumerate(itertools.zip_longest(new_json_list_of_dict, final_json_list_of_dict)):
+            # In some cases new_pub_dict is a list with one dict element
+            if isinstance(new_pub_dict, list):
+               new_pub_dict = new_pub_dict[0]
+               if not isinstance(new_pub_dict, dict):
+                   raise "new_pub_dict is not a dict"
             if final_pub_dict is None:
                 final_pub_dict = new_pub_dict
             else:
@@ -48,14 +53,15 @@ if __name__ == '__main__':
         json.dump(final_json_list_of_dict_with_publication, o, indent=1, sort_keys=True)
     # print(final_json_list_of_dict)
 
-
-#  /merge_json_data_by_publication_id.py /tmp/database_output.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_all.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_author_names_with_epersona_4firstname_letters_match.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_handles.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_identifiers.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_journals.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_submitted_by_author.json
-#      ~/Dropbox/dev/InsightJournal/data/publication_tags.json \
-#      ~/Dropbox/dev/InsightJournal/data/publication_tags.json \
-
+"""
+./python-scripts/merge_json_data_by_publication_id.py /tmp/output_database.json \
+./cleaned_json_data/publication_all.json \
+./cleaned_json_data/publication_author_names_with_epersona_4firstname_letters_match.json \
+./cleaned_json_data/publication_handles.json \
+./cleaned_json_data/publication_identifiers.json \
+./cleaned_json_data/publication_journals.json \
+./cleaned_json_data/publication_submitted_by_author.json \
+./cleaned_json_data/publication_tags.json \
+./cleaned_json_data/publication_categories.json \
+./cleaned_json_data/publication_comments.json
+"""
