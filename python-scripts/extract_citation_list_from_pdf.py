@@ -7,6 +7,21 @@ import argparse
 import xml.etree.ElementTree as ET
 
 def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_json=False):
+    """
+    Parameters
+    ----------
+    input_folder: Str (Path)
+        Input folder where the pdf(s) are.
+        Note that all the pdfs in the folder and subfolder will be processed.
+    cermine_path: Str (Path)
+        Path to the cermine .jar file. See https://github.com/CeON/CERMINE
+    no_write_output_json: Boolean
+        Do not write the resulting dictionary with all keys and values to a json file.
+    Returns
+    -------
+    [dict(filename_str, refs), dict(filename_str, ref_query)]
+        Tuple with two dicts. The first returning the references in a dict structure, and the second with all the values (keys are lost) merged into a single stringfor query purposes.
+    """
     # The example folder has been downloaded from https://data.kitware.com/#collection/5cb75e388d777f072b41e8db
     # input folder where pdf file(s) can be found.
     # Using CERMINE: https://github.com/CeON/CERMINE
@@ -38,8 +53,10 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
     # The ".cermxml" files would be generated
     cermxml_files = input_folder_path.glob("*.cermxml")
     output_dict = dict() # {cermxml_file.stem: {refs}}
+    output_queries = dict() # {cermxml_file.stem: query_string}
     for cermxml_file in cermxml_files:
         refs = {}
+        query = {}
         print("\ncermxml_file:" , str(cermxml_file))
         xml_tree = ET.parse(str(cermxml_file))
         # xpath magic, see:
@@ -50,6 +67,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
             print("  0 references")
             continue
         for ref in refs_all:
+            query_ref = ""
             ref_id = ref.attrib["id"]
             print("  ref_id:", ref_id)
             value = {}
@@ -64,10 +82,17 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
                         given_names = author.find("given-names")
                         surname = author.find("surname")
                         author_dict = dict()
+                        author_fullname = []
                         if given_names is not None:
                             author_dict["given-names"] = given_names.text
+                            author_fullname.append(str(given_names.text))
                         if surname is not None:
                             author_dict["surname"] = surname.text
+                            author_fullname.append(str(surname.text))
+
+                        author_fullname_str = " ".join(author_fullname).strip()
+                        if author_fullname_str:
+                            query_ref += author_fullname_str + "+"
 
                         author_list.append(author_dict)
 
@@ -75,13 +100,17 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
                     else:
                         if sub is not None:
                             value[sub.tag] = sub.text
+                            query_ref += str(sub.text) + "+"
 
                 value["authors"] = author_list
 
             refs[ref_id] = value
+            # Remove last joiner: "+"
+            query[ref_id] = query_ref[:-1]
 
         if refs is not None:
             output_dict[cermxml_file.stem] = refs
+            output_queries[cermxml_file.stem] = query
 
             if not no_write_output_json:
                 out_citation_list_file = Path.joinpath(cermxml_file.parent, cermxml_file.stem + "_citations.json")
@@ -91,7 +120,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
         else:
             print("refs for {} file is empty".format(cermxml_file))
 
-    return output_dict
+    return output_dict, output_queries
 
 
 if __name__ == '__main__':
@@ -111,10 +140,11 @@ if __name__ == '__main__':
     args = parser.parse_args()
     print(args)
 
-    output_dict = extract_citation_list_from_pdf(input_folder=args.input_folder,
+    output_dict, output_queries = extract_citation_list_from_pdf(input_folder=args.input_folder,
                                    cermine_path = args.cermine_path,
                                    no_write_output_json = args.no_write_output_json)
     if args.verbose:
-        json.dump(output_dict, fp=sys.stdout, indent=4)
+        json.dump(output_queries, fp=sys.stdout, indent=4)
+        # json.dump(output_dict, fp=sys.stdout, indent=4)
 
 
