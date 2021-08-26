@@ -57,7 +57,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
     # Dev: Note that all pdfs files will be processed recursively, producing corresponding cermxml files.
     input_folder_path = Path(input_folder).expanduser()
     if not input_folder_path.exists():
-        print("File does not exist {}".format(input_folder))
+        print("Input folder does not exist {}".format(input_folder))
         raise Exception("Input folder does not exist.")
 
     if not Path(cermine_path).expanduser().exists():

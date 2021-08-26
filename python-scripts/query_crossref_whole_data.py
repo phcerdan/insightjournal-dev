@@ -42,8 +42,6 @@ if __name__ == '__main__':
     if args.start_at_publication == "-1":
         run_it = True;
 
-    ignore_list = ['GaussianDerivative package' #104#,
-                   ]
     # publications/pub_id/revision_id/*.pdf
     publication_dirs = [f.name for f in os.scandir(args.input_folder) if f.is_dir()]
     for publication_dir in publication_dirs:
@@ -80,9 +78,6 @@ if __name__ == '__main__':
 
         for file, refs in output_queries.items():
             print("FILE: ", file)
-            if file in ignore_list:
-                print("IGNORED")
-                continue
             citation_list = []
             for ref, query in refs.items():
                 print("REF:", ref)
