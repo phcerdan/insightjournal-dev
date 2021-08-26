@@ -30,7 +30,7 @@ def query_from_citation_list(citation_list):
     return query
 
 
-def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_json=False):
+def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_json=False, verbose=False):
     """
     Parameters
     ----------
@@ -39,8 +39,10 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
         Note that all the pdfs in the folder and subfolder will be processed.
     cermine_path: Str (Path)
         Path to the cermine .jar file. See https://github.com/CeON/CERMINE
-    no_write_output_json: Boolean
+    no_write_output_json: Bool
         Do not write the resulting dictionary with all keys and values to a json file.
+    verbose: Bool
+        Extra info printed to stdout
     Returns
     -------
     [dict(filename_str, refs), dict(filename_str, ref_query)]
@@ -70,8 +72,6 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
     # Apply the command to input_folder
     command = command_base + " " + input_folder
 
-    if args.verbose:
-        print("command:", command)
     # java -cp ~/Downloads/cermine-impl-1.13-jar-with-dependencies.jar pl.edu.icm.cermine.ContentExtractor -outputs jats -path $input_folder
     subprocess.run(args=command, shell=True, check=True)
 
@@ -83,9 +83,9 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
 
     # When multiple pdfs, only use the main article files with load_multiple_pdf_main_articles
     num_of_cermxml_files = len(cermxml_files)
-    if args.verbose:
-        print("Num of cermxml files:", num_of_cermxml_files)
     if num_of_cermxml_files > 1:
+        if verbose:
+            print("Num of cermxml files:", num_of_cermxml_files)
         main_articles = load_multiple_pdf_main_articles()
         folder_parts = input_folder_path.parts
         rev = int(folder_parts[-1])
@@ -100,7 +100,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
 
         refs = {}
         queries = {}
-        if args.verbose:
+        if verbose:
             print("cermxml_file:" , str(cermxml_file))
         xml_tree = ET.parse(str(cermxml_file))
         # xpath magic, see:
@@ -108,7 +108,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
         refs_all = xml_tree.findall(".//ref")
         number_of_refs = len(refs_all)
         if number_of_refs == 0:
-            if args.verbose:
+            if verbose:
                 print("  0 references")
             continue
         for ref in refs_all:
@@ -165,7 +165,7 @@ def extract_citation_list_from_pdf(input_folder, cermine_path, no_write_output_j
 
             if not no_write_output_json:
                 out_citation_list_file = Path.joinpath(cermxml_file.parent, cermxml_file.stem + "_citations.json")
-                if args.verbose:
+                if verbose:
                     print("output citations file:", out_citation_list_file)
                 with open(out_citation_list_file, 'w') as fp:
                     json.dump(refs, fp=fp, indent=4)

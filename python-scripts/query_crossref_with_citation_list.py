@@ -43,7 +43,13 @@ def query_crossref_with_citation_list(query, score_threshold = 60.0, verbose=Fal
         print(r.url)
 
     response = r.json()
-    first_item = response["message"]["items"][0]
+    try:
+        first_item = response["message"]["items"][0]
+    except IndexError:
+        print("QUERY is too short, ignoring.")
+        first_score = 0
+        return first_score, None
+
     first_score = first_item["score"]
     has_doi = "DOI" in first_item
     if has_doi:
@@ -53,7 +59,8 @@ def query_crossref_with_citation_list(query, score_threshold = 60.0, verbose=Fal
 
     if verbose:
         print("SCORE FIRST: ", first_score)
-        print("TITLE FIRST: ", first_item["title"][0])
+        if "title" in first_item:
+            print("TITLE FIRST: ", first_item["title"][0])
 
     # second_item = response["message"]["items"][1]
     if first_score >= score_threshold and first_doi:
@@ -110,7 +117,8 @@ if __name__ == '__main__':
     output_dict, output_queries = extract_citation_list_from_pdf(
         input_folder=args.input_folder,
         cermine_path = args.cermine_path,
-        no_write_output_json = args.no_write_output_json)
+        no_write_output_json = args.no_write_output_json,
+        verbose=args.verbose)
     if args.verbose:
         json.dump(output_queries, fp=sys.stdout, indent=4)
         print()

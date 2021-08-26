@@ -59,7 +59,10 @@ if __name__ == '__main__':
 
         revision_dirs = [f.name for f in os.scandir(publication_dir_path) if f.is_dir()]
         # Only query the last revision
-        revision_dir = max(revision_dirs)
+        if revision_dirs:
+            revision_dir = max(revision_dirs)
+        else: # no revision dir
+            continue
         revision_dir_path = os.path.join(publication_dir_path, revision_dir)
         if args.verbose:
             print("Revision: ", revision_dir)
@@ -67,7 +70,8 @@ if __name__ == '__main__':
         output_dict, output_queries = extract_citation_list_from_pdf(
             input_folder=revision_dir_path,
             cermine_path = args.cermine_path,
-            no_write_output_json = args.no_write_output_json)
+            no_write_output_json = args.no_write_output_json,
+            verbose=args.verbose)
         if args.verbose:
             json.dump(output_queries, fp=sys.stdout, indent=4)
             print()
